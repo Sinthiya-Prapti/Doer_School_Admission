@@ -1,0 +1,16 @@
+[32mINFO    [0m root:conftest.py:31 Starting browser session with firefox...
+[32mINFO    [0m root:conftest.py:48 firefox browser launched successfully.
+[32mINFO    [0m root:conftest.py:54 URL opened successfully.
+[32mINFO    [0m root:test_TC_MB_CUS_007.py:12 TC_MB_CUS_007 Started..
+[32mINFO    [0m root:test_TC_MB_CUS_007.py:13 Verify customer registration fails with invalid Initial Deposit Amount (Empty) and valid Full Name, Email Address and Password.
+[32mINFO    [0m root:test_TC_MB_CUS_007.py:22 Open Your Account Button Clicked successfully.
+[32mINFO    [0m root:test_TC_MB_CUS_007.py:32 Valid Full Name Enter successfully.
+[32mINFO    [0m root:test_TC_MB_CUS_007.py:40 Valid Email Enter successfully.
+[32mINFO    [0m root:test_TC_MB_CUS_007.py:48 Valid Password Enter successfully.
+[32mINFO    [0m root:test_TC_MB_CUS_007.py:56 Invalid Initial Deposit Amount (empty) Enter successfully.
+[32mINFO    [0m root:test_TC_MB_CUS_007.py:65 Click on Register button successfully.
+[1m[31mERROR   [0m root:test_TC_MB_CUS_007.py:79 Test Failed. Expected Error Message does not match with Actual Error Message.
+[32mINFO    [0m root:conftest.py:58 Script complete.
+[32mINFO    [0m root:conftest.py:60 Ending browser session...
+[32mINFO    [0m root:conftest.py:61 ...................
+[32mINFO    [0m root:conftest.py:62 ...................

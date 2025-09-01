@@ -1,0 +1,16 @@
+[32mINFO    [0m root:conftest.py:31 Starting browser session with firefox...
+[32mINFO    [0m root:conftest.py:48 firefox browser launched successfully.
+[32mINFO    [0m root:conftest.py:54 URL opened successfully.
+[32mINFO    [0m root:test_TC_MB_MAN_002.py:12 TC_MB_MAN_002 Started..
+[32mINFO    [0m root:test_TC_MB_MAN_002.py:13 Verify manager registration fails with invalid Email Address (Empty) and valid Full Name, Password.
+[32mINFO    [0m root:test_TC_MB_MAN_002.py:22 Register As Manager Button Clicked successfully.
+[32mINFO    [0m root:test_TC_MB_MAN_002.py:32 Valid Full Name Enter successfully.
+[32mINFO    [0m root:test_TC_MB_MAN_002.py:40 Empty Email Enter successfully.
+[32mINFO    [0m root:test_TC_MB_MAN_002.py:48 Valid Password Enter successfully.
+[32mINFO    [0m root:test_TC_MB_MAN_002.py:56 Click on Register button successfully.
+[32mINFO    [0m root:test_TC_MB_MAN_002.py:67 Test Passed. Expected Error Message match with Actual Error Message.
+[32mINFO    [0m root:test_TC_MB_MAN_002.py:75 TC_MB_MAN_002 Completed..
+[32mINFO    [0m root:conftest.py:58 Script complete.
+[32mINFO    [0m root:conftest.py:60 Ending browser session...
+[32mINFO    [0m root:conftest.py:61 ...................
+[32mINFO    [0m root:conftest.py:62 ...................

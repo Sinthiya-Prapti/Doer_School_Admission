@@ -1,0 +1,209 @@
+2025-09-01 13:39:43,543 - INFO - Starting browser session with chrome...
+2025-09-01 13:39:45,885 - INFO - chrome browser launched successfully.
+2025-09-01 13:39:47,098 - INFO - URL opened successfully.
+2025-09-01 13:39:47,100 - INFO - TC_Reg_01 Started..
+2025-09-01 13:39:47,100 - INFO - Verify Homepage Load and Sign Up Button Navigation
+2025-09-01 13:39:47,566 - INFO - Homepage URL loaded successfully.
+2025-09-01 13:39:49,633 - INFO - Homepage heading verified successfully.
+2025-09-01 13:39:49,757 - ERROR - Statistics verification failed. Expected: {'students': '20000+', 'guardians': '1643+', 'teachers': '7000+', 'schools': '2000+'}, Actual: {'students': 'Students', 'guardians': 'Guardians', 'teachers': 'Teachers', 'schools': 'Schools'}
+2025-09-01 13:39:51,420 - WARNING - Continuing test despite statistics mismatch...
+2025-09-01 13:39:51,622 - INFO - Sign Up for Free button clicked successfully.
+2025-09-01 13:39:51,622 - INFO - Sign Up for Free button clicked successfully.
+2025-09-01 13:39:54,660 - INFO - Successfully navigated to Sign Up page.
+2025-09-01 13:39:54,737 - INFO - Sign Up page loaded successfully with correct heading.
+2025-09-01 13:39:54,737 - INFO - Test Passed. Homepage loads successfully and navigates to Sign Up page
+2025-09-01 13:39:54,737 - INFO - TC_Reg_01 Completed..
+2025-09-01 13:39:54,739 - INFO - Script complete.
+2025-09-01 13:39:57,333 - INFO - Ending browser session...
+2025-09-01 13:39:57,334 - INFO - ...................
+2025-09-01 13:39:57,335 - INFO - ...................
+2025-09-01 13:39:57,343 - INFO - Starting browser session with chrome...
+2025-09-01 13:39:59,798 - INFO - chrome browser launched successfully.
+2025-09-01 13:40:01,016 - INFO - URL opened successfully.
+2025-09-01 13:40:01,017 - INFO - TC_Reg_02 Started..
+2025-09-01 13:40:01,018 - INFO - Verify Sign Up Page Load and Form Display
+2025-09-01 13:40:01,700 - INFO - Sign Up for Free button clicked successfully.
+2025-09-01 13:40:01,701 - INFO - Navigated to Sign Up page successfully.
+2025-09-01 13:40:03,722 - INFO - Sign Up page loaded successfully.
+2025-09-01 13:40:03,782 - INFO - Sign Up heading verified successfully.
+2025-09-01 13:40:03,813 - INFO - Sign Up subtitle verified successfully.
+2025-09-01 13:40:03,935 - INFO - All form fields verified successfully.
+2025-09-01 13:40:03,992 - INFO - All buttons verified successfully.
+2025-09-01 13:40:04,002 - WARNING - Page title might not be appropriate: Authentication | DOER ADMISSION
+2025-09-01 13:40:04,857 - INFO - Test Passed. Sign Up page loads with all required form elements
+2025-09-01 13:40:04,857 - INFO - TC_Reg_02 Completed..
+2025-09-01 13:40:04,859 - INFO - Script complete.
+2025-09-01 13:40:07,279 - INFO - Ending browser session...
+2025-09-01 13:40:07,279 - INFO - ...................
+2025-09-01 13:40:07,279 - INFO - ...................
+2025-09-01 13:40:07,282 - INFO - Starting browser session with chrome...
+2025-09-01 13:40:09,263 - INFO - chrome browser launched successfully.
+2025-09-01 13:40:10,664 - INFO - URL opened successfully.
+2025-09-01 13:40:10,666 - INFO - TC_Reg_03 Started..
+2025-09-01 13:40:10,667 - INFO - Verify Complete User Registration with Valid Data
+2025-09-01 13:40:11,449 - INFO - Sign Up for Free button clicked successfully.
+2025-09-01 13:40:11,449 - INFO - Navigated to Sign Up page successfully.
+2025-09-01 13:40:14,036 - INFO - Full Name entered successfully.
+2025-09-01 13:40:14,036 - INFO - Full Name entered successfully.
+2025-09-01 13:40:14,620 - INFO - Email entered successfully.
+2025-09-01 13:40:14,621 - INFO - Email entered successfully.
+2025-09-01 13:40:14,988 - INFO - Password entered successfully.
+2025-09-01 13:40:14,989 - INFO - Password entered successfully.
+2025-09-01 13:40:15,308 - INFO - Confirm Password entered successfully.
+2025-09-01 13:40:15,308 - INFO - Confirm Password entered successfully.
+2025-09-01 13:40:16,299 - INFO - Sign Up button clicked successfully.
+2025-09-01 13:40:16,300 - INFO - Sign Up button clicked successfully.
+2025-09-01 13:40:42,964 - ERROR - Ant Design message not found: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6186c3d85+79397]
+	GetHandleVerifier [0x0x7ff6186c3de0+79488]
+	(No symbol) [0x0x7ff61846c0fa]
+	(No symbol) [0x0x7ff6184c2fd6]
+	(No symbol) [0x0x7ff6184c328c]
+	(No symbol) [0x0x7ff618516537]
+	(No symbol) [0x0x7ff6184eb1df]
+	(No symbol) [0x0x7ff618513344]
+	(No symbol) [0x0x7ff6184eaf73]
+	(No symbol) [0x0x7ff6184b41b1]
+	(No symbol) [0x0x7ff6184b4f43]
+	GetHandleVerifier [0x0x7ff61898e1ed+3005069]
+	GetHandleVerifier [0x0x7ff61898831d+2980797]
+	GetHandleVerifier [0x0x7ff6189a7e0d+3110573]
+	GetHandleVerifier [0x0x7ff6186dd6de+184190]
+	GetHandleVerifier [0x0x7ff6186e516f+215567]
+	GetHandleVerifier [0x0x7ff6186cc974+115220]
+	GetHandleVerifier [0x0x7ff6186ccb29+115657]
+	GetHandleVerifier [0x0x7ff6186b3268+11016]
+	BaseThreadInitThunk [0x0x7ffcb29ae8d7+23]
+	RtlUserThreadStart [0x0x7ffcb35bc34c+44]
+
+2025-09-01 13:42:21,367 - ERROR - No registration message found with any selector
+2025-09-01 13:42:21,367 - ERROR - No registration message received
+2025-09-01 13:44:21,708 - INFO - Starting browser session with chrome...
+2025-09-01 13:44:24,091 - INFO - chrome browser launched successfully.
+2025-09-01 13:44:25,366 - INFO - URL opened successfully.
+2025-09-01 13:44:25,368 - INFO - TC_Reg_01 Started..
+2025-09-01 13:44:25,368 - INFO - Verify Homepage Load and Sign Up Button Navigation
+2025-09-01 13:44:25,805 - INFO - Homepage URL loaded successfully.
+2025-09-01 13:44:27,919 - INFO - Homepage heading verified successfully.
+2025-09-01 13:44:28,090 - ERROR - Statistics verification failed. Expected: {'students': '20000+', 'guardians': '1643+', 'teachers': '7000+', 'schools': '2000+'}, Actual: {'students': 'Students', 'guardians': 'Guardians', 'teachers': 'Teachers', 'schools': 'Schools'}
+2025-09-01 13:44:29,121 - WARNING - Continuing test despite statistics mismatch...
+2025-09-01 13:44:29,363 - INFO - Sign Up for Free button clicked successfully.
+2025-09-01 13:44:29,363 - INFO - Sign Up for Free button clicked successfully.
+2025-09-01 13:44:32,381 - INFO - Successfully navigated to Sign Up page.
+2025-09-01 13:44:32,420 - INFO - Sign Up page loaded successfully with correct heading.
+2025-09-01 13:44:32,420 - INFO - Test Passed. Homepage loads successfully and navigates to Sign Up page
+2025-09-01 13:44:32,420 - INFO - TC_Reg_01 Completed..
+2025-09-01 13:44:32,422 - INFO - Script complete.
+2025-09-01 13:44:34,845 - INFO - Ending browser session...
+2025-09-01 13:44:34,846 - INFO - ...................
+2025-09-01 13:44:34,847 - INFO - ...................
+2025-09-01 13:44:34,854 - INFO - Starting browser session with chrome...
+2025-09-01 13:44:37,198 - INFO - chrome browser launched successfully.
+2025-09-01 13:44:38,481 - INFO - URL opened successfully.
+2025-09-01 13:44:38,483 - INFO - TC_Reg_02 Started..
+2025-09-01 13:44:38,483 - INFO - Verify Sign Up Page Load and Form Display
+2025-09-01 13:44:39,765 - INFO - Sign Up for Free button clicked successfully.
+2025-09-01 13:44:39,765 - INFO - Navigated to Sign Up page successfully.
+2025-09-01 13:44:41,791 - INFO - Sign Up page loaded successfully.
+2025-09-01 13:44:41,858 - INFO - Sign Up heading verified successfully.
+2025-09-01 13:44:41,886 - INFO - Sign Up subtitle verified successfully.
+2025-09-01 13:44:41,990 - INFO - All form fields verified successfully.
+2025-09-01 13:44:42,039 - INFO - All buttons verified successfully.
+2025-09-01 13:44:42,048 - WARNING - Page title might not be appropriate: Authentication | DOER ADMISSION
+2025-09-01 13:44:42,905 - INFO - Test Passed. Sign Up page loads with all required form elements
+2025-09-01 13:44:42,905 - INFO - TC_Reg_02 Completed..
+2025-09-01 13:44:42,907 - INFO - Script complete.
+2025-09-01 13:44:45,200 - INFO - Ending browser session...
+2025-09-01 13:44:45,201 - INFO - ...................
+2025-09-01 13:44:45,202 - INFO - ...................
+2025-09-01 13:44:45,213 - INFO - Starting browser session with chrome...
+2025-09-01 13:44:47,611 - INFO - chrome browser launched successfully.
+2025-09-01 13:44:48,754 - INFO - URL opened successfully.
+2025-09-01 13:44:48,755 - INFO - TC_Reg_03 Started..
+2025-09-01 13:44:48,755 - INFO - Verify Complete User Registration with Valid Data
+2025-09-01 13:44:49,407 - INFO - Sign Up for Free button clicked successfully.
+2025-09-01 13:44:49,408 - INFO - Navigated to Sign Up page successfully.
+2025-09-01 13:44:52,547 - INFO - Full Name entered successfully.
+2025-09-01 13:44:52,547 - INFO - Full Name entered successfully.
+2025-09-01 13:44:53,314 - INFO - Email entered successfully.
+2025-09-01 13:44:53,315 - INFO - Email entered successfully.
+2025-09-01 13:44:53,615 - INFO - Password entered successfully.
+2025-09-01 13:44:53,616 - INFO - Password entered successfully.
+2025-09-01 13:44:53,946 - INFO - Confirm Password entered successfully.
+2025-09-01 13:44:53,947 - INFO - Confirm Password entered successfully.
+2025-09-01 13:44:54,942 - INFO - Sign Up button clicked successfully.
+2025-09-01 13:44:54,942 - INFO - Sign Up button clicked successfully.
+2025-09-01 13:44:56,061 - INFO - Ant Design message captured: User exists with same email
+2025-09-01 13:44:56,061 - INFO - Registration message received: User exists with same email
+2025-09-01 13:44:56,062 - ERROR - Registration validation failed. Expected: Registration successful! Please log in with your credentials., Got: User exists with same email
+2025-09-01 13:44:57,373 - INFO - Script complete.
+2025-09-01 13:45:00,230 - INFO - Ending browser session...
+2025-09-01 13:45:00,231 - INFO - ...................
+2025-09-01 13:45:00,231 - INFO - ...................
+2025-09-01 13:46:51,032 - INFO - Starting browser session with chrome...
+2025-09-01 13:46:53,334 - INFO - chrome browser launched successfully.
+2025-09-01 13:47:03,186 - INFO - URL opened successfully.
+2025-09-01 13:47:03,190 - INFO - TC_Reg_01 Started..
+2025-09-01 13:47:03,192 - INFO - Verify Homepage Load and Sign Up Button Navigation
+2025-09-01 13:47:03,206 - INFO - Homepage URL loaded successfully.
+2025-09-01 13:47:05,311 - INFO - Homepage heading verified successfully.
+2025-09-01 13:47:05,563 - ERROR - Statistics verification failed. Expected: {'students': '20000+', 'guardians': '1643+', 'teachers': '7000+', 'schools': '2000+'}, Actual: {'students': 'Students', 'guardians': 'Guardians', 'teachers': 'Teachers', 'schools': 'Schools'}
+2025-09-01 13:47:06,634 - WARNING - Continuing test despite statistics mismatch...
+2025-09-01 13:47:06,799 - INFO - Sign Up for Free button clicked successfully.
+2025-09-01 13:47:06,799 - INFO - Sign Up for Free button clicked successfully.
+2025-09-01 13:47:09,808 - INFO - Successfully navigated to Sign Up page.
+2025-09-01 13:47:09,840 - INFO - Sign Up page loaded successfully with correct heading.
+2025-09-01 13:47:09,841 - INFO - Test Passed. Homepage loads successfully and navigates to Sign Up page
+2025-09-01 13:47:09,841 - INFO - TC_Reg_01 Completed..
+2025-09-01 13:47:09,842 - INFO - Script complete.
+2025-09-01 13:47:12,287 - INFO - Ending browser session...
+2025-09-01 13:47:12,288 - INFO - ...................
+2025-09-01 13:47:12,288 - INFO - ...................
+2025-09-01 13:47:12,296 - INFO - Starting browser session with chrome...
+2025-09-01 13:47:14,586 - INFO - chrome browser launched successfully.
+2025-09-01 13:47:14,760 - INFO - URL opened successfully.
+2025-09-01 13:47:14,763 - INFO - TC_Reg_02 Started..
+2025-09-01 13:47:14,764 - INFO - Verify Sign Up Page Load and Form Display
+2025-09-01 13:47:17,326 - INFO - Sign Up for Free button clicked successfully.
+2025-09-01 13:47:17,327 - INFO - Navigated to Sign Up page successfully.
+2025-09-01 13:47:19,356 - INFO - Sign Up page loaded successfully.
+2025-09-01 13:47:19,405 - INFO - Sign Up heading verified successfully.
+2025-09-01 13:47:19,435 - INFO - Sign Up subtitle verified successfully.
+2025-09-01 13:47:19,560 - INFO - All form fields verified successfully.
+2025-09-01 13:47:19,672 - INFO - All buttons verified successfully.
+2025-09-01 13:47:19,681 - WARNING - Page title might not be appropriate: Authentication | DOER ADMISSION
+2025-09-01 13:47:20,472 - INFO - Test Passed. Sign Up page loads with all required form elements
+2025-09-01 13:47:20,472 - INFO - TC_Reg_02 Completed..
+2025-09-01 13:47:20,473 - INFO - Script complete.
+2025-09-01 13:47:22,892 - INFO - Ending browser session...
+2025-09-01 13:47:22,892 - INFO - ...................
+2025-09-01 13:47:22,893 - INFO - ...................
+2025-09-01 13:47:22,899 - INFO - Starting browser session with chrome...
+2025-09-01 13:47:25,214 - INFO - chrome browser launched successfully.
+2025-09-01 13:47:26,405 - INFO - URL opened successfully.
+2025-09-01 13:47:26,406 - INFO - TC_Reg_03 Started..
+2025-09-01 13:47:26,407 - INFO - Verify Complete User Registration with Valid Data
+2025-09-01 13:47:27,498 - INFO - Sign Up for Free button clicked successfully.
+2025-09-01 13:47:27,498 - INFO - Navigated to Sign Up page successfully.
+2025-09-01 13:47:29,933 - INFO - Full Name entered successfully.
+2025-09-01 13:47:29,933 - INFO - Full Name entered successfully.
+2025-09-01 13:47:30,467 - INFO - Email entered successfully.
+2025-09-01 13:47:30,468 - INFO - Email entered successfully.
+2025-09-01 13:47:30,779 - INFO - Password entered successfully.
+2025-09-01 13:47:30,780 - INFO - Password entered successfully.
+2025-09-01 13:47:31,227 - INFO - Confirm Password entered successfully.
+2025-09-01 13:47:31,228 - INFO - Confirm Password entered successfully.
+2025-09-01 13:47:32,298 - INFO - Sign Up button clicked successfully.
+2025-09-01 13:47:32,298 - INFO - Sign Up button clicked successfully.
+2025-09-01 13:47:33,883 - INFO - Ant Design message captured: Registration successful! Please log in with your credentials.
+2025-09-01 13:47:33,884 - INFO - Registration message received: Registration successful! Please log in with your credentials.
+2025-09-01 13:47:33,884 - INFO - Registration validation passed. Expected: Registration successful! Please log in with your credentials., Got: Registration successful! Please log in with your credentials.
+2025-09-01 13:47:33,884 - INFO - Registration completed successfully.
+2025-09-01 13:47:34,646 - INFO - Final URL after registration: https://admission-test.doer.school/en/sign-up
+2025-09-01 13:47:34,646 - INFO - Registration completed with data - Name: John Doe, Email: john.doe.test__1@gmail.com
+2025-09-01 13:47:34,646 - INFO - TC_Reg_03 Completed..
+2025-09-01 13:47:34,648 - INFO - Script complete.
+2025-09-01 13:47:37,605 - INFO - Ending browser session...
+2025-09-01 13:47:37,606 - INFO - ...................
+2025-09-01 13:47:37,606 - INFO - ...................

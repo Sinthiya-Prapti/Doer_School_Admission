@@ -1,0 +1,17 @@
+[32mINFO    [0m root:conftest.py:31 Starting browser session with chrome...
+[32mINFO    [0m root:conftest.py:48 chrome browser launched successfully.
+[32mINFO    [0m root:conftest.py:54 URL opened successfully.
+[32mINFO    [0m root:test_TC_MB_CUS_001.py:11 TC_MB_CUS_001 Started..
+[32mINFO    [0m root:test_TC_MB_CUS_001.py:12 Verify customer registration fails with invalid (Empty) Full Name and valid Email Address, Password and Initial Deposit.
+[32mINFO    [0m root:test_TC_MB_CUS_001.py:21 Open Your Account Button Clicked successfully.
+[32mINFO    [0m root:test_TC_MB_CUS_001.py:30 Empty Full Name Enter successfully.
+[32mINFO    [0m root:test_TC_MB_CUS_001.py:38 Valid Email Enter successfully.
+[32mINFO    [0m root:test_TC_MB_CUS_001.py:46 Valid Password Enter successfully.
+[32mINFO    [0m root:test_TC_MB_CUS_001.py:54 Valid Initial Deposit Amount Enter successfully.
+[32mINFO    [0m root:test_TC_MB_CUS_001.py:63 Click on Register button successfully.
+[32mINFO    [0m root:test_TC_MB_CUS_001.py:74 Test Passed. Expected Error Message match with Actual Error Message.
+[32mINFO    [0m root:test_TC_MB_CUS_001.py:83 TC_MB_CUS_001 Completed..
+[32mINFO    [0m root:conftest.py:58 Script complete.
+[32mINFO    [0m root:conftest.py:60 Ending browser session...
+[32mINFO    [0m root:conftest.py:61 ...................
+[32mINFO    [0m root:conftest.py:62 ...................
