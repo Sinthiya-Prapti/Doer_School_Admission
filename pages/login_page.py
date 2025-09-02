@@ -12,7 +12,7 @@ class LoginPage:
         """Get the Sign In page heading"""
         try:
             heading_element = self.wait.until(
-                EC.presence_of_element_located((By.XPATH, "//*[contains(text(), 'Sign In')]"))
+                EC.presence_of_element_located((By.XPATH, "//h1[@class='text-3xl font-bold text-[#1a5683]']"))
             )
             return heading_element.text
         except Exception as e:
@@ -23,7 +23,7 @@ class LoginPage:
         """Get the Sign In page subtitle"""
         try:
             subtitle_element = self.wait.until(
-                EC.presence_of_element_located((By.XPATH, "//*[contains(text(), 'Enter your email and password')]"))
+                EC.presence_of_element_located((By.XPATH, "//p[@class='text-gray-500 mt-2']"))
             )
             return subtitle_element.text
         except Exception as e:
@@ -35,7 +35,7 @@ class LoginPage:
         try:
             email_field = self.wait.until(
                 EC.presence_of_element_located(
-                    (By.CSS_SELECTOR, "input[name='email'], input[type='email'], #email, #loginEmail"))
+                    (By.CSS_SELECTOR, "#login_email"))
             )
             email_field.clear()
             email_field.send_keys(str(email_value))
@@ -49,7 +49,7 @@ class LoginPage:
         try:
             password_field = self.wait.until(
                 EC.presence_of_element_located(
-                    (By.CSS_SELECTOR, "input[name='password'], input[type='password'], #password, #loginPassword"))
+                    (By.CSS_SELECTOR, "#login_password"))
             )
             password_field.clear()
             password_field.send_keys(str(password_value))
@@ -58,11 +58,23 @@ class LoginPage:
             logging.error(f"Password field not found in login form: {e}")
             raise e
 
-    def click_password_visibility_toggle(self):
+    def click_password_visibility_view(self):
         """Click password visibility toggle (eye icon)"""
         try:
             toggle_button = self.wait.until(
-                EC.element_to_be_clickable((By.CSS_SELECTOR, ".password-toggle, .eye-icon, [data-toggle='password']"))
+                EC.element_to_be_clickable((By.XPATH, "//span[@aria-label='eye-invisible']//*[name()='svg']"))
+            )
+            toggle_button.click()
+            logging.info("Password visibility toggle clicked successfully.")
+        except Exception as e:
+            logging.error(f"Password visibility toggle not found: {e}")
+            raise e
+
+    def click_password_visibility_hide(self):
+        """Click password visibility toggle (eye icon)"""
+        try:
+            toggle_button = self.wait.until(
+                EC.element_to_be_clickable((By.XPATH, "//span[@aria-label='eye']//*[name()='svg']"))
             )
             toggle_button.click()
             logging.info("Password visibility toggle clicked successfully.")
@@ -75,7 +87,7 @@ class LoginPage:
         try:
             checkbox = self.wait.until(
                 EC.presence_of_element_located(
-                    (By.CSS_SELECTOR, "input[type='checkbox'], input[name='keepLoggedIn'], #keepLoggedIn"))
+                    (By.CSS_SELECTOR, ".ant-checkbox-label"))
             )
             if should_check != checkbox.is_selected():
                 checkbox.click()
@@ -89,7 +101,7 @@ class LoginPage:
         try:
             login_button = self.wait.until(
                 EC.element_to_be_clickable(
-                    (By.CSS_SELECTOR, "button[type='submit'], button:contains('Log In'), #loginButton"))
+                    (By.CSS_SELECTOR, "button[type='submit']"))
             )
             login_button.click()
             logging.info("Log In button clicked successfully.")
@@ -101,7 +113,7 @@ class LoginPage:
         """Click the Sign in with Google button"""
         try:
             google_signin_button = self.wait.until(
-                EC.element_to_be_clickable((By.XPATH, "//*[contains(text(), 'Sign in with Google')]"))
+                EC.element_to_be_clickable((By.XPATH, "//button[@type='button']"))
             )
             google_signin_button.click()
             logging.info("Sign in with Google button clicked successfully.")
@@ -113,7 +125,7 @@ class LoginPage:
         """Click the Forgot password? link"""
         try:
             forgot_password_link = self.wait.until(
-                EC.element_to_be_clickable((By.XPATH, "//*[contains(text(), 'Forgot password')]"))
+                EC.element_to_be_clickable((By.XPATH, "//a[@class='text-gray-500 hover:text-[#1a5683] text-sm']"))
             )
             forgot_password_link.click()
             logging.info("Forgot password link clicked successfully.")
@@ -125,7 +137,7 @@ class LoginPage:
         """Click Create an Account link from Sign In page"""
         try:
             create_account_link = self.wait.until(
-                EC.element_to_be_clickable((By.XPATH, "//*[contains(text(), 'Create an Account')]"))
+                EC.element_to_be_clickable((By.XPATH, "//a[@class='text-[#1a5683] hover:underline']"))
             )
             create_account_link.click()
             logging.info("Create an Account link clicked successfully.")
@@ -138,7 +150,7 @@ class LoginPage:
         try:
             error_message = self.wait.until(
                 EC.presence_of_element_located(
-                    (By.CSS_SELECTOR, ".error-message, .alert-error, .login-error, #errorMessage"))
+                    (By.CSS_SELECTOR, "div[class='ant-message ant-message-top css-1rfzxih'] span:nth-child(2)"))
             )
             return error_message.text
         except Exception as e:
@@ -150,7 +162,7 @@ class LoginPage:
         try:
             # Check for success message
             success_message = self.wait.until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, ".success-message, .alert-success, #successMessage"))
+                EC.presence_of_element_located((By.CSS_SELECTOR, "div[class='ant-message ant-message-top css-1rfzxih'] span:nth-child(2)"))
             )
             return success_message.text
         except:
@@ -164,12 +176,12 @@ class LoginPage:
         """Verify all expected sign in form elements are present"""
         try:
             element_selectors = {
-                "Email": "input[name='email'], input[type='email'], #email",
-                "Password": "input[name='password'], input[type='password'], #password",
-                "Keep me logged in": "input[type='checkbox'], input[name='keepLoggedIn']",
-                "Forgot password?": "//*[contains(text(), 'Forgot password')]",
-                "Log In": "button[type='submit'], button:contains('Log In')",
-                "Sign in with Google": "//*[contains(text(), 'Sign in with Google')]"
+                "Email": "//input[@id='login_email']",
+                "Password": "//input[@id='login_password']",
+                "Keep me logged in": "//span[@class='ant-checkbox-label']",
+                "Forgot password?": "//a[@class='text-gray-500 hover:text-[#1a5683] text-sm']",
+                "Log In": "//button[@type='submit']",
+                "Sign in with Google": "//span[normalize-space()='Sign in with Google']"
             }
 
             for element_name in expected_elements:
@@ -192,7 +204,7 @@ class LoginPage:
         try:
             password_field = self.wait.until(
                 EC.presence_of_element_located(
-                    (By.CSS_SELECTOR, "input[name='password'], input[type='password'], #password"))
+                    (By.CSS_SELECTOR, "#login_password"))
             )
             return password_field.get_attribute("type")
         except Exception as e:

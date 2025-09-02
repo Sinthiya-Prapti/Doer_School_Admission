@@ -153,7 +153,7 @@ class RegistrationPage:
         """Click Sign In link from Sign Up page"""
         try:
             signin_link = self.wait.until(
-                EC.element_to_be_clickable((By.XPATH, "//*[contains(text(), 'Sign In')]"))
+                EC.element_to_be_clickable((By.XPATH, "//a[@class='text-[#1a5683] hover:underline']"))
             )
             signin_link.click()
             logging.info("Sign In link clicked successfully.")
@@ -177,16 +177,16 @@ class RegistrationPage:
         """Get HTML5 validation error message for specific field"""
         try:
             field_selectors = {
-                "FullName": "input[name='fullName'], input[placeholder*='Full Name'], #fullName",
-                "Email": "input[name='email'], input[type='email'], #email",
-                "Password": "input[name='password'], input[type='password'], #password",
-                "ConfirmPassword": "input[name='confirmPassword'], input[placeholder*='Confirm'], #confirmPassword"
+                "FullName": "div[id='signup_name_help'] div[class='ant-form-item-explain-error']",
+                "Email": "div[id='signup_email_help'] div[class='ant-form-item-explain-error']",
+                "Password": "div[id='signup_password_help'] div[class='ant-form-item-explain-error']",
+                "ConfirmPassword": "div[id='signup_confirmPassword_help'] div[class='ant-form-item-explain-error']"
             }
 
             field_element = self.wait.until(
                 EC.presence_of_element_located((By.CSS_SELECTOR, field_selectors[field_name]))
             )
-            return field_element.get_attribute("validationMessage")
+            return field_element.text
         except Exception as e:
             logging.error(f"Validation error message not found for {field_name}: {e}")
             return None

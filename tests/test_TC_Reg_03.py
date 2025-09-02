@@ -73,7 +73,7 @@ def test_tc_reg_03(browser_config, test_case):
     try:
         registration_page.click_signup_button()
         logging.info("Sign Up button clicked successfully.")
-        time.sleep(1)  # Wait for registration process
+        time.sleep(2)  # Wait for registration process
     except Exception as e:
         logging.error(f"Sign Up button click failed: {e}")
         capture_full_page_screenshot(driver, "TC_Reg_03_Submit_Error")
