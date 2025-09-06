@@ -83,3 +83,301 @@
 2025-09-02 21:53:43,304 - INFO - Set browser size to mobile: 375x667
 2025-09-02 21:53:49,541 - WARNING - data=========== 
 2025-09-02 21:53:49,541 - WARNING - Homepage heading not visible on mobile
+2025-09-05 21:54:34,294 - INFO - Starting browser session with chrome...
+2025-09-05 21:54:38,101 - INFO - chrome browser launched successfully.
+2025-09-05 21:54:38,991 - INFO - URL opened successfully.
+2025-09-05 21:54:38,996 - INFO - TC_Reg_01 Started..
+2025-09-05 21:54:38,996 - INFO - Verify Homepage Load and Sign Up Button Navigation
+2025-09-05 21:54:40,037 - INFO - Homepage URL loaded successfully.
+2025-09-05 21:54:42,073 - INFO - Homepage heading verified successfully.
+2025-09-05 21:54:42,169 - ERROR - Statistics verification failed. Expected: {'students': '20000+', 'guardians': '1643+', 'teachers': '7000+', 'schools': '2000+'}, Actual: {'students': 'Students', 'guardians': 'Guardians', 'teachers': 'Teachers', 'schools': 'Schools'}
+2025-09-05 21:54:43,199 - WARNING - Continuing test despite statistics mismatch...
+2025-09-05 21:54:43,726 - INFO - Sign Up for Free button clicked successfully.
+2025-09-05 21:54:43,727 - INFO - Sign Up for Free button clicked successfully.
+2025-09-05 21:54:46,734 - INFO - Successfully navigated to Sign Up page.
+2025-09-05 21:54:46,759 - INFO - Sign Up page loaded successfully with correct heading.
+2025-09-05 21:54:46,759 - INFO - Test Passed. Homepage loads successfully and navigates to Sign Up page
+2025-09-05 21:54:46,759 - INFO - TC_Reg_01 Completed..
+2025-09-05 21:54:46,760 - INFO - Script complete.
+2025-09-05 21:54:49,138 - INFO - Ending browser session...
+2025-09-05 21:54:49,139 - INFO - ...................
+2025-09-05 21:54:49,139 - INFO - ...................
+2025-09-05 21:54:49,143 - INFO - Starting browser session with chrome...
+2025-09-05 21:54:50,924 - INFO - chrome browser launched successfully.
+2025-09-05 21:54:52,508 - INFO - URL opened successfully.
+2025-09-05 21:54:52,511 - INFO - TC_Reg_02 Started..
+2025-09-05 21:54:52,512 - INFO - Verify Sign Up Page Load and Form Display
+2025-09-05 21:54:52,672 - INFO - Sign Up for Free button clicked successfully.
+2025-09-05 21:54:52,673 - INFO - Navigated to Sign Up page successfully.
+2025-09-05 21:54:54,699 - INFO - Sign Up page loaded successfully.
+2025-09-05 21:54:54,739 - INFO - Sign Up heading verified successfully.
+2025-09-05 21:54:54,765 - INFO - Sign Up subtitle verified successfully.
+2025-09-05 21:54:54,856 - INFO - All form fields verified successfully.
+2025-09-05 21:54:54,898 - INFO - All buttons verified successfully.
+2025-09-05 21:54:54,906 - WARNING - Page title might not be appropriate: Authentication | DOER ADMISSION
+2025-09-05 21:54:55,645 - INFO - Test Passed. Sign Up page loads with all required form elements
+2025-09-05 21:54:55,645 - INFO - TC_Reg_02 Completed..
+2025-09-05 21:54:55,646 - INFO - Script complete.
+2025-09-05 21:54:58,090 - INFO - Ending browser session...
+2025-09-05 21:54:58,090 - INFO - ...................
+2025-09-05 21:54:58,091 - INFO - ...................
+2025-09-05 21:54:58,096 - INFO - Starting browser session with chrome...
+2025-09-05 21:54:59,814 - INFO - chrome browser launched successfully.
+2025-09-05 21:55:00,056 - INFO - URL opened successfully.
+2025-09-05 21:55:00,058 - INFO - TC_Reg_03 Started..
+2025-09-05 21:55:00,058 - INFO - Verify Complete User Registration with Valid Data
+2025-09-05 21:55:01,456 - INFO - Sign Up for Free button clicked successfully.
+2025-09-05 21:55:01,457 - INFO - Navigated to Sign Up page successfully.
+2025-09-05 21:55:03,710 - INFO - Full Name entered successfully.
+2025-09-05 21:55:03,711 - INFO - Full Name entered successfully.
+2025-09-05 21:55:04,101 - INFO - Email entered successfully.
+2025-09-05 21:55:04,101 - INFO - Email entered successfully.
+2025-09-05 21:55:04,421 - INFO - Password entered successfully.
+2025-09-05 21:55:04,421 - INFO - Password entered successfully.
+2025-09-05 21:55:04,723 - INFO - Confirm Password entered successfully.
+2025-09-05 21:55:04,723 - INFO - Confirm Password entered successfully.
+2025-09-05 21:55:05,571 - INFO - Sign Up button clicked successfully.
+2025-09-05 21:55:05,572 - INFO - Sign Up button clicked successfully.
+2025-09-05 21:55:07,643 - INFO - Ant Design message captured: User exists with same email
+2025-09-05 21:55:07,644 - INFO - Registration message received: User exists with same email
+2025-09-05 21:55:07,644 - ERROR - Registration validation failed. Expected: Registration successful! Please log in with your credentials., Got: User exists with same email
+2025-09-05 21:55:08,451 - INFO - Script complete.
+2025-09-05 21:55:12,292 - INFO - Ending browser session...
+2025-09-05 21:55:12,293 - INFO - ...................
+2025-09-05 21:55:12,293 - INFO - ...................
+2025-09-05 21:55:12,296 - INFO - Starting browser session with chrome...
+2025-09-05 21:55:13,993 - INFO - chrome browser launched successfully.
+2025-09-05 21:55:16,175 - INFO - URL opened successfully.
+2025-09-05 21:55:16,177 - INFO - TC_Reg_05 Started..
+2025-09-05 21:55:16,177 - INFO - Verify Sign In Page Load and Form Display
+2025-09-05 21:55:16,715 - INFO - Sign Up for Free button clicked successfully.
+2025-09-05 21:55:16,716 - INFO - Navigated to Sign Up page successfully.
+2025-09-05 21:55:18,860 - INFO - Sign In link clicked successfully.
+2025-09-05 21:55:18,860 - INFO - Navigated to Sign In page successfully.
+2025-09-05 21:55:20,867 - INFO - Sign In page loaded successfully.
+2025-09-05 21:55:20,894 - INFO - Sign In heading verified successfully.
+2025-09-05 21:55:20,915 - INFO - Sign In subtitle verified successfully.
+2025-09-05 21:55:20,939 - INFO - Email field is visible.
+2025-09-05 21:55:20,958 - INFO - Password field is visible.
+2025-09-05 21:55:20,958 - INFO - All form fields verified successfully.
+2025-09-05 21:55:21,040 - INFO - All Sign In form elements verified successfully.
+2025-09-05 21:55:21,064 - INFO - 'Keep me logged in' checkbox is visible.
+2025-09-05 21:55:26,117 - WARNING - 'Forgot password?' link not found.
+2025-09-05 21:55:26,149 - INFO - 'Log In' button is visible.
+2025-09-05 21:55:26,173 - INFO - 'Sign in with Google' option is visible.
+2025-09-05 21:55:26,869 - INFO - Test Passed. Sign In page loads with all required elements
+2025-09-05 21:55:26,960 - INFO - Sign In page title: Authentication | DOER ADMISSION
+2025-09-05 21:55:26,960 - INFO - TC_Reg_05 Completed..
+2025-09-05 21:55:26,982 - INFO - Script complete.
+2025-09-05 21:55:31,182 - INFO - Ending browser session...
+2025-09-05 21:55:31,182 - INFO - ...................
+2025-09-05 21:55:31,183 - INFO - ...................
+2025-09-05 21:55:31,189 - INFO - Starting browser session with chrome...
+2025-09-05 21:55:33,150 - INFO - chrome browser launched successfully.
+2025-09-05 21:55:34,299 - INFO - URL opened successfully.
+2025-09-05 21:55:34,301 - INFO - TC_Reg_06 Started..
+2025-09-05 21:55:34,301 - INFO - Verify User Login with Valid Credentials
+2025-09-05 21:55:34,947 - INFO - Sign Up for Free button clicked successfully.
+2025-09-05 21:55:34,947 - INFO - Navigated to Sign Up page successfully.
+2025-09-05 21:55:37,061 - INFO - Sign In link clicked successfully.
+2025-09-05 21:55:37,062 - INFO - Navigated to Sign In page successfully.
+2025-09-05 21:55:39,105 - INFO - Sign In page loaded successfully.
+2025-09-05 21:55:39,531 - INFO - Email entered successfully in login form.
+2025-09-05 21:55:39,531 - INFO - Email entered successfully in login form.
+2025-09-05 21:55:39,825 - INFO - Password entered successfully in login form.
+2025-09-05 21:55:39,825 - INFO - Password entered successfully in login form.
+2025-09-05 21:55:40,715 - INFO - Log In button clicked successfully.
+2025-09-05 21:55:40,715 - INFO - Log In button clicked successfully.
+2025-09-05 21:55:43,499 - INFO - Login success message found: Login successful!
+2025-09-05 21:55:43,500 - INFO - Test Passed. User logged in successfully and redirected to home
+2025-09-05 21:55:43,508 - INFO - Final URL after login: https://admission-test.doer.school/en
+2025-09-05 21:55:43,525 - INFO - User authentication indicators found - login confirmed
+2025-09-05 21:55:43,525 - INFO - Login completed for user: john.doe.test__16@gmail.com
+2025-09-05 21:55:43,525 - INFO - TC_Reg_06 Completed..
+2025-09-05 21:55:43,526 - INFO - Script complete.
+2025-09-05 21:55:47,857 - INFO - Ending browser session...
+2025-09-05 21:55:47,857 - INFO - ...................
+2025-09-05 21:55:47,857 - INFO - ...................
+2025-09-05 21:55:47,859 - INFO - Starting browser session with chrome...
+2025-09-05 21:55:49,605 - INFO - chrome browser launched successfully.
+2025-09-05 21:55:50,475 - INFO - URL opened successfully.
+2025-09-05 21:55:50,476 - INFO - TC_Reg_12 Started..
+2025-09-05 21:55:50,476 - INFO - Verify Password Visibility Toggle
+2025-09-05 21:55:51,341 - INFO - Sign Up for Free button clicked successfully.
+2025-09-05 21:55:51,341 - INFO - Navigated to Sign Up page successfully.
+2025-09-05 21:55:53,743 - INFO - Sign In link clicked successfully.
+2025-09-05 21:55:53,743 - INFO - Navigated to Sign In page successfully.
+2025-09-05 21:55:56,051 - INFO - Password entered successfully in login form.
+2025-09-05 21:55:56,051 - INFO - Password entered successfully.
+2025-09-05 21:55:57,763 - INFO - Password field initially hidden (type='password').
+2025-09-05 21:55:57,869 - INFO - Password visibility toggle clicked successfully.
+2025-09-05 21:55:57,870 - INFO - Password visibility toggle clicked successfully.
+2025-09-05 21:55:58,891 - INFO - Password is now visible (type='text').
+2025-09-05 21:55:59,510 - INFO - Password visibility toggle clicked successfully.
+2025-09-05 21:55:59,510 - INFO - Password visibility toggle clicked again successfully.
+2025-09-05 21:56:00,530 - INFO - Password is hidden again (type='password').
+2025-09-05 21:56:01,134 - INFO - Test Passed. Password visibility toggles when eye icon clicked
+2025-09-05 21:56:01,134 - INFO - Password visibility toggle functionality working correctly.
+2025-09-05 21:56:01,134 - INFO - Password toggle test completed with password: Tes***
+2025-09-05 21:56:01,134 - INFO - TC_Reg_12 Completed..
+2025-09-05 21:56:01,136 - INFO - Script complete.
+2025-09-05 21:56:03,793 - INFO - Ending browser session...
+2025-09-05 21:56:03,794 - INFO - ...................
+2025-09-05 21:56:03,795 - INFO - ...................
+2025-09-05 21:56:03,798 - INFO - Starting browser session with chrome...
+2025-09-05 21:56:05,482 - INFO - chrome browser launched successfully.
+2025-09-05 21:56:06,633 - INFO - URL opened successfully.
+2025-09-05 21:56:06,635 - INFO - TC_Reg_16 Started..
+2025-09-05 21:56:06,635 - INFO - Verify Page Responsive Design
+2025-09-05 21:56:06,635 - INFO - Testing homepage responsiveness...
+2025-09-05 21:56:07,115 - INFO - Set browser size to desktop: 1920x1080
+2025-09-05 21:56:12,346 - INFO - Homepage heading visible on desktop: Your Child's Future Begins Here
+2025-09-05 21:56:12,482 - INFO - Sign Up for Free button clicked successfully.
+2025-09-05 21:56:12,482 - INFO - Sign Up button functional on desktop
+2025-09-05 21:56:13,631 - INFO - Set browser size to mobile: 375x667
+2025-09-05 21:56:19,054 - WARNING - data=========== 
+2025-09-05 21:56:19,055 - WARNING - Homepage heading not visible on mobile
+2025-09-05 21:56:39,440 - ERROR - Sign Up for Free button not found: Message: 
+
+2025-09-05 21:56:39,441 - ERROR - Homepage functionality test failed on mobile: Message: 
+
+2025-09-05 21:56:40,064 - INFO - Testing Sign Up page responsiveness...
+2025-09-05 21:56:40,422 - INFO - Testing Sign Up page on desktop: 1920x1080
+2025-09-05 21:56:44,855 - INFO - Sign Up for Free button clicked successfully.
+2025-09-05 21:56:47,902 - INFO - Sign Up heading visible on desktop
+2025-09-05 21:56:47,991 - INFO - All form fields visible on desktop
+2025-09-05 21:56:48,238 - INFO - Full Name entered successfully.
+2025-09-05 21:56:48,520 - INFO - Email entered successfully.
+2025-09-05 21:56:48,726 - INFO - Password entered successfully.
+2025-09-05 21:56:48,947 - INFO - Confirm Password entered successfully.
+2025-09-05 21:56:48,947 - INFO - Form interaction successful on desktop
+2025-09-05 21:56:51,686 - INFO - Testing Sign Up page on mobile: 375x667
+2025-09-05 21:57:16,479 - ERROR - Sign Up for Free button not found: Message: 
+
+2025-09-05 21:57:16,479 - ERROR - Sign Up page testing failed on mobile: Message: 
+
+2025-09-05 21:57:17,073 - INFO - Testing Sign In page responsiveness...
+2025-09-05 21:57:17,441 - INFO - Testing Sign In page on desktop: 1920x1080
+2025-09-05 21:57:21,897 - INFO - Sign Up for Free button clicked successfully.
+2025-09-05 21:57:24,038 - INFO - Sign In link clicked successfully.
+2025-09-05 21:57:27,070 - INFO - Sign In heading visible on desktop
+2025-09-05 21:57:27,160 - INFO - All Sign In elements visible on desktop
+2025-09-05 21:57:27,470 - INFO - Email entered successfully in login form.
+2025-09-05 21:57:27,694 - INFO - Password entered successfully in login form.
+2025-09-05 21:57:27,695 - INFO - Sign In form interaction successful on desktop
+2025-09-05 21:57:30,482 - INFO - Testing Sign In page on mobile: 375x667
+2025-09-05 21:57:55,199 - ERROR - Sign Up for Free button not found: Message: 
+
+2025-09-05 21:57:55,200 - ERROR - Sign In page testing failed on mobile: Message: 
+
+2025-09-05 21:57:55,807 - INFO - Performing additional mobile-specific tests...
+2025-09-05 21:58:20,809 - ERROR - Sign Up for Free button not found: Message: 
+
+2025-09-05 21:58:20,810 - WARNING - Additional mobile tests failed: Message: 
+
+2025-09-05 21:58:23,189 - INFO - RESPONSIVE DESIGN TEST RESULTS SUMMARY:
+2025-09-05 21:58:23,189 - INFO - Total tests: 12
+2025-09-05 21:58:23,190 - INFO - Passed tests: 8
+2025-09-05 21:58:23,190 - INFO - Success rate: 66.7%
+2025-09-05 21:58:23,190 - INFO - homepage_desktop_heading: PASS
+2025-09-05 21:58:23,191 - INFO - homepage_desktop_button: PASS
+2025-09-05 21:58:23,191 - INFO - homepage_mobile_heading: FAIL
+2025-09-05 21:58:23,191 - INFO - homepage_mobile_button: FAIL
+2025-09-05 21:58:23,191 - INFO - signup_desktop_heading: PASS
+2025-09-05 21:58:23,192 - INFO - signup_desktop_fields: PASS
+2025-09-05 21:58:23,192 - INFO - signup_desktop_interaction: PASS
+2025-09-05 21:58:23,192 - INFO - signup_mobile: FAIL
+2025-09-05 21:58:23,192 - INFO - signin_desktop_heading: PASS
+2025-09-05 21:58:23,193 - INFO - signin_desktop_elements: PASS
+2025-09-05 21:58:23,193 - INFO - signin_desktop_interaction: PASS
+2025-09-05 21:58:23,193 - INFO - signin_mobile: FAIL
+2025-09-05 21:58:23,193 - ERROR - Responsive design test failed. Success rate: 66.7% (threshold: 80.0%)
+2025-09-05 21:58:23,849 - ERROR - Failed tests: ['homepage_mobile_heading', 'homepage_mobile_button', 'signup_mobile', 'signin_mobile']
+2025-09-05 21:58:23,875 - INFO - Script complete.
+2025-09-05 21:58:27,340 - INFO - Ending browser session...
+2025-09-05 21:58:27,340 - INFO - ...................
+2025-09-05 21:58:27,340 - INFO - ...................
+2025-09-05 21:58:27,342 - INFO - Starting browser session with chrome...
+2025-09-05 21:58:29,074 - INFO - chrome browser launched successfully.
+2025-09-05 21:58:32,013 - INFO - URL opened successfully.
+2025-09-05 21:58:32,015 - INFO - TC_Val_01 Started..
+2025-09-05 21:58:32,015 - INFO - Verify registration fails with empty Full Name
+2025-09-05 21:58:32,144 - INFO - Sign Up for Free button clicked successfully.
+2025-09-05 21:58:32,144 - INFO - Navigated to Sign Up page successfully.
+2025-09-05 21:58:34,339 - INFO - Full Name entered successfully.
+2025-09-05 21:58:34,340 - INFO - Empty Full Name entered successfully.
+2025-09-05 21:58:34,809 - INFO - Email entered successfully.
+2025-09-05 21:58:34,809 - INFO - Valid Email entered successfully.
+2025-09-05 21:58:35,141 - INFO - Password entered successfully.
+2025-09-05 21:58:35,142 - INFO - Valid Password entered successfully.
+2025-09-05 21:58:35,360 - INFO - Confirm Password entered successfully.
+2025-09-05 21:58:35,361 - INFO - Valid Confirm Password entered successfully.
+2025-09-05 21:58:36,160 - INFO - Sign Up button clicked successfully.
+2025-09-05 21:58:36,160 - INFO - Sign Up button clicked successfully.
+2025-09-05 21:58:38,241 - INFO - Actual error message: {actual_error_message}
+2025-09-05 21:58:38,241 - INFO - Test Passed. Expected Error Message matches with Actual Error Message.
+2025-09-05 21:58:38,241 - INFO - Expected: Please input your full name!
+2025-09-05 21:58:38,241 - INFO - Actual: Please input your full name!
+2025-09-05 21:58:38,252 - INFO - Registration correctly prevented with invalid Full Name
+2025-09-05 21:58:38,252 - INFO - TC_Val_01 Completed..
+2025-09-05 21:58:38,253 - INFO - Script complete.
+2025-09-05 21:58:40,608 - INFO - Ending browser session...
+2025-09-05 21:58:40,608 - INFO - ...................
+2025-09-05 21:58:40,609 - INFO - ...................
+2025-09-05 21:58:40,611 - INFO - Starting browser session with chrome...
+2025-09-05 21:58:42,286 - INFO - chrome browser launched successfully.
+2025-09-05 21:58:43,846 - INFO - URL opened successfully.
+2025-09-05 21:58:43,849 - INFO - TC_Val_03 Started..
+2025-09-05 21:58:43,849 - INFO - Verify registration fails with invalid Email (without @)
+2025-09-05 21:58:44,408 - INFO - Sign Up for Free button clicked successfully.
+2025-09-05 21:58:44,408 - INFO - Navigated to Sign Up page successfully.
+2025-09-05 21:58:46,744 - INFO - Full Name entered successfully.
+2025-09-05 21:58:46,744 - INFO - Valid Full Name entered successfully.
+2025-09-05 21:58:47,099 - INFO - Email entered successfully.
+2025-09-05 21:58:47,100 - INFO - Invalid Email 'test' entered successfully.
+2025-09-05 21:58:47,387 - INFO - Password entered successfully.
+2025-09-05 21:58:47,387 - INFO - Valid Password entered successfully.
+2025-09-05 21:58:47,639 - INFO - Confirm Password entered successfully.
+2025-09-05 21:58:47,639 - INFO - Valid Confirm Password entered successfully.
+2025-09-05 21:58:48,458 - INFO - Sign Up button clicked successfully.
+2025-09-05 21:58:48,459 - INFO - Sign Up button clicked successfully.
+2025-09-05 21:58:50,550 - INFO - Test Passed. Expected Error Message matches with Actual Error Message.
+2025-09-05 21:58:50,551 - INFO - Expected: Please enter a valid email!
+2025-09-05 21:58:50,551 - INFO - Actual: Please enter a valid email!
+2025-09-05 21:58:50,558 - INFO - Registration correctly prevented with invalid email format
+2025-09-05 21:58:50,559 - INFO - Test completed with invalid email format: 'test'
+2025-09-05 21:58:50,559 - INFO - TC_Val_03 Completed..
+2025-09-05 21:58:50,559 - INFO - Script complete.
+2025-09-05 21:58:52,919 - INFO - Ending browser session...
+2025-09-05 21:58:52,920 - INFO - ...................
+2025-09-05 21:58:52,920 - INFO - ...................
+2025-09-05 21:58:52,925 - INFO - Starting browser session with chrome...
+2025-09-05 21:58:54,539 - INFO - chrome browser launched successfully.
+2025-09-05 21:58:56,192 - INFO - URL opened successfully.
+2025-09-05 21:58:56,193 - INFO - TC_Val_07 Started..
+2025-09-05 21:58:56,193 - INFO - Verify registration fails with mismatched passwords
+2025-09-05 21:58:56,422 - INFO - Sign Up for Free button clicked successfully.
+2025-09-05 21:58:56,422 - INFO - Navigated to Sign Up page successfully.
+2025-09-05 21:58:58,680 - INFO - Full Name entered successfully.
+2025-09-05 21:58:58,680 - INFO - Valid Full Name entered successfully.
+2025-09-05 21:58:59,037 - INFO - Email entered successfully.
+2025-09-05 21:58:59,037 - INFO - Valid Email entered successfully.
+2025-09-05 21:58:59,455 - INFO - Password entered successfully.
+2025-09-05 21:58:59,455 - INFO - Password 'TestPass123' entered successfully.
+2025-09-05 21:58:59,699 - INFO - Confirm Password entered successfully.
+2025-09-05 21:58:59,700 - INFO - Mismatched Confirm Password 'TestPass456' entered successfully.
+2025-09-05 21:59:00,540 - INFO - Sign Up button clicked successfully.
+2025-09-05 21:59:00,540 - INFO - Sign Up button clicked successfully.
+2025-09-05 21:59:02,603 - INFO - Test Passed. Expected Error Message matches with Actual Error Message.
+2025-09-05 21:59:02,603 - INFO - Expected: The two passwords do not match!
+2025-09-05 21:59:02,603 - INFO - Actual: The two passwords do not match!
+2025-09-05 21:59:02,614 - INFO - Registration correctly prevented with mismatched passwords
+2025-09-05 21:59:02,614 - INFO - Password mismatch test completed:
+2025-09-05 21:59:02,614 - INFO - Password: TestPass123
+2025-09-05 21:59:02,615 - INFO - Confirm Password: TestPass456
+2025-09-05 21:59:02,615 - INFO - Registration correctly rejected due to password mismatch.
+2025-09-05 21:59:02,615 - INFO - TC_Val_07 Completed..
+2025-09-05 21:59:02,616 - INFO - Script complete.
+2025-09-05 21:59:04,921 - INFO - Ending browser session...
+2025-09-05 21:59:04,921 - INFO - ...................
+2025-09-05 21:59:04,922 - INFO - ...................
