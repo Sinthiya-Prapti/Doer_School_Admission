@@ -1,6 +1,12 @@
 import logging
 import time
+
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
+
 import pytest
+from selenium.webdriver.support.wait import WebDriverWait
+
 from utils.screenshot_utils import capture_full_page_screenshot
 from pages.admission_portal_page import AdmissionPortalPage
 from utils.data_loader import load_all_test_data
@@ -17,8 +23,14 @@ def test_tc_ad_01(browser_config, test_case):
     admission_portal_page = AdmissionPortalPage(driver, wait)
 
     try:
-        # Wait for page to load completely
-        time.sleep(3)
+        # 0. Wait for admission cards container to appear first
+        container = WebDriverWait(driver, 10).until(
+            EC.visibility_of_element_located(
+                (By.XPATH, "//div[@class='hidden md:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8']")
+            )
+        )
+
+        logging.info("Admission cards container is visible. Starting test...")
 
         # 1. Verify admission cards are visible
         are_cards_visible = admission_portal_page.are_admission_cards_visible()
@@ -29,15 +41,6 @@ def test_tc_ad_01(browser_config, test_case):
             capture_full_page_screenshot(driver, "TC_AD_01_cards_not_visible")
             pytest.fail("Test Failed. Admission cards are not visible.")
 
-        # 2. Check if ongoing admissions message is displayed
-        try:
-            ongoing_message = admission_portal_page.get_ongoing_admissions_message()
-            if "ongoing admissions" in ongoing_message.lower():
-                logging.info(f"Ongoing admissions message displayed: {ongoing_message}")
-            else:
-                logging.warning(f"Unexpected message displayed: {ongoing_message}")
-        except Exception as e:
-            logging.warning("Ongoing admissions message element not found, but this might be acceptable.")
 
         # 3. Count admission cards
         try:

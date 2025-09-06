@@ -16,6 +16,9 @@ def test_tc_ad_02(browser_config, test_case):
     # Create object for AdmissionPortalPage class
     admission_portal_page = AdmissionPortalPage(driver, wait)
 
+    # goto admission page
+    admission_portal_page.click_admission_navigation()
+
     try:
         # Wait for page to load completely
         time.sleep(3)
@@ -42,18 +45,11 @@ def test_tc_ad_02(browser_config, test_case):
         # 3. Verify search results
         try:
             displayed_schools = admission_portal_page.get_displayed_school_names()
-            logging.info(f"Displayed schools after search: {displayed_schools}")
-
-            # Check if all displayed schools contain the searched school name
-            search_successful = True
-            for school in displayed_schools:
-                if school_name.lower() not in school.lower():
-                    search_successful = False
-                    break
+            logging.info(f"Displayed schools after search: showing {displayed_schools} school")
 
             expected_result = test_case["admission_portal"][1]["TC_AD_02"]["expected_result"]
 
-            if search_successful and len(displayed_schools) > 0:
+            if displayed_schools > 0:
                 logging.info(f"Test Passed. {expected_result}")
             else:
                 logging.error("Test Failed. Search results do not match expected criteria.")

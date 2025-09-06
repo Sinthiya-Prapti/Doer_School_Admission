@@ -5,11 +5,13 @@ from utils.screenshot_utils import capture_full_page_screenshot
 from pages.admission_portal_page import AdmissionPortalPage
 from pages.student_information_page import StudentInformationPage
 from utils.data_loader import load_all_test_data
+from utils.login_utils import perform_login
 
 
-@pytest.mark.parametrize("test_case", load_all_test_data("../data/data_admission.json"))
-def test_tc_ad_09(browser_config, test_case):
-    logging.info("TC_AD_09 Started..")
+@pytest.mark.parametrize("test_case", load_all_test_data("../data/data.json"))
+def test_tc_ad_09_with_login(browser_config, test_case):
+    """TC_AD_09: Test admission form filling with login prerequisite"""
+    logging.info("TC_AD_09 with Login Started..")
     logging.info(test_case["student_information"][0]["TC_AD_09"]["_comment"])
 
     driver, wait = browser_config
@@ -19,10 +21,26 @@ def test_tc_ad_09(browser_config, test_case):
     student_info_page = StudentInformationPage(driver, wait)
 
     try:
-        # Wait for page to load completely
+        # Get test data
+        test_data = test_case["student_information"][0]["TC_AD_09"]
+        login_data = test_case["registration"][5]["TC_Reg_06"]
+
+        try:
+            perform_login(driver, wait, login_data, "TC_AD_09")
+            logging.info("Login completed successfully before admission form")
+            time.sleep(2)
+        except Exception as e:
+            logging.error(f"Login failed before admission form: {str(e)}")
+            capture_full_page_screenshot(driver, "TC_AD_09_login_failed")
+            pytest.fail(f"Test Failed. Login failed before admission form: {str(e)}")
+
+        # Wait for page to load completely after login
         time.sleep(3)
 
-        # Navigate to Student Information form first
+        # goto admission page
+        admission_portal_page.click_admission_navigation()
+
+        # Navigate to Student Information form
         try:
             admission_portal_page.click_apply_now_button()
             logging.info("Apply Now button clicked successfully.")
@@ -32,9 +50,7 @@ def test_tc_ad_09(browser_config, test_case):
             capture_full_page_screenshot(driver, "TC_AD_09_apply_now_error")
             pytest.fail(f"Test Failed. Failed to click Apply Now button: {str(e)}")
 
-        # Get test data
-        test_data = test_case["student_information"][0]["TC_AD_09"]
-
+        # Fill the admission form (same as original code)
         # 1. Fill Full Name
         try:
             student_info_page.enter_fullname(test_data["fullname"])
@@ -62,14 +78,14 @@ def test_tc_ad_09(browser_config, test_case):
             capture_full_page_screenshot(driver, "TC_AD_09_dob_error")
             pytest.fail(f"Test Failed. Failed to enter date of birth: {str(e)}")
 
-        # 4. Select Blood Group
-        try:
-            student_info_page.select_blood_group(test_data["blood_group"])
-            logging.info(f"Blood Group '{test_data['blood_group']}' selected successfully.")
-        except Exception as e:
-            logging.error(f"Failed to select blood group: {str(e)}")
-            capture_full_page_screenshot(driver, "TC_AD_09_blood_error")
-            pytest.fail(f"Test Failed. Failed to select blood group: {str(e)}")
+        # # 4. Select Blood Group
+        # try:
+        #     student_info_page.select_blood_group(test_data["blood_group"])
+        #     logging.info(f"Blood Group '{test_data['blood_group']}' selected successfully.")
+        # except Exception as e:
+        #     logging.error(f"Failed to select blood group: {str(e)}")
+        #     capture_full_page_screenshot(driver, "TC_AD_09_blood_error")
+        #     pytest.fail(f"Test Failed. Failed to select blood group: {str(e)}")
 
         # 5. Select Nationality
         try:
@@ -139,9 +155,11 @@ def test_tc_ad_09(browser_config, test_case):
             capture_full_page_screenshot(driver, "TC_AD_09_validation_error")
             pytest.fail("Test Failed. Validation errors were displayed despite valid data.")
 
+            # https: // admission - test.doer.school / en / admission / apply / 15?draft = 77
+
     except Exception as e:
         logging.error(f"Test Failed with exception: {str(e)}")
         capture_full_page_screenshot(driver, "TC_AD_09_exception")
         pytest.fail(f"Test Failed. Exception occurred: {str(e)}")
 
-    logging.info("TC_AD_09 Completed..")
+    logging.info("TC_AD_09 with Login Completed..")

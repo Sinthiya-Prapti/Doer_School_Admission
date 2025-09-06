@@ -1,383 +1,686 @@
-2025-09-02 21:46:01,267 - INFO - Starting browser session with chrome...
-2025-09-02 21:46:03,162 - INFO - chrome browser launched successfully.
-2025-09-02 21:46:04,430 - INFO - URL opened successfully.
-2025-09-02 21:46:04,432 - INFO - TC_Reg_16 Started..
-2025-09-02 21:46:04,432 - INFO - Verify Page Responsive Design
-2025-09-02 21:46:04,433 - INFO - Testing homepage responsiveness...
-2025-09-02 21:46:05,004 - INFO - Set browser size to desktop: 1920x1080
-2025-09-02 21:46:10,263 - INFO - Homepage heading visible on desktop: Your Child's Future Begins Here
-2025-09-02 21:46:10,392 - INFO - Sign Up for Free button clicked successfully.
-2025-09-02 21:46:10,392 - INFO - Sign Up button functional on desktop
-2025-09-02 21:46:11,499 - INFO - Set browser size to mobile: 375x667
-2025-09-02 21:46:16,968 - WARNING - Homepage heading not visible on mobile
-2025-09-02 21:46:37,387 - ERROR - Sign Up for Free button not found: Message: 
+2025-09-06 21:30:40,782 - INFO - Starting browser session with chrome...
+2025-09-06 21:30:42,379 - INFO - chrome browser launched successfully.
+2025-09-06 21:30:43,328 - INFO - URL opened successfully.
+2025-09-06 21:30:43,329 - INFO - TC_AD_09 with Login Started..
+2025-09-06 21:30:43,329 - INFO - Verify Student Personal Information Form with Valid Data
+2025-09-06 21:30:43,330 - INFO - Starting login process for TC_AD_09
+2025-09-06 21:30:43,982 - INFO - Sign Up for Free button clicked successfully.
+2025-09-06 21:30:43,982 - INFO - Navigated to Sign Up page successfully.
+2025-09-06 21:30:46,145 - INFO - Sign In link clicked successfully.
+2025-09-06 21:30:46,145 - INFO - Navigated to Sign In page successfully.
+2025-09-06 21:30:48,177 - INFO - Sign In page loaded successfully.
+2025-09-06 21:30:48,623 - INFO - Email entered successfully in login form.
+2025-09-06 21:30:48,623 - INFO - Email entered successfully in login form.
+2025-09-06 21:30:48,863 - INFO - Password entered successfully in login form.
+2025-09-06 21:30:48,863 - INFO - Password entered successfully in login form.
+2025-09-06 21:30:49,692 - INFO - Log In button clicked successfully.
+2025-09-06 21:30:49,692 - INFO - Log In button clicked successfully.
+2025-09-06 21:30:53,489 - INFO - Login success message found: Login successful!
+2025-09-06 21:30:53,504 - INFO - User authentication indicators found - login confirmed
+2025-09-06 21:30:53,504 - INFO - Login completed successfully for user: john.doe.test__16@gmail.com
+2025-09-06 21:30:53,504 - INFO - Login completed successfully before admission form
+2025-09-06 21:31:06,009 - INFO - Apply Now button clicked successfully.
+2025-09-06 21:31:08,238 - INFO - Full Name 'John Doe' entered successfully.
+2025-09-06 21:31:09,062 - INFO - Gender 'Male' selected successfully.
+2025-09-06 21:31:09,336 - INFO - Date of Birth '01/01/2010' entered successfully.
+2025-09-06 21:31:10,200 - INFO - Nationality 'Bangladeshi' selected successfully.
+2025-09-06 21:31:11,034 - INFO - Religion 'Islam' selected successfully.
+2025-09-06 21:31:11,286 - INFO - Contact number '01712345678' entered successfully.
+2025-09-06 21:31:11,685 - INFO - Email 'john@example.com' entered successfully.
+2025-09-06 21:31:11,939 - INFO - Present Address 'mohakhali' entered successfully.
+2025-09-06 21:31:13,113 - ERROR - Failed to click Save & Continue button: Message: element click intercepted: Element is not clickable at point (1277, 1372)
+  (Session info: chrome=139.0.7258.157); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a2e13d85+79397]
+	GetHandleVerifier [0x0x7ff6a2e13de0+79488]
+	(No symbol) [0x0x7ff6a2bbc0fa]
+	(No symbol) [0x0x7ff6a2c1afd9]
+	(No symbol) [0x0x7ff6a2c18972]
+	(No symbol) [0x0x7ff6a2c159c1]
+	(No symbol) [0x0x7ff6a2c148b1]
+	(No symbol) [0x0x7ff6a2c060e8]
+	(No symbol) [0x0x7ff6a2c3b19a]
+	(No symbol) [0x0x7ff6a2c05996]
+	(No symbol) [0x0x7ff6a2c3b3b0]
+	(No symbol) [0x0x7ff6a2c63344]
+	(No symbol) [0x0x7ff6a2c3af73]
+	(No symbol) [0x0x7ff6a2c041b1]
+	(No symbol) [0x0x7ff6a2c04f43]
+	GetHandleVerifier [0x0x7ff6a30de1ed+3005069]
+	GetHandleVerifier [0x0x7ff6a30d831d+2980797]
+	GetHandleVerifier [0x0x7ff6a30f7e0d+3110573]
+	GetHandleVerifier [0x0x7ff6a2e2d6de+184190]
+	GetHandleVerifier [0x0x7ff6a2e3516f+215567]
+	GetHandleVerifier [0x0x7ff6a2e1c974+115220]
+	GetHandleVerifier [0x0x7ff6a2e1cb29+115657]
+	GetHandleVerifier [0x0x7ff6a2e03268+11016]
+	BaseThreadInitThunk [0x0x7ffbf38ee8d7+23]
+	RtlUserThreadStart [0x0x7ffbf575c34c+44]
 
-2025-09-02 21:46:37,388 - ERROR - Homepage functionality test failed on mobile: Message: 
+2025-09-06 21:31:13,970 - INFO - Script complete.
+2025-09-06 21:31:16,375 - INFO - Ending browser session...
+2025-09-06 21:31:16,376 - INFO - ...................
+2025-09-06 21:31:16,376 - INFO - ...................
+2025-09-06 21:34:38,879 - INFO - Starting browser session with chrome...
+2025-09-06 21:34:40,573 - INFO - chrome browser launched successfully.
+2025-09-06 21:34:40,754 - INFO - URL opened successfully.
+2025-09-06 21:34:40,757 - INFO - TC_AD_09 with Login Started..
+2025-09-06 21:34:40,757 - INFO - Verify Student Personal Information Form with Valid Data
+2025-09-06 21:34:40,758 - INFO - Starting login process for TC_AD_09
+2025-09-06 21:34:42,592 - INFO - Sign Up for Free button clicked successfully.
+2025-09-06 21:34:42,592 - INFO - Navigated to Sign Up page successfully.
+2025-09-06 21:34:44,825 - INFO - Sign In link clicked successfully.
+2025-09-06 21:34:44,826 - INFO - Navigated to Sign In page successfully.
+2025-09-06 21:34:46,862 - INFO - Sign In page loaded successfully.
+2025-09-06 21:34:47,304 - INFO - Email entered successfully in login form.
+2025-09-06 21:34:47,304 - INFO - Email entered successfully in login form.
+2025-09-06 21:34:47,540 - INFO - Password entered successfully in login form.
+2025-09-06 21:34:47,541 - INFO - Password entered successfully in login form.
+2025-09-06 21:34:48,412 - INFO - Log In button clicked successfully.
+2025-09-06 21:34:48,412 - INFO - Log In button clicked successfully.
+2025-09-06 21:34:52,262 - INFO - Login success message found: Login successful!
+2025-09-06 21:34:52,278 - INFO - User authentication indicators found - login confirmed
+2025-09-06 21:34:52,278 - INFO - Login completed successfully for user: john.doe.test__16@gmail.com
+2025-09-06 21:34:52,278 - INFO - Login completed successfully before admission form
+2025-09-06 21:35:04,549 - INFO - Apply Now button clicked successfully.
+2025-09-06 21:35:06,757 - INFO - Full Name 'John Doe' entered successfully.
+2025-09-06 21:35:07,580 - INFO - Gender 'Male' selected successfully.
+2025-09-06 21:35:07,838 - INFO - Date of Birth '01/01/2010' entered successfully.
+2025-09-06 21:35:08,724 - INFO - Nationality 'Bangladeshi' selected successfully.
+2025-09-06 21:35:09,575 - INFO - Religion 'Islam' selected successfully.
+2025-09-06 21:35:09,890 - INFO - Contact number '01712345678' entered successfully.
+2025-09-06 21:35:10,201 - INFO - Email 'john@example.com' entered successfully.
+2025-09-06 21:35:10,427 - INFO - Present Address 'mohakhali' entered successfully.
+2025-09-06 21:35:13,607 - INFO - Save & Continue button clicked successfully.
+2025-09-06 21:35:21,640 - INFO - Test Passed. All fields successfully accepted valid inputs without any errors
+2025-09-06 21:35:21,640 - INFO - TC_AD_09 with Login Completed..
+2025-09-06 21:35:21,644 - INFO - Script complete.
+2025-09-06 21:35:24,018 - INFO - Ending browser session...
+2025-09-06 21:35:24,018 - INFO - ...................
+2025-09-06 21:35:24,018 - INFO - ...................
+2025-09-06 21:39:12,662 - INFO - Starting browser session with chrome...
+2025-09-06 21:39:14,222 - INFO - chrome browser launched successfully.
+2025-09-06 21:39:15,423 - INFO - URL opened successfully.
+2025-09-06 21:39:15,425 - INFO - TC_AD_09 with Login Started..
+2025-09-06 21:39:15,425 - INFO - Verify Student Personal Information Form with Valid Data
+2025-09-06 21:39:15,425 - INFO - Starting login process for TC_AD_09
+2025-09-06 21:39:16,196 - INFO - Sign Up for Free button clicked successfully.
+2025-09-06 21:39:16,196 - INFO - Navigated to Sign Up page successfully.
+2025-09-06 21:39:18,357 - INFO - Sign In link clicked successfully.
+2025-09-06 21:39:18,359 - INFO - Navigated to Sign In page successfully.
+2025-09-06 21:39:20,420 - INFO - Sign In page loaded successfully.
+2025-09-06 21:39:20,860 - INFO - Email entered successfully in login form.
+2025-09-06 21:39:20,860 - INFO - Email entered successfully in login form.
+2025-09-06 21:39:21,164 - INFO - Password entered successfully in login form.
+2025-09-06 21:39:21,164 - INFO - Password entered successfully in login form.
+2025-09-06 21:39:22,010 - INFO - Log In button clicked successfully.
+2025-09-06 21:39:22,011 - INFO - Log In button clicked successfully.
+2025-09-06 21:39:25,877 - INFO - Login success message found: Login successful!
+2025-09-06 21:39:25,892 - INFO - User authentication indicators found - login confirmed
+2025-09-06 21:39:25,892 - INFO - Login completed successfully for user: john.doe.test__16@gmail.com
+2025-09-06 21:39:25,892 - INFO - Login completed successfully before admission form
+2025-09-06 21:39:38,187 - INFO - Apply Now button clicked successfully.
+2025-09-06 21:39:40,413 - INFO - Full Name 'John Doe' entered successfully.
+2025-09-06 21:39:41,270 - INFO - Gender 'Male' selected successfully.
+2025-09-06 21:39:42,453 - ERROR - Failed to enter date of birth: not enough values to unpack (expected 3, got 1)
+2025-09-06 21:39:43,259 - INFO - Script complete.
+2025-09-06 21:39:46,732 - INFO - Ending browser session...
+2025-09-06 21:39:46,732 - INFO - ...................
+2025-09-06 21:39:46,733 - INFO - ...................
+2025-09-06 21:43:51,802 - INFO - Starting browser session with chrome...
+2025-09-06 21:43:53,755 - INFO - chrome browser launched successfully.
+2025-09-06 21:43:55,449 - INFO - URL opened successfully.
+2025-09-06 21:43:55,450 - INFO - TC_AD_09 with Login Started..
+2025-09-06 21:43:55,450 - INFO - Verify Student Personal Information Form with Valid Data
+2025-09-06 21:43:55,451 - INFO - Starting login process for TC_AD_09
+2025-09-06 21:43:55,795 - INFO - Sign Up for Free button clicked successfully.
+2025-09-06 21:43:55,795 - INFO - Navigated to Sign Up page successfully.
+2025-09-06 21:43:57,942 - INFO - Sign In link clicked successfully.
+2025-09-06 21:43:57,942 - INFO - Navigated to Sign In page successfully.
+2025-09-06 21:44:00,051 - INFO - Sign In page loaded successfully.
+2025-09-06 21:44:00,476 - INFO - Email entered successfully in login form.
+2025-09-06 21:44:00,478 - INFO - Email entered successfully in login form.
+2025-09-06 21:44:00,704 - INFO - Password entered successfully in login form.
+2025-09-06 21:44:00,704 - INFO - Password entered successfully in login form.
+2025-09-06 21:44:01,544 - INFO - Log In button clicked successfully.
+2025-09-06 21:44:01,544 - INFO - Log In button clicked successfully.
+2025-09-06 21:44:05,447 - INFO - Login success message found: Login successful!
+2025-09-06 21:44:05,466 - INFO - User authentication indicators found - login confirmed
+2025-09-06 21:44:05,466 - INFO - Login completed successfully for user: john.doe.test__16@gmail.com
+2025-09-06 21:44:05,466 - INFO - Login completed successfully before admission form
+2025-09-06 21:44:17,914 - INFO - Apply Now button clicked successfully.
+2025-09-06 21:44:20,147 - INFO - Full Name 'John Doe' entered successfully.
+2025-09-06 21:44:20,982 - INFO - Gender 'Male' selected successfully.
+2025-09-06 21:44:22,011 - INFO - Date of Birth '2000-05-15' entered successfully.
+2025-09-06 21:44:22,927 - INFO - Nationality 'Bangladeshi' selected successfully.
+2025-09-06 21:44:23,756 - INFO - Religion 'Islam' selected successfully.
+2025-09-06 21:44:24,012 - INFO - Contact number '01712345678' entered successfully.
+2025-09-06 21:44:24,298 - INFO - Email 'john@example.com' entered successfully.
+2025-09-06 21:44:24,480 - INFO - Present Address 'mohakhali' entered successfully.
+2025-09-06 21:44:27,695 - INFO - Save & Continue button clicked successfully.
+2025-09-06 21:44:35,730 - INFO - Test Passed. All fields successfully accepted valid inputs without any errors
+2025-09-06 21:44:35,730 - INFO - TC_AD_09 with Login Completed..
+2025-09-06 21:44:35,733 - INFO - Script complete.
+2025-09-06 21:44:38,109 - INFO - Ending browser session...
+2025-09-06 21:44:38,110 - INFO - ...................
+2025-09-06 21:44:38,110 - INFO - ...................
+2025-09-06 21:45:25,140 - INFO - Starting browser session with chrome...
+2025-09-06 21:45:26,769 - INFO - chrome browser launched successfully.
+2025-09-06 21:45:29,573 - INFO - URL opened successfully.
+2025-09-06 21:45:29,574 - INFO - TC_AD_09 with Login Started..
+2025-09-06 21:45:29,574 - INFO - Verify Student Personal Information Form with Valid Data
+2025-09-06 21:45:29,574 - INFO - Starting login process for TC_AD_09
+2025-09-06 21:45:29,713 - INFO - Sign Up for Free button clicked successfully.
+2025-09-06 21:45:29,713 - INFO - Navigated to Sign Up page successfully.
+2025-09-06 21:45:31,897 - INFO - Sign In link clicked successfully.
+2025-09-06 21:45:31,897 - INFO - Navigated to Sign In page successfully.
+2025-09-06 21:45:33,953 - INFO - Sign In page loaded successfully.
+2025-09-06 21:45:34,394 - INFO - Email entered successfully in login form.
+2025-09-06 21:45:34,394 - INFO - Email entered successfully in login form.
+2025-09-06 21:45:34,635 - INFO - Password entered successfully in login form.
+2025-09-06 21:45:34,635 - INFO - Password entered successfully in login form.
+2025-09-06 21:45:35,614 - INFO - Log In button clicked successfully.
+2025-09-06 21:45:35,614 - INFO - Log In button clicked successfully.
+2025-09-06 21:45:39,586 - INFO - Login success message found: Login successful!
+2025-09-06 21:45:39,624 - INFO - User authentication indicators found - login confirmed
+2025-09-06 21:45:39,624 - INFO - Login completed successfully for user: john.doe.test__16@gmail.com
+2025-09-06 21:45:39,624 - INFO - Login completed successfully before admission form
+2025-09-06 21:45:51,939 - INFO - Apply Now button clicked successfully.
+2025-09-06 21:45:54,162 - INFO - Full Name 'John Doe' entered successfully.
+2025-09-06 21:45:55,000 - INFO - Gender 'Male' selected successfully.
+2025-09-06 21:45:56,024 - INFO - Date of Birth '2000-05-15' entered successfully.
+2025-09-06 21:45:56,985 - INFO - Nationality 'Bangladeshi' selected successfully.
+2025-09-06 21:45:57,822 - INFO - Religion 'Islam' selected successfully.
+2025-09-06 21:45:58,139 - INFO - Contact number '01712345678' entered successfully.
+2025-09-06 21:45:58,457 - INFO - Email 'john@example.com' entered successfully.
+2025-09-06 21:45:58,673 - INFO - Present Address 'mohakhali' entered successfully.
+2025-09-06 21:46:01,920 - INFO - Save & Continue button clicked successfully.
+2025-09-06 21:46:10,000 - INFO - Test Passed. All fields successfully accepted valid inputs without any errors
+2025-09-06 21:46:10,001 - INFO - TC_AD_09 with Login Completed..
+2025-09-06 21:46:10,005 - INFO - Script complete.
+2025-09-06 21:46:12,411 - INFO - Ending browser session...
+2025-09-06 21:46:12,412 - INFO - ...................
+2025-09-06 21:46:12,412 - INFO - ...................
+2025-09-06 21:49:15,589 - INFO - Starting browser session with chrome...
+2025-09-06 21:49:17,235 - INFO - chrome browser launched successfully.
+2025-09-06 21:49:18,682 - INFO - URL opened successfully.
+2025-09-06 21:49:18,683 - INFO - TC_AD_09 with Login Started..
+2025-09-06 21:49:18,683 - INFO - Verify Student Personal Information Form with Valid Data
+2025-09-06 21:49:18,683 - INFO - Starting login process for TC_AD_09
+2025-09-06 21:49:18,899 - INFO - Sign Up for Free button clicked successfully.
+2025-09-06 21:49:18,899 - INFO - Navigated to Sign Up page successfully.
+2025-09-06 21:49:21,060 - INFO - Sign In link clicked successfully.
+2025-09-06 21:49:21,061 - INFO - Navigated to Sign In page successfully.
+2025-09-06 21:49:23,106 - INFO - Sign In page loaded successfully.
+2025-09-06 21:49:23,536 - INFO - Email entered successfully in login form.
+2025-09-06 21:49:23,536 - INFO - Email entered successfully in login form.
+2025-09-06 21:49:23,835 - INFO - Password entered successfully in login form.
+2025-09-06 21:49:23,835 - INFO - Password entered successfully in login form.
+2025-09-06 21:49:24,795 - INFO - Log In button clicked successfully.
+2025-09-06 21:49:24,795 - INFO - Log In button clicked successfully.
+2025-09-06 21:49:28,698 - INFO - Login success message found: Login successful!
+2025-09-06 21:49:28,719 - INFO - User authentication indicators found - login confirmed
+2025-09-06 21:49:28,719 - INFO - Login completed successfully for user: john.doe.test__16@gmail.com
+2025-09-06 21:49:28,719 - INFO - Login completed successfully before admission form
+2025-09-06 21:49:41,014 - INFO - Apply Now button clicked successfully.
+2025-09-06 21:49:43,250 - INFO - Full Name 'John Doe' entered successfully.
+2025-09-06 21:49:44,098 - INFO - Gender 'Male' selected successfully.
+2025-09-06 21:50:06,924 - ERROR - Failed to enter date of birth: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a2e13d85+79397]
+	GetHandleVerifier [0x0x7ff6a2e13de0+79488]
+	(No symbol) [0x0x7ff6a2bbc0fa]
+	(No symbol) [0x0x7ff6a2c12fd6]
+	(No symbol) [0x0x7ff6a2c1328c]
+	(No symbol) [0x0x7ff6a2c66537]
+	(No symbol) [0x0x7ff6a2c3b1df]
+	(No symbol) [0x0x7ff6a2c63344]
+	(No symbol) [0x0x7ff6a2c3af73]
+	(No symbol) [0x0x7ff6a2c041b1]
+	(No symbol) [0x0x7ff6a2c04f43]
+	GetHandleVerifier [0x0x7ff6a30de1ed+3005069]
+	GetHandleVerifier [0x0x7ff6a30d831d+2980797]
+	GetHandleVerifier [0x0x7ff6a30f7e0d+3110573]
+	GetHandleVerifier [0x0x7ff6a2e2d6de+184190]
+	GetHandleVerifier [0x0x7ff6a2e3516f+215567]
+	GetHandleVerifier [0x0x7ff6a2e1c974+115220]
+	GetHandleVerifier [0x0x7ff6a2e1cb29+115657]
+	GetHandleVerifier [0x0x7ff6a2e03268+11016]
+	BaseThreadInitThunk [0x0x7ffbf38ee8d7+23]
+	RtlUserThreadStart [0x0x7ffbf575c34c+44]
 
-2025-09-02 21:46:38,020 - INFO - Testing Sign Up page responsiveness...
-2025-09-02 21:46:38,378 - INFO - Testing Sign Up page on desktop: 1920x1080
-2025-09-02 21:46:42,876 - INFO - Sign Up for Free button clicked successfully.
-2025-09-02 21:46:45,915 - INFO - Sign Up heading visible on desktop
-2025-09-02 21:46:46,005 - INFO - All form fields visible on desktop
-2025-09-02 21:46:46,259 - INFO - Full Name entered successfully.
-2025-09-02 21:46:46,583 - INFO - Email entered successfully.
-2025-09-02 21:46:46,835 - INFO - Password entered successfully.
-2025-09-02 21:46:47,133 - INFO - Confirm Password entered successfully.
-2025-09-02 21:46:47,133 - INFO - Form interaction successful on desktop
-2025-09-02 21:46:49,987 - INFO - Testing Sign Up page on mobile: 375x667
-2025-09-02 21:47:14,668 - ERROR - Sign Up for Free button not found: Message: 
+2025-09-06 21:50:07,713 - INFO - Script complete.
+2025-09-06 21:50:10,091 - INFO - Ending browser session...
+2025-09-06 21:50:10,092 - INFO - ...................
+2025-09-06 21:50:10,092 - INFO - ...................
+2025-09-06 21:56:32,014 - INFO - Starting browser session with chrome...
+2025-09-06 21:56:33,686 - INFO - chrome browser launched successfully.
+2025-09-06 21:56:34,960 - INFO - URL opened successfully.
+2025-09-06 21:56:34,961 - INFO - TC_AD_09 with Login Started..
+2025-09-06 21:56:34,961 - INFO - Verify Student Personal Information Form with Valid Data
+2025-09-06 21:56:34,961 - INFO - Starting login process for TC_AD_09
+2025-09-06 21:56:35,630 - INFO - Sign Up for Free button clicked successfully.
+2025-09-06 21:56:35,630 - INFO - Navigated to Sign Up page successfully.
+2025-09-06 21:56:37,796 - INFO - Sign In link clicked successfully.
+2025-09-06 21:56:37,797 - INFO - Navigated to Sign In page successfully.
+2025-09-06 21:56:39,840 - INFO - Sign In page loaded successfully.
+2025-09-06 21:56:40,286 - INFO - Email entered successfully in login form.
+2025-09-06 21:56:40,286 - INFO - Email entered successfully in login form.
+2025-09-06 21:56:40,527 - INFO - Password entered successfully in login form.
+2025-09-06 21:56:40,527 - INFO - Password entered successfully in login form.
+2025-09-06 21:56:41,323 - INFO - Log In button clicked successfully.
+2025-09-06 21:56:41,323 - INFO - Log In button clicked successfully.
+2025-09-06 21:56:45,197 - INFO - Login success message found: Login successful!
+2025-09-06 21:56:45,214 - INFO - User authentication indicators found - login confirmed
+2025-09-06 21:56:45,214 - INFO - Login completed successfully for user: john.doe.test__16@gmail.com
+2025-09-06 21:56:45,214 - INFO - Login completed successfully before admission form
+2025-09-06 21:56:57,489 - INFO - Apply Now button clicked successfully.
+2025-09-06 21:56:59,712 - INFO - Full Name 'John Doe' entered successfully.
+2025-09-06 21:57:00,575 - INFO - Gender 'Male' selected successfully.
+2025-09-06 21:57:00,757 - INFO - Date picker opened
+2025-09-06 21:57:45,725 - ERROR - Error selecting year 2000: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a2e13d85+79397]
+	GetHandleVerifier [0x0x7ff6a2e13de0+79488]
+	(No symbol) [0x0x7ff6a2bbc0fa]
+	(No symbol) [0x0x7ff6a2c12fd6]
+	(No symbol) [0x0x7ff6a2c1328c]
+	(No symbol) [0x0x7ff6a2c66537]
+	(No symbol) [0x0x7ff6a2c3b1df]
+	(No symbol) [0x0x7ff6a2c63344]
+	(No symbol) [0x0x7ff6a2c3af73]
+	(No symbol) [0x0x7ff6a2c041b1]
+	(No symbol) [0x0x7ff6a2c04f43]
+	GetHandleVerifier [0x0x7ff6a30de1ed+3005069]
+	GetHandleVerifier [0x0x7ff6a30d831d+2980797]
+	GetHandleVerifier [0x0x7ff6a30f7e0d+3110573]
+	GetHandleVerifier [0x0x7ff6a2e2d6de+184190]
+	GetHandleVerifier [0x0x7ff6a2e3516f+215567]
+	GetHandleVerifier [0x0x7ff6a2e1c974+115220]
+	GetHandleVerifier [0x0x7ff6a2e1cb29+115657]
+	GetHandleVerifier [0x0x7ff6a2e03268+11016]
+	BaseThreadInitThunk [0x0x7ffbf38ee8d7+23]
+	RtlUserThreadStart [0x0x7ffbf575c34c+44]
 
-2025-09-02 21:47:14,668 - ERROR - Sign Up page testing failed on mobile: Message: 
+2025-09-06 21:57:45,726 - ERROR - Error navigating to year/month: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a2e13d85+79397]
+	GetHandleVerifier [0x0x7ff6a2e13de0+79488]
+	(No symbol) [0x0x7ff6a2bbc0fa]
+	(No symbol) [0x0x7ff6a2c12fd6]
+	(No symbol) [0x0x7ff6a2c1328c]
+	(No symbol) [0x0x7ff6a2c66537]
+	(No symbol) [0x0x7ff6a2c3b1df]
+	(No symbol) [0x0x7ff6a2c63344]
+	(No symbol) [0x0x7ff6a2c3af73]
+	(No symbol) [0x0x7ff6a2c041b1]
+	(No symbol) [0x0x7ff6a2c04f43]
+	GetHandleVerifier [0x0x7ff6a30de1ed+3005069]
+	GetHandleVerifier [0x0x7ff6a30d831d+2980797]
+	GetHandleVerifier [0x0x7ff6a30f7e0d+3110573]
+	GetHandleVerifier [0x0x7ff6a2e2d6de+184190]
+	GetHandleVerifier [0x0x7ff6a2e3516f+215567]
+	GetHandleVerifier [0x0x7ff6a2e1c974+115220]
+	GetHandleVerifier [0x0x7ff6a2e1cb29+115657]
+	GetHandleVerifier [0x0x7ff6a2e03268+11016]
+	BaseThreadInitThunk [0x0x7ffbf38ee8d7+23]
+	RtlUserThreadStart [0x0x7ffbf575c34c+44]
 
-2025-09-02 21:47:15,272 - INFO - Testing Sign In page responsiveness...
-2025-09-02 21:47:15,659 - INFO - Testing Sign In page on desktop: 1920x1080
-2025-09-02 21:47:20,276 - INFO - Sign Up for Free button clicked successfully.
-2025-09-02 21:47:22,456 - INFO - Sign In link clicked successfully.
-2025-09-02 21:47:25,511 - INFO - Sign In heading visible on desktop
-2025-09-02 21:47:25,601 - INFO - All Sign In elements visible on desktop
-2025-09-02 21:47:25,915 - INFO - Email entered successfully in login form.
-2025-09-02 21:47:26,218 - INFO - Password entered successfully in login form.
-2025-09-02 21:47:26,218 - INFO - Sign In form interaction successful on desktop
-2025-09-02 21:47:29,054 - INFO - Testing Sign In page on mobile: 375x667
-2025-09-02 21:47:53,568 - ERROR - Sign Up for Free button not found: Message: 
+2025-09-06 21:57:50,819 - ERROR - Error navigating with arrows: Message: no such element: Unable to locate element: {"method":"css selector","selector":".ant-picker-header-prev-btn"}
+  (Session info: chrome=139.0.7258.157); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a2e13d85+79397]
+	GetHandleVerifier [0x0x7ff6a2e13de0+79488]
+	(No symbol) [0x0x7ff6a2bbc0fa]
+	(No symbol) [0x0x7ff6a2c12fd6]
+	(No symbol) [0x0x7ff6a2c1328c]
+	(No symbol) [0x0x7ff6a2c66537]
+	(No symbol) [0x0x7ff6a2c3b1df]
+	(No symbol) [0x0x7ff6a2c63344]
+	(No symbol) [0x0x7ff6a2c3af73]
+	(No symbol) [0x0x7ff6a2c041b1]
+	(No symbol) [0x0x7ff6a2c04f43]
+	GetHandleVerifier [0x0x7ff6a30de1ed+3005069]
+	GetHandleVerifier [0x0x7ff6a30d831d+2980797]
+	GetHandleVerifier [0x0x7ff6a30f7e0d+3110573]
+	GetHandleVerifier [0x0x7ff6a2e2d6de+184190]
+	GetHandleVerifier [0x0x7ff6a2e3516f+215567]
+	GetHandleVerifier [0x0x7ff6a2e1c974+115220]
+	GetHandleVerifier [0x0x7ff6a2e1cb29+115657]
+	GetHandleVerifier [0x0x7ff6a2e03268+11016]
+	BaseThreadInitThunk [0x0x7ffbf38ee8d7+23]
+	RtlUserThreadStart [0x0x7ffbf575c34c+44]
 
-2025-09-02 21:47:53,568 - ERROR - Sign In page testing failed on mobile: Message: 
+2025-09-06 21:57:50,820 - ERROR - Error selecting date: Message: no such element: Unable to locate element: {"method":"css selector","selector":".ant-picker-header-prev-btn"}
+  (Session info: chrome=139.0.7258.157); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a2e13d85+79397]
+	GetHandleVerifier [0x0x7ff6a2e13de0+79488]
+	(No symbol) [0x0x7ff6a2bbc0fa]
+	(No symbol) [0x0x7ff6a2c12fd6]
+	(No symbol) [0x0x7ff6a2c1328c]
+	(No symbol) [0x0x7ff6a2c66537]
+	(No symbol) [0x0x7ff6a2c3b1df]
+	(No symbol) [0x0x7ff6a2c63344]
+	(No symbol) [0x0x7ff6a2c3af73]
+	(No symbol) [0x0x7ff6a2c041b1]
+	(No symbol) [0x0x7ff6a2c04f43]
+	GetHandleVerifier [0x0x7ff6a30de1ed+3005069]
+	GetHandleVerifier [0x0x7ff6a30d831d+2980797]
+	GetHandleVerifier [0x0x7ff6a30f7e0d+3110573]
+	GetHandleVerifier [0x0x7ff6a2e2d6de+184190]
+	GetHandleVerifier [0x0x7ff6a2e3516f+215567]
+	GetHandleVerifier [0x0x7ff6a2e1c974+115220]
+	GetHandleVerifier [0x0x7ff6a2e1cb29+115657]
+	GetHandleVerifier [0x0x7ff6a2e03268+11016]
+	BaseThreadInitThunk [0x0x7ffbf38ee8d7+23]
+	RtlUserThreadStart [0x0x7ffbf575c34c+44]
 
-2025-09-02 21:47:54,156 - INFO - Performing additional mobile-specific tests...
-2025-09-02 21:48:19,160 - ERROR - Sign Up for Free button not found: Message: 
+2025-09-06 21:58:12,538 - ERROR - Failed to enter date of birth: Message: no such element: Unable to locate element: {"method":"css selector","selector":".ant-picker-header-prev-btn"}
+  (Session info: chrome=139.0.7258.157); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a2e13d85+79397]
+	GetHandleVerifier [0x0x7ff6a2e13de0+79488]
+	(No symbol) [0x0x7ff6a2bbc0fa]
+	(No symbol) [0x0x7ff6a2c12fd6]
+	(No symbol) [0x0x7ff6a2c1328c]
+	(No symbol) [0x0x7ff6a2c66537]
+	(No symbol) [0x0x7ff6a2c3b1df]
+	(No symbol) [0x0x7ff6a2c63344]
+	(No symbol) [0x0x7ff6a2c3af73]
+	(No symbol) [0x0x7ff6a2c041b1]
+	(No symbol) [0x0x7ff6a2c04f43]
+	GetHandleVerifier [0x0x7ff6a30de1ed+3005069]
+	GetHandleVerifier [0x0x7ff6a30d831d+2980797]
+	GetHandleVerifier [0x0x7ff6a30f7e0d+3110573]
+	GetHandleVerifier [0x0x7ff6a2e2d6de+184190]
+	GetHandleVerifier [0x0x7ff6a2e3516f+215567]
+	GetHandleVerifier [0x0x7ff6a2e1c974+115220]
+	GetHandleVerifier [0x0x7ff6a2e1cb29+115657]
+	GetHandleVerifier [0x0x7ff6a2e03268+11016]
+	BaseThreadInitThunk [0x0x7ffbf38ee8d7+23]
+	RtlUserThreadStart [0x0x7ffbf575c34c+44]
 
-2025-09-02 21:48:19,160 - WARNING - Additional mobile tests failed: Message: 
+2025-09-06 21:58:13,579 - INFO - Script complete.
+2025-09-06 21:58:15,950 - INFO - Ending browser session...
+2025-09-06 21:58:15,951 - INFO - ...................
+2025-09-06 21:58:15,951 - INFO - ...................
+2025-09-06 22:17:55,805 - INFO - Starting browser session with chrome...
+2025-09-06 22:17:59,365 - INFO - chrome browser launched successfully.
+2025-09-06 22:17:59,663 - INFO - URL opened successfully.
+2025-09-06 22:17:59,665 - INFO - TC_AD_09 with Login Started..
+2025-09-06 22:17:59,666 - INFO - Verify Student Personal Information Form with Valid Data
+2025-09-06 22:17:59,666 - INFO - Starting login process for TC_AD_09
+2025-09-06 22:18:01,148 - INFO - Sign Up for Free button clicked successfully.
+2025-09-06 22:18:01,148 - INFO - Navigated to Sign Up page successfully.
+2025-09-06 22:18:03,310 - INFO - Sign In link clicked successfully.
+2025-09-06 22:18:03,310 - INFO - Navigated to Sign In page successfully.
+2025-09-06 22:18:05,366 - INFO - Sign In page loaded successfully.
+2025-09-06 22:18:05,810 - INFO - Email entered successfully in login form.
+2025-09-06 22:18:05,810 - INFO - Email entered successfully in login form.
+2025-09-06 22:18:06,049 - INFO - Password entered successfully in login form.
+2025-09-06 22:18:06,049 - INFO - Password entered successfully in login form.
+2025-09-06 22:18:06,952 - INFO - Log In button clicked successfully.
+2025-09-06 22:18:06,952 - INFO - Log In button clicked successfully.
+2025-09-06 22:18:10,722 - INFO - Login success message found: Login successful!
+2025-09-06 22:18:10,741 - INFO - User authentication indicators found - login confirmed
+2025-09-06 22:18:10,742 - INFO - Login completed successfully for user: john.doe.test__16@gmail.com
+2025-09-06 22:18:10,743 - INFO - Login completed successfully before admission form
+2025-09-06 22:18:22,990 - INFO - Apply Now button clicked successfully.
+2025-09-06 22:18:25,221 - INFO - Full Name 'John Doe' entered successfully.
+2025-09-06 22:18:26,083 - INFO - Gender 'Male' selected successfully.
+2025-09-06 22:18:26,083 - INFO - Attempting to select date of birth: 2000-05-15
+2025-09-06 22:18:26,084 - INFO - Trying selector: input[placeholder='Select date']
+2025-09-06 22:18:27,511 - INFO - Date picker opened for selector: input[placeholder='Select date']
+2025-09-06 22:18:29,893 - INFO - Date selected successfully using method 1
+2025-09-06 22:18:29,894 - INFO - Date of birth '2000-05-15' selected successfully using selector: input[placeholder='Select date']
+2025-09-06 22:18:30,895 - INFO - Date of Birth '2000-05-15' entered successfully.
+2025-09-06 22:18:31,283 - INFO - Nationality 'Bangladeshi' selected successfully.
+2025-09-06 22:18:32,145 - INFO - Religion 'Islam' selected successfully.
+2025-09-06 22:18:32,399 - INFO - Contact number '01712345678' entered successfully.
+2025-09-06 22:18:32,776 - INFO - Email 'john@example.com' entered successfully.
+2025-09-06 22:18:33,021 - INFO - Present Address 'mohakhali' entered successfully.
+2025-09-06 22:18:36,247 - INFO - Save & Continue button clicked successfully.
+2025-09-06 22:18:44,311 - INFO - Test Passed. All fields successfully accepted valid inputs without any errors
+2025-09-06 22:18:44,311 - INFO - TC_AD_09 with Login Completed..
+2025-09-06 22:18:44,312 - INFO - Script complete.
+2025-09-06 22:18:46,714 - INFO - Ending browser session...
+2025-09-06 22:18:46,714 - INFO - ...................
+2025-09-06 22:18:46,715 - INFO - ...................
+2025-09-06 22:20:49,568 - INFO - Starting browser session with chrome...
+2025-09-06 22:20:51,183 - INFO - chrome browser launched successfully.
+2025-09-06 22:20:52,764 - INFO - URL opened successfully.
+2025-09-06 22:20:52,765 - INFO - TC_AD_09 with Login Started..
+2025-09-06 22:20:52,766 - INFO - Verify Student Personal Information Form with Valid Data
+2025-09-06 22:20:52,766 - INFO - Starting login process for TC_AD_09
+2025-09-06 22:20:52,982 - INFO - Sign Up for Free button clicked successfully.
+2025-09-06 22:20:52,982 - INFO - Navigated to Sign Up page successfully.
+2025-09-06 22:20:55,130 - INFO - Sign In link clicked successfully.
+2025-09-06 22:20:55,131 - INFO - Navigated to Sign In page successfully.
+2025-09-06 22:20:57,194 - INFO - Sign In page loaded successfully.
+2025-09-06 22:20:57,640 - INFO - Email entered successfully in login form.
+2025-09-06 22:20:57,640 - INFO - Email entered successfully in login form.
+2025-09-06 22:20:57,932 - INFO - Password entered successfully in login form.
+2025-09-06 22:20:57,932 - INFO - Password entered successfully in login form.
+2025-09-06 22:20:58,836 - INFO - Log In button clicked successfully.
+2025-09-06 22:20:58,836 - INFO - Log In button clicked successfully.
+2025-09-06 22:21:02,626 - INFO - Login success message found: Login successful!
+2025-09-06 22:21:02,645 - INFO - User authentication indicators found - login confirmed
+2025-09-06 22:21:02,646 - INFO - Login completed successfully for user: john.doe.test__16@gmail.com
+2025-09-06 22:21:02,646 - INFO - Login completed successfully before admission form
+2025-09-06 22:21:14,982 - INFO - Apply Now button clicked successfully.
+2025-09-06 22:21:17,203 - INFO - Full Name 'John Doe' entered successfully.
+2025-09-06 22:21:18,030 - INFO - Gender 'Male' selected successfully.
+2025-09-06 22:21:18,031 - INFO - Attempting to select date of birth: 2000-05-15
+2025-09-06 22:21:18,031 - INFO - Trying selector: input[placeholder='Select date']
+2025-09-06 22:21:19,448 - INFO - Date picker opened for selector: input[placeholder='Select date']
+2025-09-06 22:21:42,883 - WARNING - Year navigation failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a2e13d85+79397]
+	GetHandleVerifier [0x0x7ff6a2e13de0+79488]
+	(No symbol) [0x0x7ff6a2bbc0fa]
+	(No symbol) [0x0x7ff6a2c12fd6]
+	(No symbol) [0x0x7ff6a2c1328c]
+	(No symbol) [0x0x7ff6a2c66537]
+	(No symbol) [0x0x7ff6a2c3b1df]
+	(No symbol) [0x0x7ff6a2c63344]
+	(No symbol) [0x0x7ff6a2c3af73]
+	(No symbol) [0x0x7ff6a2c041b1]
+	(No symbol) [0x0x7ff6a2c04f43]
+	GetHandleVerifier [0x0x7ff6a30de1ed+3005069]
+	GetHandleVerifier [0x0x7ff6a30d831d+2980797]
+	GetHandleVerifier [0x0x7ff6a30f7e0d+3110573]
+	GetHandleVerifier [0x0x7ff6a2e2d6de+184190]
+	GetHandleVerifier [0x0x7ff6a2e3516f+215567]
+	GetHandleVerifier [0x0x7ff6a2e1c974+115220]
+	GetHandleVerifier [0x0x7ff6a2e1cb29+115657]
+	GetHandleVerifier [0x0x7ff6a2e03268+11016]
+	BaseThreadInitThunk [0x0x7ffbf38ee8d7+23]
+	RtlUserThreadStart [0x0x7ffbf575c34c+44]
 
-2025-09-02 21:48:21,563 - INFO - RESPONSIVE DESIGN TEST RESULTS SUMMARY:
-2025-09-02 21:48:21,564 - INFO - Total tests: 12
-2025-09-02 21:48:21,564 - INFO - Passed tests: 8
-2025-09-02 21:48:21,565 - INFO - Success rate: 66.7%
-2025-09-02 21:48:21,565 - INFO - homepage_desktop_heading: PASS
-2025-09-02 21:48:21,565 - INFO - homepage_desktop_button: PASS
-2025-09-02 21:48:21,565 - INFO - homepage_mobile_heading: FAIL
-2025-09-02 21:48:21,566 - INFO - homepage_mobile_button: FAIL
-2025-09-02 21:48:21,566 - INFO - signup_desktop_heading: PASS
-2025-09-02 21:48:21,566 - INFO - signup_desktop_fields: PASS
-2025-09-02 21:48:21,566 - INFO - signup_desktop_interaction: PASS
-2025-09-02 21:48:21,567 - INFO - signup_mobile: FAIL
-2025-09-02 21:48:21,567 - INFO - signin_desktop_heading: PASS
-2025-09-02 21:48:21,567 - INFO - signin_desktop_elements: PASS
-2025-09-02 21:48:21,567 - INFO - signin_desktop_interaction: PASS
-2025-09-02 21:48:21,568 - INFO - signin_mobile: FAIL
-2025-09-02 21:48:21,568 - ERROR - Responsive design test failed. Success rate: 66.7% (threshold: 80.0%)
-2025-09-02 21:48:22,244 - ERROR - Failed tests: ['homepage_mobile_heading', 'homepage_mobile_button', 'signup_mobile', 'signin_mobile']
-2025-09-02 21:48:22,380 - INFO - Script complete.
-2025-09-02 21:48:24,931 - INFO - Ending browser session...
-2025-09-02 21:48:24,931 - INFO - ...................
-2025-09-02 21:48:24,932 - INFO - ...................
-2025-09-02 21:53:32,013 - INFO - Starting browser session with chrome...
-2025-09-02 21:53:34,052 - INFO - chrome browser launched successfully.
-2025-09-02 21:53:35,930 - INFO - URL opened successfully.
-2025-09-02 21:53:35,931 - INFO - TC_Reg_16 Started..
-2025-09-02 21:53:35,931 - INFO - Verify Page Responsive Design
-2025-09-02 21:53:35,932 - INFO - Testing homepage responsiveness...
-2025-09-02 21:53:36,321 - INFO - Set browser size to desktop: 1920x1080
-2025-09-02 21:53:42,111 - INFO - Homepage heading visible on desktop: Your Child's Future Begins Here
-2025-09-02 21:53:42,240 - INFO - Sign Up for Free button clicked successfully.
-2025-09-02 21:53:42,240 - INFO - Sign Up button functional on desktop
-2025-09-02 21:53:43,304 - INFO - Set browser size to mobile: 375x667
-2025-09-02 21:53:49,541 - WARNING - data=========== 
-2025-09-02 21:53:49,541 - WARNING - Homepage heading not visible on mobile
-2025-09-05 21:54:34,294 - INFO - Starting browser session with chrome...
-2025-09-05 21:54:38,101 - INFO - chrome browser launched successfully.
-2025-09-05 21:54:38,991 - INFO - URL opened successfully.
-2025-09-05 21:54:38,996 - INFO - TC_Reg_01 Started..
-2025-09-05 21:54:38,996 - INFO - Verify Homepage Load and Sign Up Button Navigation
-2025-09-05 21:54:40,037 - INFO - Homepage URL loaded successfully.
-2025-09-05 21:54:42,073 - INFO - Homepage heading verified successfully.
-2025-09-05 21:54:42,169 - ERROR - Statistics verification failed. Expected: {'students': '20000+', 'guardians': '1643+', 'teachers': '7000+', 'schools': '2000+'}, Actual: {'students': 'Students', 'guardians': 'Guardians', 'teachers': 'Teachers', 'schools': 'Schools'}
-2025-09-05 21:54:43,199 - WARNING - Continuing test despite statistics mismatch...
-2025-09-05 21:54:43,726 - INFO - Sign Up for Free button clicked successfully.
-2025-09-05 21:54:43,727 - INFO - Sign Up for Free button clicked successfully.
-2025-09-05 21:54:46,734 - INFO - Successfully navigated to Sign Up page.
-2025-09-05 21:54:46,759 - INFO - Sign Up page loaded successfully with correct heading.
-2025-09-05 21:54:46,759 - INFO - Test Passed. Homepage loads successfully and navigates to Sign Up page
-2025-09-05 21:54:46,759 - INFO - TC_Reg_01 Completed..
-2025-09-05 21:54:46,760 - INFO - Script complete.
-2025-09-05 21:54:49,138 - INFO - Ending browser session...
-2025-09-05 21:54:49,139 - INFO - ...................
-2025-09-05 21:54:49,139 - INFO - ...................
-2025-09-05 21:54:49,143 - INFO - Starting browser session with chrome...
-2025-09-05 21:54:50,924 - INFO - chrome browser launched successfully.
-2025-09-05 21:54:52,508 - INFO - URL opened successfully.
-2025-09-05 21:54:52,511 - INFO - TC_Reg_02 Started..
-2025-09-05 21:54:52,512 - INFO - Verify Sign Up Page Load and Form Display
-2025-09-05 21:54:52,672 - INFO - Sign Up for Free button clicked successfully.
-2025-09-05 21:54:52,673 - INFO - Navigated to Sign Up page successfully.
-2025-09-05 21:54:54,699 - INFO - Sign Up page loaded successfully.
-2025-09-05 21:54:54,739 - INFO - Sign Up heading verified successfully.
-2025-09-05 21:54:54,765 - INFO - Sign Up subtitle verified successfully.
-2025-09-05 21:54:54,856 - INFO - All form fields verified successfully.
-2025-09-05 21:54:54,898 - INFO - All buttons verified successfully.
-2025-09-05 21:54:54,906 - WARNING - Page title might not be appropriate: Authentication | DOER ADMISSION
-2025-09-05 21:54:55,645 - INFO - Test Passed. Sign Up page loads with all required form elements
-2025-09-05 21:54:55,645 - INFO - TC_Reg_02 Completed..
-2025-09-05 21:54:55,646 - INFO - Script complete.
-2025-09-05 21:54:58,090 - INFO - Ending browser session...
-2025-09-05 21:54:58,090 - INFO - ...................
-2025-09-05 21:54:58,091 - INFO - ...................
-2025-09-05 21:54:58,096 - INFO - Starting browser session with chrome...
-2025-09-05 21:54:59,814 - INFO - chrome browser launched successfully.
-2025-09-05 21:55:00,056 - INFO - URL opened successfully.
-2025-09-05 21:55:00,058 - INFO - TC_Reg_03 Started..
-2025-09-05 21:55:00,058 - INFO - Verify Complete User Registration with Valid Data
-2025-09-05 21:55:01,456 - INFO - Sign Up for Free button clicked successfully.
-2025-09-05 21:55:01,457 - INFO - Navigated to Sign Up page successfully.
-2025-09-05 21:55:03,710 - INFO - Full Name entered successfully.
-2025-09-05 21:55:03,711 - INFO - Full Name entered successfully.
-2025-09-05 21:55:04,101 - INFO - Email entered successfully.
-2025-09-05 21:55:04,101 - INFO - Email entered successfully.
-2025-09-05 21:55:04,421 - INFO - Password entered successfully.
-2025-09-05 21:55:04,421 - INFO - Password entered successfully.
-2025-09-05 21:55:04,723 - INFO - Confirm Password entered successfully.
-2025-09-05 21:55:04,723 - INFO - Confirm Password entered successfully.
-2025-09-05 21:55:05,571 - INFO - Sign Up button clicked successfully.
-2025-09-05 21:55:05,572 - INFO - Sign Up button clicked successfully.
-2025-09-05 21:55:07,643 - INFO - Ant Design message captured: User exists with same email
-2025-09-05 21:55:07,644 - INFO - Registration message received: User exists with same email
-2025-09-05 21:55:07,644 - ERROR - Registration validation failed. Expected: Registration successful! Please log in with your credentials., Got: User exists with same email
-2025-09-05 21:55:08,451 - INFO - Script complete.
-2025-09-05 21:55:12,292 - INFO - Ending browser session...
-2025-09-05 21:55:12,293 - INFO - ...................
-2025-09-05 21:55:12,293 - INFO - ...................
-2025-09-05 21:55:12,296 - INFO - Starting browser session with chrome...
-2025-09-05 21:55:13,993 - INFO - chrome browser launched successfully.
-2025-09-05 21:55:16,175 - INFO - URL opened successfully.
-2025-09-05 21:55:16,177 - INFO - TC_Reg_05 Started..
-2025-09-05 21:55:16,177 - INFO - Verify Sign In Page Load and Form Display
-2025-09-05 21:55:16,715 - INFO - Sign Up for Free button clicked successfully.
-2025-09-05 21:55:16,716 - INFO - Navigated to Sign Up page successfully.
-2025-09-05 21:55:18,860 - INFO - Sign In link clicked successfully.
-2025-09-05 21:55:18,860 - INFO - Navigated to Sign In page successfully.
-2025-09-05 21:55:20,867 - INFO - Sign In page loaded successfully.
-2025-09-05 21:55:20,894 - INFO - Sign In heading verified successfully.
-2025-09-05 21:55:20,915 - INFO - Sign In subtitle verified successfully.
-2025-09-05 21:55:20,939 - INFO - Email field is visible.
-2025-09-05 21:55:20,958 - INFO - Password field is visible.
-2025-09-05 21:55:20,958 - INFO - All form fields verified successfully.
-2025-09-05 21:55:21,040 - INFO - All Sign In form elements verified successfully.
-2025-09-05 21:55:21,064 - INFO - 'Keep me logged in' checkbox is visible.
-2025-09-05 21:55:26,117 - WARNING - 'Forgot password?' link not found.
-2025-09-05 21:55:26,149 - INFO - 'Log In' button is visible.
-2025-09-05 21:55:26,173 - INFO - 'Sign in with Google' option is visible.
-2025-09-05 21:55:26,869 - INFO - Test Passed. Sign In page loads with all required elements
-2025-09-05 21:55:26,960 - INFO - Sign In page title: Authentication | DOER ADMISSION
-2025-09-05 21:55:26,960 - INFO - TC_Reg_05 Completed..
-2025-09-05 21:55:26,982 - INFO - Script complete.
-2025-09-05 21:55:31,182 - INFO - Ending browser session...
-2025-09-05 21:55:31,182 - INFO - ...................
-2025-09-05 21:55:31,183 - INFO - ...................
-2025-09-05 21:55:31,189 - INFO - Starting browser session with chrome...
-2025-09-05 21:55:33,150 - INFO - chrome browser launched successfully.
-2025-09-05 21:55:34,299 - INFO - URL opened successfully.
-2025-09-05 21:55:34,301 - INFO - TC_Reg_06 Started..
-2025-09-05 21:55:34,301 - INFO - Verify User Login with Valid Credentials
-2025-09-05 21:55:34,947 - INFO - Sign Up for Free button clicked successfully.
-2025-09-05 21:55:34,947 - INFO - Navigated to Sign Up page successfully.
-2025-09-05 21:55:37,061 - INFO - Sign In link clicked successfully.
-2025-09-05 21:55:37,062 - INFO - Navigated to Sign In page successfully.
-2025-09-05 21:55:39,105 - INFO - Sign In page loaded successfully.
-2025-09-05 21:55:39,531 - INFO - Email entered successfully in login form.
-2025-09-05 21:55:39,531 - INFO - Email entered successfully in login form.
-2025-09-05 21:55:39,825 - INFO - Password entered successfully in login form.
-2025-09-05 21:55:39,825 - INFO - Password entered successfully in login form.
-2025-09-05 21:55:40,715 - INFO - Log In button clicked successfully.
-2025-09-05 21:55:40,715 - INFO - Log In button clicked successfully.
-2025-09-05 21:55:43,499 - INFO - Login success message found: Login successful!
-2025-09-05 21:55:43,500 - INFO - Test Passed. User logged in successfully and redirected to home
-2025-09-05 21:55:43,508 - INFO - Final URL after login: https://admission-test.doer.school/en
-2025-09-05 21:55:43,525 - INFO - User authentication indicators found - login confirmed
-2025-09-05 21:55:43,525 - INFO - Login completed for user: john.doe.test__16@gmail.com
-2025-09-05 21:55:43,525 - INFO - TC_Reg_06 Completed..
-2025-09-05 21:55:43,526 - INFO - Script complete.
-2025-09-05 21:55:47,857 - INFO - Ending browser session...
-2025-09-05 21:55:47,857 - INFO - ...................
-2025-09-05 21:55:47,857 - INFO - ...................
-2025-09-05 21:55:47,859 - INFO - Starting browser session with chrome...
-2025-09-05 21:55:49,605 - INFO - chrome browser launched successfully.
-2025-09-05 21:55:50,475 - INFO - URL opened successfully.
-2025-09-05 21:55:50,476 - INFO - TC_Reg_12 Started..
-2025-09-05 21:55:50,476 - INFO - Verify Password Visibility Toggle
-2025-09-05 21:55:51,341 - INFO - Sign Up for Free button clicked successfully.
-2025-09-05 21:55:51,341 - INFO - Navigated to Sign Up page successfully.
-2025-09-05 21:55:53,743 - INFO - Sign In link clicked successfully.
-2025-09-05 21:55:53,743 - INFO - Navigated to Sign In page successfully.
-2025-09-05 21:55:56,051 - INFO - Password entered successfully in login form.
-2025-09-05 21:55:56,051 - INFO - Password entered successfully.
-2025-09-05 21:55:57,763 - INFO - Password field initially hidden (type='password').
-2025-09-05 21:55:57,869 - INFO - Password visibility toggle clicked successfully.
-2025-09-05 21:55:57,870 - INFO - Password visibility toggle clicked successfully.
-2025-09-05 21:55:58,891 - INFO - Password is now visible (type='text').
-2025-09-05 21:55:59,510 - INFO - Password visibility toggle clicked successfully.
-2025-09-05 21:55:59,510 - INFO - Password visibility toggle clicked again successfully.
-2025-09-05 21:56:00,530 - INFO - Password is hidden again (type='password').
-2025-09-05 21:56:01,134 - INFO - Test Passed. Password visibility toggles when eye icon clicked
-2025-09-05 21:56:01,134 - INFO - Password visibility toggle functionality working correctly.
-2025-09-05 21:56:01,134 - INFO - Password toggle test completed with password: Tes***
-2025-09-05 21:56:01,134 - INFO - TC_Reg_12 Completed..
-2025-09-05 21:56:01,136 - INFO - Script complete.
-2025-09-05 21:56:03,793 - INFO - Ending browser session...
-2025-09-05 21:56:03,794 - INFO - ...................
-2025-09-05 21:56:03,795 - INFO - ...................
-2025-09-05 21:56:03,798 - INFO - Starting browser session with chrome...
-2025-09-05 21:56:05,482 - INFO - chrome browser launched successfully.
-2025-09-05 21:56:06,633 - INFO - URL opened successfully.
-2025-09-05 21:56:06,635 - INFO - TC_Reg_16 Started..
-2025-09-05 21:56:06,635 - INFO - Verify Page Responsive Design
-2025-09-05 21:56:06,635 - INFO - Testing homepage responsiveness...
-2025-09-05 21:56:07,115 - INFO - Set browser size to desktop: 1920x1080
-2025-09-05 21:56:12,346 - INFO - Homepage heading visible on desktop: Your Child's Future Begins Here
-2025-09-05 21:56:12,482 - INFO - Sign Up for Free button clicked successfully.
-2025-09-05 21:56:12,482 - INFO - Sign Up button functional on desktop
-2025-09-05 21:56:13,631 - INFO - Set browser size to mobile: 375x667
-2025-09-05 21:56:19,054 - WARNING - data=========== 
-2025-09-05 21:56:19,055 - WARNING - Homepage heading not visible on mobile
-2025-09-05 21:56:39,440 - ERROR - Sign Up for Free button not found: Message: 
+2025-09-06 22:23:09,719 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000131EA5CD0F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6fb1e14583ddde786060db3e0f4e4892/element/f.120BEBE0499E29A4042179D4627E2FD2.d.3C8A5081E59AC6330DA50AA89722EE92.e.129/clear
+2025-09-06 22:23:13,807 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000131EA5CD220>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6fb1e14583ddde786060db3e0f4e4892/element/f.120BEBE0499E29A4042179D4627E2FD2.d.3C8A5081E59AC6330DA50AA89722EE92.e.129/clear
+2025-09-06 22:23:17,867 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000131EA581910>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/6fb1e14583ddde786060db3e0f4e4892/element/f.120BEBE0499E29A4042179D4627E2FD2.d.3C8A5081E59AC6330DA50AA89722EE92.e.129/clear
+2025-09-06 22:23:21,913 - ERROR - All date selection methods failed
+2025-09-06 22:23:21,913 - INFO - Trying selector: input[placeholder*='date']
+2025-09-06 22:23:45,426 - INFO - Starting browser session with chrome...
+2025-09-06 22:23:47,129 - INFO - chrome browser launched successfully.
+2025-09-06 22:23:48,303 - INFO - URL opened successfully.
+2025-09-06 22:23:48,305 - INFO - TC_AD_09 with Login Started..
+2025-09-06 22:23:48,305 - INFO - Verify Student Personal Information Form with Valid Data
+2025-09-06 22:23:48,305 - INFO - Starting login process for TC_AD_09
+2025-09-06 22:23:48,781 - INFO - Sign Up for Free button clicked successfully.
+2025-09-06 22:23:48,782 - INFO - Navigated to Sign Up page successfully.
+2025-09-06 22:23:50,950 - INFO - Sign In link clicked successfully.
+2025-09-06 22:23:50,950 - INFO - Navigated to Sign In page successfully.
+2025-09-06 22:23:53,012 - INFO - Sign In page loaded successfully.
+2025-09-06 22:23:53,448 - INFO - Email entered successfully in login form.
+2025-09-06 22:23:53,449 - INFO - Email entered successfully in login form.
+2025-09-06 22:23:53,698 - INFO - Password entered successfully in login form.
+2025-09-06 22:23:53,699 - INFO - Password entered successfully in login form.
+2025-09-06 22:23:54,601 - INFO - Log In button clicked successfully.
+2025-09-06 22:23:54,601 - INFO - Log In button clicked successfully.
+2025-09-06 22:23:58,489 - INFO - Login success message found: Login successful!
+2025-09-06 22:23:58,505 - INFO - User authentication indicators found - login confirmed
+2025-09-06 22:23:58,505 - INFO - Login completed successfully for user: john.doe.test__16@gmail.com
+2025-09-06 22:23:58,505 - INFO - Login completed successfully before admission form
+2025-09-06 22:24:10,861 - INFO - Apply Now button clicked successfully.
+2025-09-06 22:24:13,095 - INFO - Full Name 'John Doe' entered successfully.
+2025-09-06 22:24:13,957 - INFO - Gender 'Male' selected successfully.
+2025-09-06 22:24:13,957 - INFO - Attempting to select date of birth: 2000-05-15
+2025-09-06 22:24:13,957 - INFO - Trying selector: input[placeholder='Select date']
+2025-09-06 22:24:15,464 - INFO - Date picker opened for selector: input[placeholder='Select date']
+2025-09-06 22:24:18,651 - ERROR - All date selection methods failed
+2025-09-06 22:24:18,652 - INFO - Trying selector: input[placeholder*='date']
+2025-09-06 22:24:20,023 - INFO - Date picker opened for selector: input[placeholder*='date']
+2025-09-06 22:24:23,161 - ERROR - All date selection methods failed
+2025-09-06 22:24:23,161 - INFO - Trying selector: .ant-picker-input input
+2025-09-06 22:24:24,505 - INFO - Date picker opened for selector: .ant-picker-input input
+2025-09-06 22:24:27,676 - ERROR - All date selection methods failed
+2025-09-06 22:24:27,676 - INFO - Trying selector: input[class*='ant-picker']
+2025-09-06 22:24:49,340 - ERROR - Error in select_antd_date: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a2e13d85+79397]
+	GetHandleVerifier [0x0x7ff6a2e13de0+79488]
+	(No symbol) [0x0x7ff6a2bbc0fa]
+	(No symbol) [0x0x7ff6a2c12fd6]
+	(No symbol) [0x0x7ff6a2c1328c]
+	(No symbol) [0x0x7ff6a2c66537]
+	(No symbol) [0x0x7ff6a2c3b1df]
+	(No symbol) [0x0x7ff6a2c63344]
+	(No symbol) [0x0x7ff6a2c3af73]
+	(No symbol) [0x0x7ff6a2c041b1]
+	(No symbol) [0x0x7ff6a2c04f43]
+	GetHandleVerifier [0x0x7ff6a30de1ed+3005069]
+	GetHandleVerifier [0x0x7ff6a30d831d+2980797]
+	GetHandleVerifier [0x0x7ff6a30f7e0d+3110573]
+	GetHandleVerifier [0x0x7ff6a2e2d6de+184190]
+	GetHandleVerifier [0x0x7ff6a2e3516f+215567]
+	GetHandleVerifier [0x0x7ff6a2e1c974+115220]
+	GetHandleVerifier [0x0x7ff6a2e1cb29+115657]
+	GetHandleVerifier [0x0x7ff6a2e03268+11016]
+	BaseThreadInitThunk [0x0x7ffbf38ee8d7+23]
+	RtlUserThreadStart [0x0x7ffbf575c34c+44]
 
-2025-09-05 21:56:39,441 - ERROR - Homepage functionality test failed on mobile: Message: 
-
-2025-09-05 21:56:40,064 - INFO - Testing Sign Up page responsiveness...
-2025-09-05 21:56:40,422 - INFO - Testing Sign Up page on desktop: 1920x1080
-2025-09-05 21:56:44,855 - INFO - Sign Up for Free button clicked successfully.
-2025-09-05 21:56:47,902 - INFO - Sign Up heading visible on desktop
-2025-09-05 21:56:47,991 - INFO - All form fields visible on desktop
-2025-09-05 21:56:48,238 - INFO - Full Name entered successfully.
-2025-09-05 21:56:48,520 - INFO - Email entered successfully.
-2025-09-05 21:56:48,726 - INFO - Password entered successfully.
-2025-09-05 21:56:48,947 - INFO - Confirm Password entered successfully.
-2025-09-05 21:56:48,947 - INFO - Form interaction successful on desktop
-2025-09-05 21:56:51,686 - INFO - Testing Sign Up page on mobile: 375x667
-2025-09-05 21:57:16,479 - ERROR - Sign Up for Free button not found: Message: 
-
-2025-09-05 21:57:16,479 - ERROR - Sign Up page testing failed on mobile: Message: 
-
-2025-09-05 21:57:17,073 - INFO - Testing Sign In page responsiveness...
-2025-09-05 21:57:17,441 - INFO - Testing Sign In page on desktop: 1920x1080
-2025-09-05 21:57:21,897 - INFO - Sign Up for Free button clicked successfully.
-2025-09-05 21:57:24,038 - INFO - Sign In link clicked successfully.
-2025-09-05 21:57:27,070 - INFO - Sign In heading visible on desktop
-2025-09-05 21:57:27,160 - INFO - All Sign In elements visible on desktop
-2025-09-05 21:57:27,470 - INFO - Email entered successfully in login form.
-2025-09-05 21:57:27,694 - INFO - Password entered successfully in login form.
-2025-09-05 21:57:27,695 - INFO - Sign In form interaction successful on desktop
-2025-09-05 21:57:30,482 - INFO - Testing Sign In page on mobile: 375x667
-2025-09-05 21:57:55,199 - ERROR - Sign Up for Free button not found: Message: 
-
-2025-09-05 21:57:55,200 - ERROR - Sign In page testing failed on mobile: Message: 
-
-2025-09-05 21:57:55,807 - INFO - Performing additional mobile-specific tests...
-2025-09-05 21:58:20,809 - ERROR - Sign Up for Free button not found: Message: 
-
-2025-09-05 21:58:20,810 - WARNING - Additional mobile tests failed: Message: 
-
-2025-09-05 21:58:23,189 - INFO - RESPONSIVE DESIGN TEST RESULTS SUMMARY:
-2025-09-05 21:58:23,189 - INFO - Total tests: 12
-2025-09-05 21:58:23,190 - INFO - Passed tests: 8
-2025-09-05 21:58:23,190 - INFO - Success rate: 66.7%
-2025-09-05 21:58:23,190 - INFO - homepage_desktop_heading: PASS
-2025-09-05 21:58:23,191 - INFO - homepage_desktop_button: PASS
-2025-09-05 21:58:23,191 - INFO - homepage_mobile_heading: FAIL
-2025-09-05 21:58:23,191 - INFO - homepage_mobile_button: FAIL
-2025-09-05 21:58:23,191 - INFO - signup_desktop_heading: PASS
-2025-09-05 21:58:23,192 - INFO - signup_desktop_fields: PASS
-2025-09-05 21:58:23,192 - INFO - signup_desktop_interaction: PASS
-2025-09-05 21:58:23,192 - INFO - signup_mobile: FAIL
-2025-09-05 21:58:23,192 - INFO - signin_desktop_heading: PASS
-2025-09-05 21:58:23,193 - INFO - signin_desktop_elements: PASS
-2025-09-05 21:58:23,193 - INFO - signin_desktop_interaction: PASS
-2025-09-05 21:58:23,193 - INFO - signin_mobile: FAIL
-2025-09-05 21:58:23,193 - ERROR - Responsive design test failed. Success rate: 66.7% (threshold: 80.0%)
-2025-09-05 21:58:23,849 - ERROR - Failed tests: ['homepage_mobile_heading', 'homepage_mobile_button', 'signup_mobile', 'signin_mobile']
-2025-09-05 21:58:23,875 - INFO - Script complete.
-2025-09-05 21:58:27,340 - INFO - Ending browser session...
-2025-09-05 21:58:27,340 - INFO - ...................
-2025-09-05 21:58:27,340 - INFO - ...................
-2025-09-05 21:58:27,342 - INFO - Starting browser session with chrome...
-2025-09-05 21:58:29,074 - INFO - chrome browser launched successfully.
-2025-09-05 21:58:32,013 - INFO - URL opened successfully.
-2025-09-05 21:58:32,015 - INFO - TC_Val_01 Started..
-2025-09-05 21:58:32,015 - INFO - Verify registration fails with empty Full Name
-2025-09-05 21:58:32,144 - INFO - Sign Up for Free button clicked successfully.
-2025-09-05 21:58:32,144 - INFO - Navigated to Sign Up page successfully.
-2025-09-05 21:58:34,339 - INFO - Full Name entered successfully.
-2025-09-05 21:58:34,340 - INFO - Empty Full Name entered successfully.
-2025-09-05 21:58:34,809 - INFO - Email entered successfully.
-2025-09-05 21:58:34,809 - INFO - Valid Email entered successfully.
-2025-09-05 21:58:35,141 - INFO - Password entered successfully.
-2025-09-05 21:58:35,142 - INFO - Valid Password entered successfully.
-2025-09-05 21:58:35,360 - INFO - Confirm Password entered successfully.
-2025-09-05 21:58:35,361 - INFO - Valid Confirm Password entered successfully.
-2025-09-05 21:58:36,160 - INFO - Sign Up button clicked successfully.
-2025-09-05 21:58:36,160 - INFO - Sign Up button clicked successfully.
-2025-09-05 21:58:38,241 - INFO - Actual error message: {actual_error_message}
-2025-09-05 21:58:38,241 - INFO - Test Passed. Expected Error Message matches with Actual Error Message.
-2025-09-05 21:58:38,241 - INFO - Expected: Please input your full name!
-2025-09-05 21:58:38,241 - INFO - Actual: Please input your full name!
-2025-09-05 21:58:38,252 - INFO - Registration correctly prevented with invalid Full Name
-2025-09-05 21:58:38,252 - INFO - TC_Val_01 Completed..
-2025-09-05 21:58:38,253 - INFO - Script complete.
-2025-09-05 21:58:40,608 - INFO - Ending browser session...
-2025-09-05 21:58:40,608 - INFO - ...................
-2025-09-05 21:58:40,609 - INFO - ...................
-2025-09-05 21:58:40,611 - INFO - Starting browser session with chrome...
-2025-09-05 21:58:42,286 - INFO - chrome browser launched successfully.
-2025-09-05 21:58:43,846 - INFO - URL opened successfully.
-2025-09-05 21:58:43,849 - INFO - TC_Val_03 Started..
-2025-09-05 21:58:43,849 - INFO - Verify registration fails with invalid Email (without @)
-2025-09-05 21:58:44,408 - INFO - Sign Up for Free button clicked successfully.
-2025-09-05 21:58:44,408 - INFO - Navigated to Sign Up page successfully.
-2025-09-05 21:58:46,744 - INFO - Full Name entered successfully.
-2025-09-05 21:58:46,744 - INFO - Valid Full Name entered successfully.
-2025-09-05 21:58:47,099 - INFO - Email entered successfully.
-2025-09-05 21:58:47,100 - INFO - Invalid Email 'test' entered successfully.
-2025-09-05 21:58:47,387 - INFO - Password entered successfully.
-2025-09-05 21:58:47,387 - INFO - Valid Password entered successfully.
-2025-09-05 21:58:47,639 - INFO - Confirm Password entered successfully.
-2025-09-05 21:58:47,639 - INFO - Valid Confirm Password entered successfully.
-2025-09-05 21:58:48,458 - INFO - Sign Up button clicked successfully.
-2025-09-05 21:58:48,459 - INFO - Sign Up button clicked successfully.
-2025-09-05 21:58:50,550 - INFO - Test Passed. Expected Error Message matches with Actual Error Message.
-2025-09-05 21:58:50,551 - INFO - Expected: Please enter a valid email!
-2025-09-05 21:58:50,551 - INFO - Actual: Please enter a valid email!
-2025-09-05 21:58:50,558 - INFO - Registration correctly prevented with invalid email format
-2025-09-05 21:58:50,559 - INFO - Test completed with invalid email format: 'test'
-2025-09-05 21:58:50,559 - INFO - TC_Val_03 Completed..
-2025-09-05 21:58:50,559 - INFO - Script complete.
-2025-09-05 21:58:52,919 - INFO - Ending browser session...
-2025-09-05 21:58:52,920 - INFO - ...................
-2025-09-05 21:58:52,920 - INFO - ...................
-2025-09-05 21:58:52,925 - INFO - Starting browser session with chrome...
-2025-09-05 21:58:54,539 - INFO - chrome browser launched successfully.
-2025-09-05 21:58:56,192 - INFO - URL opened successfully.
-2025-09-05 21:58:56,193 - INFO - TC_Val_07 Started..
-2025-09-05 21:58:56,193 - INFO - Verify registration fails with mismatched passwords
-2025-09-05 21:58:56,422 - INFO - Sign Up for Free button clicked successfully.
-2025-09-05 21:58:56,422 - INFO - Navigated to Sign Up page successfully.
-2025-09-05 21:58:58,680 - INFO - Full Name entered successfully.
-2025-09-05 21:58:58,680 - INFO - Valid Full Name entered successfully.
-2025-09-05 21:58:59,037 - INFO - Email entered successfully.
-2025-09-05 21:58:59,037 - INFO - Valid Email entered successfully.
-2025-09-05 21:58:59,455 - INFO - Password entered successfully.
-2025-09-05 21:58:59,455 - INFO - Password 'TestPass123' entered successfully.
-2025-09-05 21:58:59,699 - INFO - Confirm Password entered successfully.
-2025-09-05 21:58:59,700 - INFO - Mismatched Confirm Password 'TestPass456' entered successfully.
-2025-09-05 21:59:00,540 - INFO - Sign Up button clicked successfully.
-2025-09-05 21:59:00,540 - INFO - Sign Up button clicked successfully.
-2025-09-05 21:59:02,603 - INFO - Test Passed. Expected Error Message matches with Actual Error Message.
-2025-09-05 21:59:02,603 - INFO - Expected: The two passwords do not match!
-2025-09-05 21:59:02,603 - INFO - Actual: The two passwords do not match!
-2025-09-05 21:59:02,614 - INFO - Registration correctly prevented with mismatched passwords
-2025-09-05 21:59:02,614 - INFO - Password mismatch test completed:
-2025-09-05 21:59:02,614 - INFO - Password: TestPass123
-2025-09-05 21:59:02,615 - INFO - Confirm Password: TestPass456
-2025-09-05 21:59:02,615 - INFO - Registration correctly rejected due to password mismatch.
-2025-09-05 21:59:02,615 - INFO - TC_Val_07 Completed..
-2025-09-05 21:59:02,616 - INFO - Script complete.
-2025-09-05 21:59:04,921 - INFO - Ending browser session...
-2025-09-05 21:59:04,921 - INFO - ...................
-2025-09-05 21:59:04,922 - INFO - ...................
+2025-09-06 22:24:49,341 - INFO - Trying selector: input[id*='dateOfBirth']
+2025-09-06 22:25:05,769 - ERROR - Error in select_antd_date: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-09-06 22:25:05,769 - INFO - Trying selector: input[name*='dob']
+2025-09-06 22:25:25,928 - INFO - Starting browser session with chrome...
+2025-09-06 22:25:27,588 - INFO - chrome browser launched successfully.
+2025-09-06 22:25:28,549 - INFO - URL opened successfully.
+2025-09-06 22:25:28,550 - INFO - TC_AD_09 with Login Started..
+2025-09-06 22:25:28,551 - INFO - Verify Student Personal Information Form with Valid Data
+2025-09-06 22:25:28,551 - INFO - Starting login process for TC_AD_09
+2025-09-06 22:25:29,165 - INFO - Sign Up for Free button clicked successfully.
+2025-09-06 22:25:29,165 - INFO - Navigated to Sign Up page successfully.
+2025-09-06 22:25:31,320 - INFO - Sign In link clicked successfully.
+2025-09-06 22:25:31,321 - INFO - Navigated to Sign In page successfully.
+2025-09-06 22:25:33,399 - INFO - Sign In page loaded successfully.
+2025-09-06 22:25:33,776 - INFO - Email entered successfully in login form.
+2025-09-06 22:25:33,777 - INFO - Email entered successfully in login form.
+2025-09-06 22:25:33,976 - INFO - Password entered successfully in login form.
+2025-09-06 22:25:33,976 - INFO - Password entered successfully in login form.
+2025-09-06 22:25:34,793 - INFO - Log In button clicked successfully.
+2025-09-06 22:25:34,793 - INFO - Log In button clicked successfully.
+2025-09-06 22:25:38,712 - INFO - Login success message found: Login successful!
+2025-09-06 22:25:38,734 - INFO - User authentication indicators found - login confirmed
+2025-09-06 22:25:38,734 - INFO - Login completed successfully for user: john.doe.test__16@gmail.com
+2025-09-06 22:25:38,734 - INFO - Login completed successfully before admission form
+2025-09-06 22:25:51,232 - INFO - Apply Now button clicked successfully.
+2025-09-06 22:25:53,428 - INFO - Full Name 'John Doe' entered successfully.
+2025-09-06 22:25:54,263 - INFO - Gender 'Male' selected successfully.
+2025-09-06 22:25:54,264 - INFO - Attempting to select date of birth: 2000-05-15
+2025-09-06 22:25:54,264 - INFO - Trying selector: input[placeholder='Select date']
+2025-09-06 22:25:55,635 - INFO - Date picker opened for selector: input[placeholder='Select date']
+2025-09-06 22:25:57,955 - INFO - Date selected successfully using method 1
+2025-09-06 22:25:57,956 - INFO - Date of birth '2000-05-15' selected successfully using selector: input[placeholder='Select date']
+2025-09-06 22:25:58,957 - INFO - Date of Birth '2000-05-15' entered successfully.
+2025-09-06 22:25:59,845 - INFO - Nationality 'Bangladeshi' selected successfully.
+2025-09-06 22:26:00,685 - INFO - Religion 'Islam' selected successfully.
+2025-09-06 22:26:00,920 - INFO - Contact number '01712345678' entered successfully.
+2025-09-06 22:26:01,199 - INFO - Email 'john@example.com' entered successfully.
+2025-09-06 22:26:01,391 - INFO - Present Address 'mohakhali' entered successfully.
+2025-09-06 22:26:04,573 - INFO - Save & Continue button clicked successfully.
+2025-09-06 22:26:14,246 - INFO - Test Passed. All fields successfully accepted valid inputs without any errors
+2025-09-06 22:26:14,247 - INFO - TC_AD_09 with Login Completed..
+2025-09-06 22:26:14,248 - INFO - Script complete.
+2025-09-06 22:26:18,289 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026AF3442FD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/73201f94572f31cdacd26b5937d65d77
+2025-09-06 22:26:22,383 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026AF3589450>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/73201f94572f31cdacd26b5937d65d77
+2025-09-06 22:26:26,465 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026AF3580E90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/73201f94572f31cdacd26b5937d65d77
+2025-09-06 22:26:30,524 - INFO - Ending browser session...
+2025-09-06 22:26:30,525 - INFO - ...................
+2025-09-06 22:26:30,525 - INFO - ...................
+2025-09-06 22:33:15,204 - INFO - Starting browser session with chrome...
+2025-09-06 22:33:16,945 - INFO - chrome browser launched successfully.
+2025-09-06 22:33:17,832 - INFO - URL opened successfully.
+2025-09-06 22:33:17,833 - INFO - TC_AD_09 with Login Started..
+2025-09-06 22:33:17,833 - INFO - Verify Student Personal Information Form with Valid Data
+2025-09-06 22:33:17,833 - INFO - Starting login process for TC_AD_09
+2025-09-06 22:33:18,456 - INFO - Sign Up for Free button clicked successfully.
+2025-09-06 22:33:18,456 - INFO - Navigated to Sign Up page successfully.
+2025-09-06 22:33:20,634 - INFO - Sign In link clicked successfully.
+2025-09-06 22:33:20,635 - INFO - Navigated to Sign In page successfully.
+2025-09-06 22:33:22,708 - INFO - Sign In page loaded successfully.
+2025-09-06 22:33:23,289 - INFO - Email entered successfully in login form.
+2025-09-06 22:33:23,289 - INFO - Email entered successfully in login form.
+2025-09-06 22:33:23,649 - INFO - Password entered successfully in login form.
+2025-09-06 22:33:23,649 - INFO - Password entered successfully in login form.
+2025-09-06 22:33:24,434 - INFO - Log In button clicked successfully.
+2025-09-06 22:33:24,435 - INFO - Log In button clicked successfully.
+2025-09-06 22:33:28,295 - INFO - Login success message found: Login successful!
+2025-09-06 22:33:28,320 - INFO - User authentication indicators found - login confirmed
+2025-09-06 22:33:28,320 - INFO - Login completed successfully for user: john.doe.test__16@gmail.com
+2025-09-06 22:33:28,320 - INFO - Login completed successfully before admission form
+2025-09-06 22:33:40,577 - INFO - Apply Now button clicked successfully.
+2025-09-06 22:33:42,814 - INFO - Full Name 'John Doe' entered successfully.
+2025-09-06 22:33:43,110 - INFO - Gender 'Male' selected successfully.
+2025-09-06 22:33:43,400 - INFO - Date of Birth '2000-05-15' entered successfully.
+2025-09-06 22:33:43,783 - INFO - Nationality 'Bangladeshi' selected successfully.
+2025-09-06 22:33:44,598 - INFO - Religion 'Islam' selected successfully.
+2025-09-06 22:33:44,870 - INFO - Contact number '01712345678' entered successfully.
+2025-09-06 22:33:45,134 - INFO - Email 'john@example.com' entered successfully.
+2025-09-06 22:33:45,342 - INFO - Present Address 'mohakhali' entered successfully.
+2025-09-06 22:33:48,669 - INFO - Save & Continue button clicked successfully.
+2025-09-06 22:33:56,699 - INFO - Test Passed. All fields successfully accepted valid inputs without any errors
+2025-09-06 22:33:56,699 - INFO - TC_AD_09 with Login Completed..
+2025-09-06 22:33:56,703 - INFO - Script complete.
+2025-09-06 22:33:59,085 - INFO - Ending browser session...
+2025-09-06 22:33:59,085 - INFO - ...................
+2025-09-06 22:33:59,086 - INFO - ...................
+2025-09-06 22:34:23,320 - INFO - Starting browser session with chrome...
+2025-09-06 22:34:25,081 - INFO - chrome browser launched successfully.
+2025-09-06 22:34:26,547 - INFO - URL opened successfully.
+2025-09-06 22:34:26,548 - INFO - TC_AD_09 with Login Started..
+2025-09-06 22:34:26,548 - INFO - Verify Student Personal Information Form with Valid Data
+2025-09-06 22:34:26,549 - INFO - Starting login process for TC_AD_09
+2025-09-06 22:34:26,687 - INFO - Sign Up for Free button clicked successfully.
+2025-09-06 22:34:26,687 - INFO - Navigated to Sign Up page successfully.
+2025-09-06 22:34:28,836 - INFO - Sign In link clicked successfully.
+2025-09-06 22:34:28,836 - INFO - Navigated to Sign In page successfully.
+2025-09-06 22:34:30,896 - INFO - Sign In page loaded successfully.
+2025-09-06 22:34:31,356 - INFO - Email entered successfully in login form.
+2025-09-06 22:34:31,356 - INFO - Email entered successfully in login form.
+2025-09-06 22:34:31,598 - INFO - Password entered successfully in login form.
+2025-09-06 22:34:31,598 - INFO - Password entered successfully in login form.
+2025-09-06 22:34:32,421 - INFO - Log In button clicked successfully.
+2025-09-06 22:34:32,421 - INFO - Log In button clicked successfully.
+2025-09-06 22:34:36,362 - INFO - Login success message found: Login successful!
+2025-09-06 22:34:36,402 - INFO - User authentication indicators found - login confirmed
+2025-09-06 22:34:36,402 - INFO - Login completed successfully for user: john.doe.test__16@gmail.com
+2025-09-06 22:34:36,402 - INFO - Login completed successfully before admission form
+2025-09-06 22:34:48,774 - INFO - Apply Now button clicked successfully.
+2025-09-06 22:34:50,999 - INFO - Full Name 'John Doe' entered successfully.
+2025-09-06 22:34:51,788 - INFO - Gender 'Male' selected successfully.
+2025-09-06 22:34:52,084 - INFO - Date of Birth '2000-05-15' entered successfully.
+2025-09-06 22:34:52,448 - INFO - Nationality 'Bangladeshi' selected successfully.
+2025-09-06 22:34:53,240 - INFO - Religion 'Islam' selected successfully.
+2025-09-06 22:34:53,518 - INFO - Contact number '01712345678' entered successfully.
+2025-09-06 22:34:53,845 - INFO - Email 'john@example.com' entered successfully.
+2025-09-06 22:34:54,055 - INFO - Present Address 'mohakhali' entered successfully.
+2025-09-06 22:34:57,337 - INFO - Save & Continue button clicked successfully.
+2025-09-06 22:35:05,388 - INFO - Test Passed. All fields successfully accepted valid inputs without any errors
+2025-09-06 22:35:05,388 - INFO - TC_AD_09 with Login Completed..
+2025-09-06 22:35:05,390 - INFO - Script complete.
+2025-09-06 22:35:07,774 - INFO - Ending browser session...
+2025-09-06 22:35:07,775 - INFO - ...................
+2025-09-06 22:35:07,775 - INFO - ...................

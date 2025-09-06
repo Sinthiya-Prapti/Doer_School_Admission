@@ -60,7 +60,7 @@
                     "_comment": "Verify Student Personal Information Form with Valid Data",
                     "fullname": "John Doe",
                     "gender": "Male",
-                    "date_of_birth": "01/01/2010",
+                    "date_of_birth": "2000-05-15",
                     "blood_group": "A+",
                     "nationality": "Bangladeshi",
                     "religion": "Islam",
