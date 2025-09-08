@@ -349,9 +349,9 @@
             {
                 "TC_AD_14": {
                     "_comment": "Verify Required Document Upload with Valid Files",
-                    "student_photo": "student_photo.jpg",
-                    "birth_certificate": "birth_certificate.pdf",
-                    "academic_records": "academic_records.pdf",
+                    "student_photo": "C:\\Users\\sinth\\Documents\\photo.jpg",
+                    "birth_certificate": "C:\\Users\\sinth\\Documents\\photo.jpg",
+                    "academic_records": "C:\\Users\\sinth\\Documents\\photo.jpg",
                     "expected_result": "Successfully upload all documents"
                 }
             }

@@ -2,6 +2,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 import time
 
+from utils.screenshot_utils import capture_full_page_screenshot
+
 
 class ApplicationReviewPage:
     def __init__(self, driver, wait):
@@ -14,25 +16,48 @@ class ApplicationReviewPage:
 
     def check_confirmation_checkbox(self):
         confirmation_checkbox = self.wait.until(
-            EC.element_to_be_clickable((By.CSS_SELECTOR, "#confirmationCheckbox"))
+            EC.element_to_be_clickable((By.CSS_SELECTOR, "input[type='checkbox']"))
         )
+        self.driver.execute_script("arguments[0].scrollIntoView(true);", confirmation_checkbox)
+        time.sleep(2)
+
         if not confirmation_checkbox.is_selected():
             confirmation_checkbox.click()
         time.sleep(1)
 
     def click_submit_button(self):
         submit_button = self.wait.until(
-            EC.element_to_be_clickable((By.CSS_SELECTOR, "#submitApplicationBtn"))
+            EC.presence_of_element_located((By.CSS_SELECTOR, "button.ant-btn-primary"))
         )
+
+        # Scroll into view
+        self.driver.execute_script("arguments[0].scrollIntoView(true);", submit_button)
+        time.sleep(1)
+
+        # Check if button is disabled
+        is_disabled = submit_button.get_attribute("disabled")
+        if is_disabled:
+            # Scroll to top
+            self.driver.execute_script("window.scrollTo(0, 0);")
+            time.sleep(1)
+
+            # Take screenshot
+            capture_full_page_screenshot(self.driver, "admission_review_and_publish_validation_error")
+
+            # Throw an exception
+            raise Exception("Validation Error: Submit button is disabled. Please check the form.")
+
+        # If not disabled, click the button
         submit_button.click()
-        time.sleep(3)  # Wait for popup to appear
+        time.sleep(3)
 
     def get_completion_message(self):
         try:
-            completion_message = self.wait.until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, "#completionMessage"))
+            success_message = self.wait.until(
+                EC.presence_of_element_located(
+                    (By.CSS_SELECTOR, "div[class='ant-message ant-message-top css-1rfzxih'] span:nth-child(2)"))
             )
-            return completion_message.text
+            return success_message.text
         except:
             return None
 
