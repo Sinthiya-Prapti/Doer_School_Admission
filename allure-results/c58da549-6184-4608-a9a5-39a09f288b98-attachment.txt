@@ -1,0 +1,73 @@
+[32mINFO    [0m root:conftest.py:31 Starting browser session with chrome...
+[32mINFO    [0m root:conftest.py:48 chrome browser launched successfully.
+[32mINFO    [0m root:conftest.py:54 URL opened successfully.
+[32mINFO    [0m root:test_TC_Reg_16.py:15 TC_Reg_16 Started..
+[32mINFO    [0m root:test_TC_Reg_16.py:16 Verify Page Responsive Design
+[32mINFO    [0m root:test_TC_Reg_16.py:40 Testing homepage responsiveness...
+[32mINFO    [0m root:test_TC_Reg_16.py:48 Set browser size to desktop: 1920x1080
+[32mINFO    [0m root:test_TC_Reg_16.py:60 Homepage heading visible on desktop: Your Child's Future Begins Here
+[32mINFO    [0m root:registration_page.py:45 Sign Up for Free button clicked successfully.
+[32mINFO    [0m root:test_TC_Reg_16.py:69 Sign Up button functional on desktop
+[32mINFO    [0m root:test_TC_Reg_16.py:48 Set browser size to mobile: 375x667
+[33mWARNING [0m root:test_TC_Reg_16.py:63 data=========== 
+[33mWARNING [0m root:test_TC_Reg_16.py:64 Homepage heading not visible on mobile
+[1m[31mERROR   [0m root:registration_page.py:47 Sign Up for Free button not found: Message: 
+
+[1m[31mERROR   [0m root:test_TC_Reg_16.py:76 Homepage functionality test failed on mobile: Message: 
+
+[32mINFO    [0m root:test_TC_Reg_16.py:87 Testing Sign Up page responsiveness...
+[32mINFO    [0m root:test_TC_Reg_16.py:95 Testing Sign Up page on desktop: 1920x1080
+[32mINFO    [0m root:registration_page.py:45 Sign Up for Free button clicked successfully.
+[32mINFO    [0m root:test_TC_Reg_16.py:108 Sign Up heading visible on desktop
+[32mINFO    [0m root:test_TC_Reg_16.py:119 All form fields visible on desktop
+[32mINFO    [0m root:registration_page.py:82 Full Name entered successfully.
+[32mINFO    [0m root:registration_page.py:95 Email entered successfully.
+[32mINFO    [0m root:registration_page.py:109 Password entered successfully.
+[32mINFO    [0m root:registration_page.py:123 Confirm Password entered successfully.
+[32mINFO    [0m root:test_TC_Reg_16.py:132 Form interaction successful on desktop
+[32mINFO    [0m root:test_TC_Reg_16.py:95 Testing Sign Up page on mobile: 375x667
+[1m[31mERROR   [0m root:registration_page.py:47 Sign Up for Free button not found: Message: 
+
+[1m[31mERROR   [0m root:test_TC_Reg_16.py:147 Sign Up page testing failed on mobile: Message: 
+
+[32mINFO    [0m root:test_TC_Reg_16.py:159 Testing Sign In page responsiveness...
+[32mINFO    [0m root:test_TC_Reg_16.py:167 Testing Sign In page on desktop: 1920x1080
+[32mINFO    [0m root:registration_page.py:45 Sign Up for Free button clicked successfully.
+[32mINFO    [0m root:registration_page.py:159 Sign In link clicked successfully.
+[32mINFO    [0m root:test_TC_Reg_16.py:182 Sign In heading visible on desktop
+[32mINFO    [0m root:test_TC_Reg_16.py:193 All Sign In elements visible on desktop
+[32mINFO    [0m root:login_page.py:42 Email entered successfully in login form.
+[32mINFO    [0m root:login_page.py:56 Password entered successfully in login form.
+[32mINFO    [0m root:test_TC_Reg_16.py:204 Sign In form interaction successful on desktop
+[32mINFO    [0m root:test_TC_Reg_16.py:167 Testing Sign In page on mobile: 375x667
+[1m[31mERROR   [0m root:registration_page.py:47 Sign Up for Free button not found: Message: 
+
+[1m[31mERROR   [0m root:test_TC_Reg_16.py:219 Sign In page testing failed on mobile: Message: 
+
+[32mINFO    [0m root:test_TC_Reg_16.py:230 Performing additional mobile-specific tests...
+[1m[31mERROR   [0m root:registration_page.py:47 Sign Up for Free button not found: Message: 
+
+[33mWARNING [0m root:test_TC_Reg_16.py:278 Additional mobile tests failed: Message: 
+
+[32mINFO    [0m root:test_TC_Reg_16.py:286 RESPONSIVE DESIGN TEST RESULTS SUMMARY:
+[32mINFO    [0m root:test_TC_Reg_16.py:291 Total tests: 12
+[32mINFO    [0m root:test_TC_Reg_16.py:292 Passed tests: 8
+[32mINFO    [0m root:test_TC_Reg_16.py:293 Success rate: 66.7%
+[32mINFO    [0m root:test_TC_Reg_16.py:298 homepage_desktop_heading: PASS
+[32mINFO    [0m root:test_TC_Reg_16.py:298 homepage_desktop_button: PASS
+[32mINFO    [0m root:test_TC_Reg_16.py:298 homepage_mobile_heading: FAIL
+[32mINFO    [0m root:test_TC_Reg_16.py:298 homepage_mobile_button: FAIL
+[32mINFO    [0m root:test_TC_Reg_16.py:298 signup_desktop_heading: PASS
+[32mINFO    [0m root:test_TC_Reg_16.py:298 signup_desktop_fields: PASS
+[32mINFO    [0m root:test_TC_Reg_16.py:298 signup_desktop_interaction: PASS
+[32mINFO    [0m root:test_TC_Reg_16.py:298 signup_mobile: FAIL
+[32mINFO    [0m root:test_TC_Reg_16.py:298 signin_desktop_heading: PASS
+[32mINFO    [0m root:test_TC_Reg_16.py:298 signin_desktop_elements: PASS
+[32mINFO    [0m root:test_TC_Reg_16.py:298 signin_desktop_interaction: PASS
+[32mINFO    [0m root:test_TC_Reg_16.py:298 signin_mobile: FAIL
+[1m[31mERROR   [0m root:test_TC_Reg_16.py:310 Responsive design test failed. Success rate: 66.7% (threshold: 80.0%)
+[1m[31mERROR   [0m root:test_TC_Reg_16.py:316 Failed tests: ['homepage_mobile_heading', 'homepage_mobile_button', 'signup_mobile', 'signin_mobile']
+[32mINFO    [0m root:conftest.py:58 Script complete.
+[32mINFO    [0m root:conftest.py:60 Ending browser session...
+[32mINFO    [0m root:conftest.py:61 ...................
+[32mINFO    [0m root:conftest.py:62 ...................

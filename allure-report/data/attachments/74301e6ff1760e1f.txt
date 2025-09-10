@@ -1,0 +1,27 @@
+[32mINFO    [0m root:conftest.py:31 Starting browser session with chrome...
+[32mINFO    [0m root:conftest.py:48 chrome browser launched successfully.
+[32mINFO    [0m root:conftest.py:54 URL opened successfully.
+[32mINFO    [0m root:test_TC_Val_03.py:15 TC_Val_03 Started..
+[32mINFO    [0m root:test_TC_Val_03.py:16 Verify registration fails with invalid Email (without @)
+[32mINFO    [0m root:registration_page.py:45 Sign Up for Free button clicked successfully.
+[32mINFO    [0m root:test_TC_Val_03.py:29 Navigated to Sign Up page successfully.
+[32mINFO    [0m root:registration_page.py:82 Full Name entered successfully.
+[32mINFO    [0m root:test_TC_Val_03.py:39 Valid Full Name entered successfully.
+[32mINFO    [0m root:registration_page.py:95 Email entered successfully.
+[32mINFO    [0m root:test_TC_Val_03.py:48 Invalid Email 'test' entered successfully.
+[32mINFO    [0m root:registration_page.py:109 Password entered successfully.
+[32mINFO    [0m root:test_TC_Val_03.py:57 Valid Password entered successfully.
+[32mINFO    [0m root:registration_page.py:123 Confirm Password entered successfully.
+[32mINFO    [0m root:test_TC_Val_03.py:66 Valid Confirm Password entered successfully.
+[32mINFO    [0m root:registration_page.py:135 Sign Up button clicked successfully.
+[32mINFO    [0m root:test_TC_Val_03.py:78 Sign Up button clicked successfully.
+[32mINFO    [0m root:test_TC_Val_03.py:91 Test Passed. Expected Error Message matches with Actual Error Message.
+[32mINFO    [0m root:test_TC_Val_03.py:92 Expected: Please enter a valid email!
+[32mINFO    [0m root:test_TC_Val_03.py:93 Actual: Please enter a valid email!
+[32mINFO    [0m root:test_TC_Val_03.py:129 Registration correctly prevented with invalid email format
+[32mINFO    [0m root:test_TC_Val_03.py:135 Test completed with invalid email format: 'test'
+[32mINFO    [0m root:test_TC_Val_03.py:137 TC_Val_03 Completed..
+[32mINFO    [0m root:conftest.py:58 Script complete.
+[32mINFO    [0m root:conftest.py:60 Ending browser session...
+[32mINFO    [0m root:conftest.py:61 ...................
+[32mINFO    [0m root:conftest.py:62 ...................

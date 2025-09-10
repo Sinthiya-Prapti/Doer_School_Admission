@@ -1,0 +1,14 @@
+[32mINFO    [0m root:conftest.py:31 Starting browser session with chrome...
+[32mINFO    [0m root:conftest.py:48 chrome browser launched successfully.
+[32mINFO    [0m root:conftest.py:54 URL opened successfully.
+[32mINFO    [0m root:test_TC_AD_07.py:11 TC_AD_07 Started..
+[32mINFO    [0m root:test_TC_AD_07.py:12 Verify Apply Now Button to Start Application
+[32mINFO    [0m root:test_TC_AD_07.py:28 Apply Now button clicked successfully.
+[32mINFO    [0m root:test_TC_AD_07.py:41 Current URL after clicking Apply Now: https://admission-test.doer.school/en/sign-in
+[32mINFO    [0m root:test_TC_AD_07.py:45 Test Passed. Navigate to Student Information form
+[32mINFO    [0m root:test_TC_AD_07.py:46 ✅ Successfully redirected to login page for non-logged in user.
+[32mINFO    [0m root:test_TC_AD_07.py:64 TC_AD_07 Completed..
+[32mINFO    [0m root:conftest.py:58 Script complete.
+[32mINFO    [0m root:conftest.py:60 Ending browser session...
+[32mINFO    [0m root:conftest.py:61 ...................
+[32mINFO    [0m root:conftest.py:62 ...................

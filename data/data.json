@@ -29,7 +29,7 @@
                 "TC_Reg_03": {
                     "_comment": "Verify Complete User Registration with Valid Data",
                     "fullname": "John Doe",
-                    "email": "john.doe.test__16@gmail.com",
+                    "email": "john.doe.test__24@gmail.com",
                     "password": "TestPass123__1",
                     "confirm_password": "TestPass123__1",
                     "expected_result": "Registration successful! Please log in with your credentials."
@@ -56,7 +56,7 @@
             {
                 "TC_Reg_06": {
                     "_comment": "Verify User Login with Valid Credentials",
-                    "email": "john.doe.test__16@gmail.com",
+                    "email": "john.doe.test__24@gmail.com",
                     "password": "TestPass123__1",
                     "expected_result": "User logged in successfully and redirected to home"
                 }

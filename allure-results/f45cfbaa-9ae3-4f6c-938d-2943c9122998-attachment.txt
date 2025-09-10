@@ -1,0 +1,32 @@
+[32mINFO    [0m root:conftest.py:31 Starting browser session with chrome...
+[32mINFO    [0m root:conftest.py:48 chrome browser launched successfully.
+[32mINFO    [0m root:conftest.py:54 URL opened successfully.
+[32mINFO    [0m root:test_TC_AD_18.py:11 TC_AD_18 Started..
+[32mINFO    [0m root:test_TC_AD_18.py:12 Verify View Voucher Functionality
+[31m[1mERROR   [0m root:test_TC_AD_18.py:36 Failed to select offline payment method: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6dfdf3d85+79397]
+	GetHandleVerifier [0x0x7ff6dfdf3de0+79488]
+	(No symbol) [0x0x7ff6dfb9c0fa]
+	(No symbol) [0x0x7ff6dfbf2fd6]
+	(No symbol) [0x0x7ff6dfbf328c]
+	(No symbol) [0x0x7ff6dfc46537]
+	(No symbol) [0x0x7ff6dfc1b1df]
+	(No symbol) [0x0x7ff6dfc43344]
+	(No symbol) [0x0x7ff6dfc1af73]
+	(No symbol) [0x0x7ff6dfbe41b1]
+	(No symbol) [0x0x7ff6dfbe4f43]
+	GetHandleVerifier [0x0x7ff6e00be1ed+3005069]
+	GetHandleVerifier [0x0x7ff6e00b831d+2980797]
+	GetHandleVerifier [0x0x7ff6e00d7e0d+3110573]
+	GetHandleVerifier [0x0x7ff6dfe0d6de+184190]
+	GetHandleVerifier [0x0x7ff6dfe1516f+215567]
+	GetHandleVerifier [0x0x7ff6dfdfc974+115220]
+	GetHandleVerifier [0x0x7ff6dfdfcb29+115657]
+	GetHandleVerifier [0x0x7ff6dfde3268+11016]
+	BaseThreadInitThunk [0x0x7ffe7daee8d7+23]
+	RtlUserThreadStart [0x0x7ffe7fcbc34c+44]
+[32mINFO    [0m root:conftest.py:58 Script complete.
+[32mINFO    [0m root:conftest.py:60 Ending browser session...
+[32mINFO    [0m root:conftest.py:61 ...................
+[32mINFO    [0m root:conftest.py:62 ...................

@@ -1,0 +1,82 @@
+[32mINFO    [0m root:conftest.py:31 Starting browser session with chrome...
+[32mINFO    [0m root:conftest.py:48 chrome browser launched successfully.
+[32mINFO    [0m root:conftest.py:54 URL opened successfully.
+[32mINFO    [0m root:test_TC_AD_10.py:32 === ADMISSION COMPLETE FLOW TEST STARTED ===
+[32mINFO    [0m root:test_TC_AD_10.py:50 STEP 1: Performing Login...
+[32mINFO    [0m root:login_utils.py:25 Starting login process for ADMISSION_FLOW
+[32mINFO    [0m root:registration_page.py:45 Sign Up for Free button clicked successfully.
+[32mINFO    [0m root:login_utils.py:34 Navigated to Sign Up page successfully.
+[32mINFO    [0m root:registration_page.py:159 Sign In link clicked successfully.
+[32mINFO    [0m root:login_utils.py:39 Navigated to Sign In page successfully.
+[32mINFO    [0m root:login_utils.py:51 Sign In page loaded successfully.
+[32mINFO    [0m root:login_page.py:42 Email entered successfully in login form.
+[32mINFO    [0m root:login_utils.py:64 Email entered successfully in login form.
+[32mINFO    [0m root:login_page.py:56 Password entered successfully in login form.
+[32mINFO    [0m root:login_utils.py:73 Password entered successfully in login form.
+[32mINFO    [0m root:login_page.py:107 Log In button clicked successfully.
+[32mINFO    [0m root:login_utils.py:85 Log In button clicked successfully.
+[32mINFO    [0m root:login_utils.py:101 Login success message found: Login successful!
+[32mINFO    [0m root:login_utils.py:146 User authentication indicators found - login confirmed
+[32mINFO    [0m root:login_utils.py:150 Login completed successfully for user: john.doe.test__23@gmail.com
+[32mINFO    [0m root:test_TC_AD_10.py:55 ✅ Login completed successfully
+[32mINFO    [0m root:test_TC_AD_10.py:65 STEP 2: Navigating to Admission Form...
+[32mINFO    [0m root:test_TC_AD_10.py:75 ✅ Successfully navigated to admission form
+[32mINFO    [0m root:test_TC_AD_10.py:85 STEP 3: Filling Student Information Form...
+[32mINFO    [0m root:test_TC_AD_10.py:101 Using valid student data: Verify Student Personal Information Form with Valid Data
+[32mINFO    [0m root:test_TC_AD_10.py:107 Full Name: 'John Doe'
+[32mINFO    [0m root:test_TC_AD_10.py:111 Gender: 'Male'
+[32mINFO    [0m root:test_TC_AD_10.py:115 Date of Birth: '2000-05-15'
+[32mINFO    [0m root:test_TC_AD_10.py:124 Nationality: 'Bangladeshi'
+[32mINFO    [0m root:test_TC_AD_10.py:128 Religion: 'Islam'
+[32mINFO    [0m root:test_TC_AD_10.py:132 Contact: '01712345678'
+[32mINFO    [0m root:test_TC_AD_10.py:136 Email: 'john@example.com'
+[32mINFO    [0m root:test_TC_AD_10.py:140 Present Address: 'mohakhali'
+[32mINFO    [0m root:test_TC_AD_10.py:144 Save & Continue button clicked
+[32mINFO    [0m root:test_TC_AD_10.py:156 ✅ Student information saved successfully (valid data)
+[32mINFO    [0m root:test_TC_AD_10.py:173 🔑 Draft ID captured: 132
+[32mINFO    [0m root:test_TC_AD_10.py:183 STEP 4: Filling Guardian Information Form...
+[32mINFO    [0m root:test_TC_AD_10.py:187 Guardian data: Verify Guardian Information Form Submission with Valid Data (Required Fields Only)
+[32mINFO    [0m root:test_TC_AD_10.py:195 Father Full Name: 'kamal'
+[32mINFO    [0m root:test_TC_AD_10.py:198 Father Contact: '01789571651'
+[32mINFO    [0m root:test_TC_AD_10.py:201 Father Occupation: 'Businessman'
+[32mINFO    [0m root:test_TC_AD_10.py:204 Father NID: '1234567890'
+[32mINFO    [0m root:test_TC_AD_10.py:207 Father Address: 'Dhaka'
+[32mINFO    [0m root:test_TC_AD_10.py:211 Mother Full Name: 'jorina'
+[32mINFO    [0m root:test_TC_AD_10.py:214 Mother Contact: '01789571652'
+[32mINFO    [0m root:test_TC_AD_10.py:217 Mother Occupation: 'Housewife'
+[32mINFO    [0m root:test_TC_AD_10.py:220 Mother NID: '1234567890'
+[32mINFO    [0m root:test_TC_AD_10.py:223 Mother Address: 'Dhaka'
+[1m[31mERROR   [0m root:test_TC_AD_10.py:244 ❌ Error filling guardian information: Message: element click intercepted: Element is not clickable at point (730, 1378)
+  (Session info: chrome=139.0.7258.157); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6dfdf3d85+79397]
+	GetHandleVerifier [0x0x7ff6dfdf3de0+79488]
+	(No symbol) [0x0x7ff6dfb9c0fa]
+	(No symbol) [0x0x7ff6dfbfafd9]
+	(No symbol) [0x0x7ff6dfbf8972]
+	(No symbol) [0x0x7ff6dfbf59c1]
+	(No symbol) [0x0x7ff6dfbf48b1]
+	(No symbol) [0x0x7ff6dfbe60e8]
+	(No symbol) [0x0x7ff6dfc1b19a]
+	(No symbol) [0x0x7ff6dfbe5996]
+	(No symbol) [0x0x7ff6dfc1b3b0]
+	(No symbol) [0x0x7ff6dfc43344]
+	(No symbol) [0x0x7ff6dfc1af73]
+	(No symbol) [0x0x7ff6dfbe41b1]
+	(No symbol) [0x0x7ff6dfbe4f43]
+	GetHandleVerifier [0x0x7ff6e00be1ed+3005069]
+	GetHandleVerifier [0x0x7ff6e00b831d+2980797]
+	GetHandleVerifier [0x0x7ff6e00d7e0d+3110573]
+	GetHandleVerifier [0x0x7ff6dfe0d6de+184190]
+	GetHandleVerifier [0x0x7ff6dfe1516f+215567]
+	GetHandleVerifier [0x0x7ff6dfdfc974+115220]
+	GetHandleVerifier [0x0x7ff6dfdfcb29+115657]
+	GetHandleVerifier [0x0x7ff6dfde3268+11016]
+	BaseThreadInitThunk [0x0x7ffe7daee8d7+23]
+	RtlUserThreadStart [0x0x7ffe7fcbc34c+44]
+
+[32mINFO    [0m root:test_TC_AD_10.py:417 === ADMISSION COMPLETE FLOW TEST COMPLETED ===
+[32mINFO    [0m root:conftest.py:58 Script complete.
+[32mINFO    [0m root:conftest.py:60 Ending browser session...
+[32mINFO    [0m root:conftest.py:61 ...................
+[32mINFO    [0m root:conftest.py:62 ...................

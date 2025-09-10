@@ -1,0 +1,19 @@
+[32mINFO    [0m root:conftest.py:31 Starting browser session with chrome...
+[32mINFO    [0m root:conftest.py:48 chrome browser launched successfully.
+[32mINFO    [0m root:conftest.py:54 URL opened successfully.
+[32mINFO    [0m root:test_TC_Reg_01.py:12 TC_Reg_01 Started..
+[32mINFO    [0m root:test_TC_Reg_01.py:13 Verify Homepage Load and Sign Up Button Navigation
+[32mINFO    [0m root:test_TC_Reg_01.py:29 Homepage URL loaded successfully.
+[32mINFO    [0m root:test_TC_Reg_01.py:43 Homepage heading verified successfully.
+[31m[1mERROR   [0m root:test_TC_Reg_01.py:68 Statistics verification failed. Expected: {'students': '20000+', 'guardians': '1643+', 'teachers': '7000+', 'schools': '2000+'}, Actual: {'students': 'Students', 'guardians': 'Guardians', 'teachers': 'Teachers', 'schools': 'Schools'}
+[33mWARNING [0m root:test_TC_Reg_01.py:71 Continuing test despite statistics mismatch...
+[32mINFO    [0m root:registration_page.py:45 Sign Up for Free button clicked successfully.
+[32mINFO    [0m root:test_TC_Reg_01.py:80 Sign Up for Free button clicked successfully.
+[32mINFO    [0m root:test_TC_Reg_01.py:91 Successfully navigated to Sign Up page.
+[32mINFO    [0m root:test_TC_Reg_01.py:100 Sign Up page loaded successfully with correct heading.
+[32mINFO    [0m root:test_TC_Reg_01.py:111 Test Passed. Homepage loads successfully and navigates to Sign Up page
+[32mINFO    [0m root:test_TC_Reg_01.py:112 TC_Reg_01 Completed..
+[32mINFO    [0m root:conftest.py:58 Script complete.
+[32mINFO    [0m root:conftest.py:60 Ending browser session...
+[32mINFO    [0m root:conftest.py:61 ...................
+[32mINFO    [0m root:conftest.py:62 ...................

@@ -1,0 +1,27 @@
+[32mINFO    [0m root:conftest.py:31 Starting browser session with chrome...
+[32mINFO    [0m root:conftest.py:48 chrome browser launched successfully.
+[32mINFO    [0m root:conftest.py:54 URL opened successfully.
+[32mINFO    [0m root:test_TC_Reg_05.py:15 TC_Reg_05 Started..
+[32mINFO    [0m root:test_TC_Reg_05.py:16 Verify Sign In Page Load and Form Display
+[32mINFO    [0m root:registration_page.py:45 Sign Up for Free button clicked successfully.
+[32mINFO    [0m root:test_TC_Reg_05.py:30 Navigated to Sign Up page successfully.
+[32mINFO    [0m root:registration_page.py:159 Sign In link clicked successfully.
+[32mINFO    [0m root:test_TC_Reg_05.py:34 Navigated to Sign In page successfully.
+[32mINFO    [0m root:test_TC_Reg_05.py:45 Sign In page loaded successfully.
+[32mINFO    [0m root:test_TC_Reg_05.py:61 Sign In heading verified successfully.
+[32mINFO    [0m root:test_TC_Reg_05.py:78 Sign In subtitle verified successfully.
+[32mINFO    [0m root:test_TC_Reg_05.py:97 Email field is visible.
+[32mINFO    [0m root:test_TC_Reg_05.py:112 Password field is visible.
+[32mINFO    [0m root:test_TC_Reg_05.py:122 All form fields verified successfully.
+[32mINFO    [0m root:test_TC_Reg_05.py:135 All Sign In form elements verified successfully.
+[32mINFO    [0m root:test_TC_Reg_05.py:151 'Keep me logged in' checkbox is visible.
+[33mWARNING [0m root:test_TC_Reg_05.py:165 'Forgot password?' link not found.
+[32mINFO    [0m root:test_TC_Reg_05.py:171 'Log In' button is visible.
+[32mINFO    [0m root:test_TC_Reg_05.py:181 'Sign in with Google' option is visible.
+[32mINFO    [0m root:test_TC_Reg_05.py:195 Test Passed. Sign In page loads with all required elements
+[32mINFO    [0m root:test_TC_Reg_05.py:200 Sign In page title: Authentication | DOER ADMISSION
+[32mINFO    [0m root:test_TC_Reg_05.py:204 TC_Reg_05 Completed..
+[32mINFO    [0m root:conftest.py:58 Script complete.
+[32mINFO    [0m root:conftest.py:60 Ending browser session...
+[32mINFO    [0m root:conftest.py:61 ...................
+[32mINFO    [0m root:conftest.py:62 ...................

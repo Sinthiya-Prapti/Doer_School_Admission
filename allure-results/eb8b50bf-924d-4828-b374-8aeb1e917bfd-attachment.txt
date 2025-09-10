@@ -1,0 +1,26 @@
+[32mINFO    [0m root:conftest.py:31 Starting browser session with chrome...
+[32mINFO    [0m root:conftest.py:48 chrome browser launched successfully.
+[32mINFO    [0m root:conftest.py:54 URL opened successfully.
+[32mINFO    [0m root:test_TC_Reg_06.py:15 TC_Reg_06 Started..
+[32mINFO    [0m root:test_TC_Reg_06.py:16 Verify User Login with Valid Credentials
+[32mINFO    [0m root:registration_page.py:45 Sign Up for Free button clicked successfully.
+[32mINFO    [0m root:test_TC_Reg_06.py:30 Navigated to Sign Up page successfully.
+[32mINFO    [0m root:registration_page.py:159 Sign In link clicked successfully.
+[32mINFO    [0m root:test_TC_Reg_06.py:35 Navigated to Sign In page successfully.
+[32mINFO    [0m root:test_TC_Reg_06.py:48 Sign In page loaded successfully.
+[32mINFO    [0m root:login_page.py:42 Email entered successfully in login form.
+[32mINFO    [0m root:test_TC_Reg_06.py:61 Email entered successfully in login form.
+[32mINFO    [0m root:login_page.py:56 Password entered successfully in login form.
+[32mINFO    [0m root:test_TC_Reg_06.py:70 Password entered successfully in login form.
+[32mINFO    [0m root:login_page.py:107 Log In button clicked successfully.
+[32mINFO    [0m root:test_TC_Reg_06.py:82 Log In button clicked successfully.
+[32mINFO    [0m root:test_TC_Reg_06.py:101 Login success message found: Login successful!
+[32mINFO    [0m root:test_TC_Reg_06.py:150 Test Passed. User logged in successfully and redirected to home
+[32mINFO    [0m root:test_TC_Reg_06.py:154 Final URL after login: https://admission-test.doer.school/en
+[32mINFO    [0m root:test_TC_Reg_06.py:167 User authentication indicators found - login confirmed
+[32mINFO    [0m root:test_TC_Reg_06.py:170 Login completed for user: john.doe.test__23@gmail.com
+[32mINFO    [0m root:test_TC_Reg_06.py:175 TC_Reg_06 Completed..
+[32mINFO    [0m root:conftest.py:58 Script complete.
+[32mINFO    [0m root:conftest.py:60 Ending browser session...
+[32mINFO    [0m root:conftest.py:61 ...................
+[32mINFO    [0m root:conftest.py:62 ...................

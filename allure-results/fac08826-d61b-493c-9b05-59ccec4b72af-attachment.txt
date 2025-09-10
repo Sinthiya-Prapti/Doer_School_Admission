@@ -1,0 +1,19 @@
+[32mINFO    [0m root:conftest.py:31 Starting browser session with chrome...
+[32mINFO    [0m root:conftest.py:48 chrome browser launched successfully.
+[32mINFO    [0m root:conftest.py:54 URL opened successfully.
+[32mINFO    [0m root:test_TC_Reg_02.py:12 TC_Reg_02 Started..
+[32mINFO    [0m root:test_TC_Reg_02.py:13 Verify Sign Up Page Load and Form Display
+[32mINFO    [0m root:registration_page.py:45 Sign Up for Free button clicked successfully.
+[32mINFO    [0m root:test_TC_Reg_02.py:26 Navigated to Sign Up page successfully.
+[32mINFO    [0m root:test_TC_Reg_02.py:37 Sign Up page loaded successfully.
+[32mINFO    [0m root:test_TC_Reg_02.py:53 Sign Up heading verified successfully.
+[32mINFO    [0m root:test_TC_Reg_02.py:70 Sign Up subtitle verified successfully.
+[32mINFO    [0m root:test_TC_Reg_02.py:84 All form fields verified successfully.
+[32mINFO    [0m root:test_TC_Reg_02.py:101 All buttons verified successfully.
+[33mWARNING [0m root:test_TC_Reg_02.py:118 Page title might not be appropriate: Authentication | DOER ADMISSION
+[32mINFO    [0m root:test_TC_Reg_02.py:128 Test Passed. Sign Up page loads with all required form elements
+[32mINFO    [0m root:test_TC_Reg_02.py:129 TC_Reg_02 Completed..
+[32mINFO    [0m root:conftest.py:58 Script complete.
+[32mINFO    [0m root:conftest.py:60 Ending browser session...
+[32mINFO    [0m root:conftest.py:61 ...................
+[32mINFO    [0m root:conftest.py:62 ...................

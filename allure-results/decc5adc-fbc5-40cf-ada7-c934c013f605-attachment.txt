@@ -1,0 +1,86 @@
+[32mINFO    [0m root:conftest.py:31 Starting browser session with chrome...
+[32mINFO    [0m root:conftest.py:48 chrome browser launched successfully.
+[32mINFO    [0m root:conftest.py:54 URL opened successfully.
+[32mINFO    [0m root:test_TC_AD_10.py:32 === ADMISSION COMPLETE FLOW TEST STARTED ===
+[32mINFO    [0m root:test_TC_AD_10.py:50 STEP 1: Performing Login...
+[32mINFO    [0m root:login_utils.py:25 Starting login process for ADMISSION_FLOW
+[32mINFO    [0m root:registration_page.py:45 Sign Up for Free button clicked successfully.
+[32mINFO    [0m root:login_utils.py:34 Navigated to Sign Up page successfully.
+[32mINFO    [0m root:registration_page.py:159 Sign In link clicked successfully.
+[32mINFO    [0m root:login_utils.py:39 Navigated to Sign In page successfully.
+[32mINFO    [0m root:login_utils.py:51 Sign In page loaded successfully.
+[32mINFO    [0m root:login_page.py:42 Email entered successfully in login form.
+[32mINFO    [0m root:login_utils.py:64 Email entered successfully in login form.
+[32mINFO    [0m root:login_page.py:56 Password entered successfully in login form.
+[32mINFO    [0m root:login_utils.py:73 Password entered successfully in login form.
+[32mINFO    [0m root:login_page.py:107 Log In button clicked successfully.
+[32mINFO    [0m root:login_utils.py:85 Log In button clicked successfully.
+[32mINFO    [0m root:login_utils.py:101 Login success message found: Login successful!
+[32mINFO    [0m root:login_utils.py:146 User authentication indicators found - login confirmed
+[32mINFO    [0m root:login_utils.py:150 Login completed successfully for user: john.doe.test__24@gmail.com
+[32mINFO    [0m root:test_TC_AD_10.py:55 ✅ Login completed successfully
+[32mINFO    [0m root:test_TC_AD_10.py:65 STEP 2: Navigating to Admission Form...
+[32mINFO    [0m root:test_TC_AD_10.py:75 ✅ Successfully navigated to admission form
+[32mINFO    [0m root:test_TC_AD_10.py:85 STEP 3: Filling Student Information Form...
+[32mINFO    [0m root:test_TC_AD_10.py:101 Using valid student data: Verify Student Personal Information Form with Valid Data
+[32mINFO    [0m root:test_TC_AD_10.py:107 Full Name: 'John Doe'
+[32mINFO    [0m root:test_TC_AD_10.py:111 Gender: 'Male'
+[32mINFO    [0m root:test_TC_AD_10.py:115 Date of Birth: '2000-05-15'
+[32mINFO    [0m root:test_TC_AD_10.py:124 Nationality: 'Bangladeshi'
+[32mINFO    [0m root:test_TC_AD_10.py:128 Religion: 'Islam'
+[32mINFO    [0m root:test_TC_AD_10.py:132 Contact: '01712345678'
+[32mINFO    [0m root:test_TC_AD_10.py:136 Email: 'john@example.com'
+[32mINFO    [0m root:test_TC_AD_10.py:140 Present Address: 'mohakhali'
+[32mINFO    [0m root:test_TC_AD_10.py:144 Save & Continue button clicked
+[32mINFO    [0m root:test_TC_AD_10.py:156 ✅ Student information saved successfully (valid data)
+[32mINFO    [0m root:test_TC_AD_10.py:173 🔑 Draft ID captured: 133
+[32mINFO    [0m root:test_TC_AD_10.py:183 STEP 4: Filling Guardian Information Form...
+[32mINFO    [0m root:test_TC_AD_10.py:187 Guardian data: Verify Guardian Information Form Submission with Valid Data (Required Fields Only)
+[32mINFO    [0m root:test_TC_AD_10.py:195 Father Full Name: 'kamal'
+[32mINFO    [0m root:test_TC_AD_10.py:198 Father Contact: '01789571651'
+[32mINFO    [0m root:test_TC_AD_10.py:201 Father Occupation: 'Businessman'
+[32mINFO    [0m root:test_TC_AD_10.py:204 Father NID: '1234567890'
+[32mINFO    [0m root:test_TC_AD_10.py:207 Father Address: 'Dhaka'
+[32mINFO    [0m root:test_TC_AD_10.py:211 Mother Full Name: 'jorina'
+[32mINFO    [0m root:test_TC_AD_10.py:214 Mother Contact: '01789571652'
+[32mINFO    [0m root:test_TC_AD_10.py:217 Mother Occupation: 'Housewife'
+[32mINFO    [0m root:test_TC_AD_10.py:220 Mother NID: '1234567890'
+[32mINFO    [0m root:test_TC_AD_10.py:223 Mother Address: 'Dhaka'
+[32mINFO    [0m root:test_TC_AD_10.py:227 Legal Guardian: 'Father'
+[32mINFO    [0m root:test_TC_AD_10.py:231 Save & Continue button clicked
+[32mINFO    [0m root:test_TC_AD_10.py:237 Family information added successfully.
+[32mINFO    [0m root:test_TC_AD_10.py:251 STEP 5: Filling Previous School Information Form...
+[32mINFO    [0m root:test_TC_AD_10.py:255 Previous School data: Verify Previous School Academic Details Form Submission with Valid Data (Required Fields Only)
+[32mINFO    [0m root:test_TC_AD_10.py:263 School Name: 'ABC Primary School'
+[32mINFO    [0m root:test_TC_AD_10.py:266 Board Curriculum: 'National Curriculum'
+[32mINFO    [0m root:test_TC_AD_10.py:269 Last Class Completed: 'Three'
+[32mINFO    [0m root:test_TC_AD_10.py:272 School Address: '789 School Street'
+[32mINFO    [0m root:test_TC_AD_10.py:276 Save & Continue button clicked
+[32mINFO    [0m root:test_TC_AD_10.py:283 Previous school information added successfully.
+[32mINFO    [0m root:test_TC_AD_10.py:298 STEP 5: Document Upload...
+[32mINFO    [0m root:test_TC_AD_10.py:302 Document data: Verify Required Document Upload with Valid Files
+[32mINFO    [0m root:test_TC_AD_10.py:328 ✅ Student photo uploaded
+[32mINFO    [0m root:test_TC_AD_10.py:331 ✅ Birth certificate uploaded
+[32mINFO    [0m root:test_TC_AD_10.py:334 ✅ Academic records uploaded
+[32mINFO    [0m root:test_TC_AD_10.py:338 Document Upload Save & Continue clicked
+[32mINFO    [0m root:test_TC_AD_10.py:349 STEP 6: Application Review & Submission...
+[32mINFO    [0m root:test_TC_AD_10.py:353 Submission data: Verify Application Submission from Review Page
+[32mINFO    [0m root:test_TC_AD_10.py:361 ✅ Confirmation checkbox checked
+[32mINFO    [0m root:test_TC_AD_10.py:365 ✅ Submit button clicked
+[33mWARNING [0m root:test_TC_AD_10.py:373 ⚠️ Completion message not found, checking other indicators
+[33mWARNING [0m root:test_TC_AD_10.py:382 ⚠️ Payment options not fully visible
+[32mINFO    [0m root:test_TC_AD_10.py:386 Final URL: https://admission-test.doer.school/en/admission/apply/15?draft=133
+[32mINFO    [0m root:test_TC_AD_10.py:389 ✅ Draft ID 133 maintained throughout flow
+[32mINFO    [0m root:test_TC_AD_10.py:401 ADMISSION COMPLETE FLOW TEST PASSED
+[32mINFO    [0m root:test_TC_AD_10.py:402 All steps completed successfully:
+[32mINFO    [0m root:test_TC_AD_10.py:403 Login (if required)
+[32mINFO    [0m root:test_TC_AD_10.py:404 Student Information
+[32mINFO    [0m root:test_TC_AD_10.py:405 Guardian Information
+[32mINFO    [0m root:test_TC_AD_10.py:406 Document Upload
+[32mINFO    [0m root:test_TC_AD_10.py:407 Application Review & Submission
+[32mINFO    [0m root:test_TC_AD_10.py:409   ✓ Draft ID tracked: 133
+[32mINFO    [0m root:test_TC_AD_10.py:417 === ADMISSION COMPLETE FLOW TEST COMPLETED ===
+[32mINFO    [0m root:conftest.py:58 Script complete.
+[32mINFO    [0m root:conftest.py:60 Ending browser session...
+[32mINFO    [0m root:conftest.py:61 ...................
+[32mINFO    [0m root:conftest.py:62 ...................

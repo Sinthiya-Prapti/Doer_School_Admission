@@ -1,0 +1,26 @@
+[32mINFO    [0m root:conftest.py:31 Starting browser session with chrome...
+[32mINFO    [0m root:conftest.py:48 chrome browser launched successfully.
+[32mINFO    [0m root:conftest.py:54 URL opened successfully.
+[32mINFO    [0m root:test_TC_Reg_12.py:13 TC_Reg_12 Started..
+[32mINFO    [0m root:test_TC_Reg_12.py:14 Verify Password Visibility Toggle
+[32mINFO    [0m root:registration_page.py:45 Sign Up for Free button clicked successfully.
+[32mINFO    [0m root:test_TC_Reg_12.py:28 Navigated to Sign Up page successfully.
+[32mINFO    [0m root:registration_page.py:159 Sign In link clicked successfully.
+[32mINFO    [0m root:test_TC_Reg_12.py:33 Navigated to Sign In page successfully.
+[32mINFO    [0m root:login_page.py:56 Password entered successfully in login form.
+[32mINFO    [0m root:test_TC_Reg_12.py:43 Password entered successfully.
+[32mINFO    [0m root:test_TC_Reg_12.py:57 Password field initially hidden (type='password').
+[32mINFO    [0m root:login_page.py:68 Password visibility toggle clicked successfully.
+[32mINFO    [0m root:test_TC_Reg_12.py:68 Password visibility toggle clicked successfully.
+[32mINFO    [0m root:test_TC_Reg_12.py:79 Password is now visible (type='text').
+[32mINFO    [0m root:login_page.py:80 Password visibility toggle clicked successfully.
+[32mINFO    [0m root:test_TC_Reg_12.py:95 Password visibility toggle clicked again successfully.
+[32mINFO    [0m root:test_TC_Reg_12.py:106 Password is hidden again (type='password').
+[32mINFO    [0m root:test_TC_Reg_12.py:126 Test Passed. Password visibility toggles when eye icon clicked
+[32mINFO    [0m root:test_TC_Reg_12.py:127 Password visibility toggle functionality working correctly.
+[32mINFO    [0m root:test_TC_Reg_12.py:133 Password toggle test completed with password: Tes***
+[32mINFO    [0m root:test_TC_Reg_12.py:134 TC_Reg_12 Completed..
+[32mINFO    [0m root:conftest.py:58 Script complete.
+[32mINFO    [0m root:conftest.py:60 Ending browser session...
+[32mINFO    [0m root:conftest.py:61 ...................
+[32mINFO    [0m root:conftest.py:62 ...................

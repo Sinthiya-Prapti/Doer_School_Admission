@@ -1,0 +1,1 @@
+Successfully clicked Apply Now button using normal click

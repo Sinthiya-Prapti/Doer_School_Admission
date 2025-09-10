@@ -1,0 +1,41 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"TC_Reg_06: Verify User Login with Valid Credentials","9457","test_tc_reg_06[test_case0]","tests","Wed Sep 10 17:06:55 BDT 2025","passed","Wed Sep 10 17:07:05 BDT 2025","","test_TC_Reg_06","",""
+"TC_Reg_12: Verify Password Visibility Toggle","11398","test_tc_reg_12[test_case0]","tests","Wed Sep 10 17:17:36 BDT 2025","passed","Wed Sep 10 17:17:48 BDT 2025","","test_TC_Reg_12","",""
+"TC_Reg_16: Verify Page Responsive Design","138254","test_tc_reg_16[test_case0]","tests","Wed Sep 10 17:07:28 BDT 2025","failed","Wed Sep 10 17:09:47 BDT 2025","","test_TC_Reg_16","",""
+"
+Comprehensive test covering the entire admission form flow:
+- Login (if required)
+- Student Information (TC_AD_09/TC_AD_10)
+- Guardian Information (TC_AD_12)
+- Document Upload (TC_AD_14)
+- Application Review & Submission (TC_AD_15)
+","116704","test_admission_complete_flow[test_case0]","tests.admission","Wed Sep 10 17:21:44 BDT 2025","passed","Wed Sep 10 17:23:41 BDT 2025","","test_TC_AD_10","",""
+"TC_Reg_02: Verify Sign Up Page Load and Form Display","4469","test_tc_reg_02[test_case0]","tests","Wed Sep 10 17:16:41 BDT 2025","passed","Wed Sep 10 17:16:46 BDT 2025","","test_TC_Reg_02","",""
+"TC_Reg_16: Verify Page Responsive Design","137173","test_tc_reg_16[test_case0]","tests","Wed Sep 10 17:17:55 BDT 2025","failed","Wed Sep 10 17:20:12 BDT 2025","","test_TC_Reg_16","",""
+"TC_Reg_03: Verify Complete User Registration with Valid Data","7325","test_tc_reg_03[test_case0]","tests","Wed Sep 10 17:06:26 BDT 2025","passed","Wed Sep 10 17:06:33 BDT 2025","","test_TC_Reg_03","",""
+"TC_Reg_05: Verify Sign In Page Load and Form Display","10377","test_tc_reg_05[test_case0]","tests","Wed Sep 10 17:06:39 BDT 2025","passed","Wed Sep 10 17:06:50 BDT 2025","","test_TC_Reg_05","",""
+"TC_Reg_01: Verify Homepage Load and Sign Up Button Navigation","6350","test_tc_reg_01[test_case0]","tests","Wed Sep 10 17:06:04 BDT 2025","passed","Wed Sep 10 17:06:10 BDT 2025","","test_TC_Reg_01","",""
+"TC_Val_01: Verify registration fails with empty Full Name","7128","test_tc_val_01[test_case0]","tests","Wed Sep 10 17:09:53 BDT 2025","passed","Wed Sep 10 17:10:00 BDT 2025","","test_TC_Val_01","",""
+"TC_Val_03: Verify registration fails with invalid Email (without @)","6261","test_tc_val_03[test_case0]","tests","Wed Sep 10 17:10:06 BDT 2025","passed","Wed Sep 10 17:10:13 BDT 2025","","test_TC_Val_03","",""
+"
+Comprehensive test covering the entire admission form flow:
+- Login (if required)
+- Student Information (TC_AD_09/TC_AD_10)
+- Guardian Information (TC_AD_12)
+- Document Upload (TC_AD_14)
+- Application Review & Submission (TC_AD_15)
+","49569","test_admission_complete_flow[test_case0]","tests.admission","Wed Sep 10 17:11:20 BDT 2025","failed","Wed Sep 10 17:12:09 BDT 2025","","test_TC_AD_10","",""
+"","598","test_tc_ad_01[test_case0]","tests.admission","Wed Sep 10 17:20:55 BDT 2025","passed","Wed Sep 10 17:20:55 BDT 2025","","test_TC_AD_01","",""
+"","18605","test_tc_ad_02[test_case0]","tests.admission","Wed Sep 10 17:21:00 BDT 2025","passed","Wed Sep 10 17:21:19 BDT 2025","","test_TC_AD_02","",""
+"TC_Reg_05: Verify Sign In Page Load and Form Display","10935","test_tc_reg_05[test_case0]","tests","Wed Sep 10 17:17:05 BDT 2025","passed","Wed Sep 10 17:17:16 BDT 2025","","test_TC_Reg_05","",""
+"TC_Val_01: Verify registration fails with empty Full Name","6885","test_tc_val_01[test_case0]","tests","Wed Sep 10 17:20:18 BDT 2025","passed","Wed Sep 10 17:20:25 BDT 2025","","test_TC_Val_01","",""
+"TC_Val_03: Verify registration fails with invalid Email (without @)","6234","test_tc_val_03[test_case0]","tests","Wed Sep 10 17:20:31 BDT 2025","passed","Wed Sep 10 17:20:37 BDT 2025","","test_TC_Val_03","",""
+"TC_Val_07: Verify registration fails with mismatched passwords","6845","test_tc_val_07[test_case0]","tests","Wed Sep 10 17:20:42 BDT 2025","passed","Wed Sep 10 17:20:49 BDT 2025","","test_TC_Val_07","",""
+"TC_Reg_02: Verify Sign Up Page Load and Form Display","4017","test_tc_reg_02[test_case0]","tests","Wed Sep 10 17:06:16 BDT 2025","passed","Wed Sep 10 17:06:20 BDT 2025","","test_TC_Reg_02","",""
+"","25860","test_tc_ad_18[test_case0]","tests.admission","Wed Sep 10 17:23:47 BDT 2025","failed","Wed Sep 10 17:24:12 BDT 2025","","test_TC_AD_18","",""
+"TC_Val_07: Verify registration fails with mismatched passwords","6727","test_tc_val_07[test_case0]","tests","Wed Sep 10 17:10:18 BDT 2025","passed","Wed Sep 10 17:10:25 BDT 2025","","test_TC_Val_07","",""
+"","13971","test_tc_ad_07[test_case0]","tests.admission","Wed Sep 10 17:21:24 BDT 2025","passed","Wed Sep 10 17:21:38 BDT 2025","","test_TC_AD_07","",""
+"TC_Reg_03: Verify Complete User Registration with Valid Data","7765","test_tc_reg_03[test_case0]","tests","Wed Sep 10 17:16:51 BDT 2025","passed","Wed Sep 10 17:16:59 BDT 2025","","test_TC_Reg_03","",""
+"TC_Reg_12: Verify Password Visibility Toggle","10422","test_tc_reg_12[test_case0]","tests","Wed Sep 10 17:07:10 BDT 2025","passed","Wed Sep 10 17:07:21 BDT 2025","","test_TC_Reg_12","",""
+"TC_Reg_01: Verify Homepage Load and Sign Up Button Navigation","7386","test_tc_reg_01[test_case0]","tests","Wed Sep 10 17:16:29 BDT 2025","passed","Wed Sep 10 17:16:37 BDT 2025","","test_TC_Reg_01","",""
+"TC_Reg_06: Verify User Login with Valid Credentials","9355","test_tc_reg_06[test_case0]","tests","Wed Sep 10 17:17:21 BDT 2025","passed","Wed Sep 10 17:17:30 BDT 2025","","test_TC_Reg_06","",""

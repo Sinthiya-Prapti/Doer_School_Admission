@@ -1,0 +1,30 @@
+[32mINFO    [0m root:conftest.py:31 Starting browser session with chrome...
+[32mINFO    [0m root:conftest.py:48 chrome browser launched successfully.
+[32mINFO    [0m root:conftest.py:54 URL opened successfully.
+[32mINFO    [0m root:test_TC_Val_07.py:15 TC_Val_07 Started..
+[32mINFO    [0m root:test_TC_Val_07.py:16 Verify registration fails with mismatched passwords
+[32mINFO    [0m root:registration_page.py:45 Sign Up for Free button clicked successfully.
+[32mINFO    [0m root:test_TC_Val_07.py:29 Navigated to Sign Up page successfully.
+[32mINFO    [0m root:registration_page.py:82 Full Name entered successfully.
+[32mINFO    [0m root:test_TC_Val_07.py:39 Valid Full Name entered successfully.
+[32mINFO    [0m root:registration_page.py:95 Email entered successfully.
+[32mINFO    [0m root:test_TC_Val_07.py:48 Valid Email entered successfully.
+[32mINFO    [0m root:registration_page.py:109 Password entered successfully.
+[32mINFO    [0m root:test_TC_Val_07.py:57 Password 'TestPass123' entered successfully.
+[32mINFO    [0m root:registration_page.py:123 Confirm Password entered successfully.
+[32mINFO    [0m root:test_TC_Val_07.py:66 Mismatched Confirm Password 'TestPass456' entered successfully.
+[32mINFO    [0m root:registration_page.py:135 Sign Up button clicked successfully.
+[32mINFO    [0m root:test_TC_Val_07.py:78 Sign Up button clicked successfully.
+[32mINFO    [0m root:test_TC_Val_07.py:119 Test Passed. Expected Error Message matches with Actual Error Message.
+[32mINFO    [0m root:test_TC_Val_07.py:120 Expected: The two passwords do not match!
+[32mINFO    [0m root:test_TC_Val_07.py:121 Actual: The two passwords do not match!
+[32mINFO    [0m root:test_TC_Val_07.py:157 Registration correctly prevented with mismatched passwords
+[32mINFO    [0m root:test_TC_Val_07.py:163 Password mismatch test completed:
+[32mINFO    [0m root:test_TC_Val_07.py:164 Password: TestPass123
+[32mINFO    [0m root:test_TC_Val_07.py:165 Confirm Password: TestPass456
+[32mINFO    [0m root:test_TC_Val_07.py:166 Registration correctly rejected due to password mismatch.
+[32mINFO    [0m root:test_TC_Val_07.py:168 TC_Val_07 Completed..
+[32mINFO    [0m root:conftest.py:58 Script complete.
+[32mINFO    [0m root:conftest.py:60 Ending browser session...
+[32mINFO    [0m root:conftest.py:61 ...................
+[32mINFO    [0m root:conftest.py:62 ...................

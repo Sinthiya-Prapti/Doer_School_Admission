@@ -1,0 +1,27 @@
+[32mINFO    [0m root:conftest.py:31 Starting browser session with chrome...
+[32mINFO    [0m root:conftest.py:48 chrome browser launched successfully.
+[32mINFO    [0m root:conftest.py:54 URL opened successfully.
+[32mINFO    [0m root:test_TC_Val_01.py:13 TC_Val_01 Started..
+[32mINFO    [0m root:test_TC_Val_01.py:14 Verify registration fails with empty Full Name
+[32mINFO    [0m root:registration_page.py:45 Sign Up for Free button clicked successfully.
+[32mINFO    [0m root:test_TC_Val_01.py:27 Navigated to Sign Up page successfully.
+[32mINFO    [0m root:registration_page.py:82 Full Name entered successfully.
+[32mINFO    [0m root:test_TC_Val_01.py:37 Empty Full Name entered successfully.
+[32mINFO    [0m root:registration_page.py:95 Email entered successfully.
+[32mINFO    [0m root:test_TC_Val_01.py:46 Valid Email entered successfully.
+[32mINFO    [0m root:registration_page.py:109 Password entered successfully.
+[32mINFO    [0m root:test_TC_Val_01.py:55 Valid Password entered successfully.
+[32mINFO    [0m root:registration_page.py:123 Confirm Password entered successfully.
+[32mINFO    [0m root:test_TC_Val_01.py:64 Valid Confirm Password entered successfully.
+[32mINFO    [0m root:registration_page.py:135 Sign Up button clicked successfully.
+[32mINFO    [0m root:test_TC_Val_01.py:76 Sign Up button clicked successfully.
+[32mINFO    [0m root:test_TC_Val_01.py:88 Actual error message: {actual_error_message}
+[32mINFO    [0m root:test_TC_Val_01.py:91 Test Passed. Expected Error Message matches with Actual Error Message.
+[32mINFO    [0m root:test_TC_Val_01.py:92 Expected: Please input your full name!
+[32mINFO    [0m root:test_TC_Val_01.py:93 Actual: Please input your full name!
+[32mINFO    [0m root:test_TC_Val_01.py:129 Registration correctly prevented with invalid Full Name
+[32mINFO    [0m root:test_TC_Val_01.py:133 TC_Val_01 Completed..
+[32mINFO    [0m root:conftest.py:58 Script complete.
+[32mINFO    [0m root:conftest.py:60 Ending browser session...
+[32mINFO    [0m root:conftest.py:61 ...................
+[32mINFO    [0m root:conftest.py:62 ...................

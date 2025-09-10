@@ -1,0 +1,28 @@
+[32mINFO    [0m root:conftest.py:31 Starting browser session with chrome...
+[32mINFO    [0m root:conftest.py:48 chrome browser launched successfully.
+[32mINFO    [0m root:conftest.py:54 URL opened successfully.
+[32mINFO    [0m root:test_TC_Reg_03.py:12 TC_Reg_03 Started..
+[32mINFO    [0m root:test_TC_Reg_03.py:13 Verify Complete User Registration with Valid Data
+[32mINFO    [0m root:registration_page.py:45 Sign Up for Free button clicked successfully.
+[32mINFO    [0m root:test_TC_Reg_03.py:26 Navigated to Sign Up page successfully.
+[32mINFO    [0m root:registration_page.py:82 Full Name entered successfully.
+[32mINFO    [0m root:test_TC_Reg_03.py:36 Full Name entered successfully.
+[32mINFO    [0m root:registration_page.py:95 Email entered successfully.
+[32mINFO    [0m root:test_TC_Reg_03.py:45 Email entered successfully.
+[32mINFO    [0m root:registration_page.py:109 Password entered successfully.
+[32mINFO    [0m root:test_TC_Reg_03.py:54 Password entered successfully.
+[32mINFO    [0m root:registration_page.py:123 Confirm Password entered successfully.
+[32mINFO    [0m root:test_TC_Reg_03.py:63 Confirm Password entered successfully.
+[32mINFO    [0m root:registration_page.py:135 Sign Up button clicked successfully.
+[32mINFO    [0m root:test_TC_Reg_03.py:75 Sign Up button clicked successfully.
+[32mINFO    [0m root:registration_page.py:202 Ant Design message captured: Registration successful! Please log in with your credentials.
+[32mINFO    [0m root:test_TC_Reg_03.py:92 Registration message received: Registration successful! Please log in with your credentials.
+[32mINFO    [0m root:test_TC_Reg_03.py:98 Registration validation passed. Expected: Registration successful! Please log in with your credentials., Got: Registration successful! Please log in with your credentials.
+[32mINFO    [0m root:test_TC_Reg_03.py:103 Registration completed successfully.
+[32mINFO    [0m root:test_TC_Reg_03.py:138 Final URL after registration: https://admission-test.doer.school/en/sign-up
+[32mINFO    [0m root:test_TC_Reg_03.py:139 Registration completed with data - Name: John Doe, Email: john.doe.test__23@gmail.com
+[32mINFO    [0m root:test_TC_Reg_03.py:143 TC_Reg_03 Completed..
+[32mINFO    [0m root:conftest.py:58 Script complete.
+[32mINFO    [0m root:conftest.py:60 Ending browser session...
+[32mINFO    [0m root:conftest.py:61 ...................
+[32mINFO    [0m root:conftest.py:62 ...................

@@ -15,14 +15,17 @@ class ApplicationReviewPage:
         time.sleep(2)
 
     def check_confirmation_checkbox(self):
-        confirmation_checkbox = self.wait.until(
-            EC.element_to_be_clickable((By.CSS_SELECTOR, "input[type='checkbox']"))
+        # Wait for the label that toggles the checkbox
+        checkbox_label = self.wait.until(
+            EC.element_to_be_clickable((By.CSS_SELECTOR, ".ant-checkbox-label"))
         )
-        self.driver.execute_script("arguments[0].scrollIntoView(true);", confirmation_checkbox)
-        time.sleep(2)
 
-        if not confirmation_checkbox.is_selected():
-            confirmation_checkbox.click()
+        # Scroll into view
+        self.driver.execute_script("arguments[0].scrollIntoView(true);", checkbox_label)
+        time.sleep(1)
+
+        # Click the label to check the checkbox
+        checkbox_label.click()
         time.sleep(1)
 
     def click_submit_button(self):
@@ -63,8 +66,9 @@ class ApplicationReviewPage:
 
     def is_proceed_to_payment_button_visible(self):
         try:
+            # //button[@class='ant-btn css-1k708as ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-lg bg-[#1a5683] px-8 disabled:opacity-50 disabled:!text-white']
             proceed_button = self.wait.until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, "#proceedToPaymentBtn"))
+                EC.presence_of_element_located((By.CSS_SELECTOR, "button[@class='ant-btn css-1k708as ant-btn-primary ant-btn-color-primary ant-btn-variant-solid ant-btn-lg bg-[#1a5683] px-8 disabled:opacity-50 disabled:!text-white']"))
             )
             return proceed_button.is_displayed()
         except:
@@ -72,8 +76,9 @@ class ApplicationReviewPage:
 
     def is_pay_later_button_visible(self):
         try:
+            # body > div:nth-child(15) > div > div.ant-modal-wrap.ant-modal-centered > div > div:nth-child(1) > div > div > div > div.space-y-4.mb-6 > button.ant-btn.css-1k708as.ant-btn-primary.ant-btn-color-primary.ant-btn-variant-solid.w-full.h-14.bg-\[\#4a9b8e\].border-\[\#4a9b8e\].hover\:bg-\[\#3d8570\].hover\:border-\[\#3d8570\].text-white.font-semibold.text-lg.rounded-lg
             pay_later_button = self.wait.until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, "#payLaterBtn"))
+                EC.presence_of_element_located((By.CSS_SELECTOR, "body > div:nth-child(15) > div > div.ant-modal-wrap.ant-modal-centered > div > div:nth-child(1) > div > div > div > div.space-y-4.mb-6 > button.ant-btn.css-1k708as.ant-btn-primary.ant-btn-color-primary.ant-btn-variant-solid.w-full.h-14.bg-\[\#4a9b8e\].border-\[\#4a9b8e\].hover\:bg-\[\#3d8570\].hover\:border-\[\#3d8570\].text-white.font-semibold.text-lg.rounded-lg"))
             )
             return pay_later_button.is_displayed()
         except:

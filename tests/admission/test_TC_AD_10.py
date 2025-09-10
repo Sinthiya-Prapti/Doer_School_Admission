@@ -396,13 +396,15 @@ def test_admission_complete_flow(browser_config, test_case, self=None):
         # =============================================
         # FINAL SUCCESS
         # =============================================
-        logging.info("✅✅✅ ADMISSION COMPLETE FLOW TEST PASSED ✅✅✅")
+
+        capture_full_page_screenshot(driver, "admission_flow_submission_success")
+        logging.info("ADMISSION COMPLETE FLOW TEST PASSED")
         logging.info("All steps completed successfully:")
-        logging.info("  ✓ Login (if required)")
-        logging.info("  ✓ Student Information")
-        logging.info("  ✓ Guardian Information")
-        logging.info("  ✓ Document Upload")
-        logging.info("  ✓ Application Review & Submission")
+        logging.info("Login (if required)")
+        logging.info("Student Information")
+        logging.info("Guardian Information")
+        logging.info("Document Upload")
+        logging.info("Application Review & Submission")
         if draft_id:
             logging.info(f"  ✓ Draft ID tracked: {draft_id}")
 
